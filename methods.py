@@ -1,4 +1,5 @@
-from rpi_ws281x import *
+from rpi_ws281x import Color
+import time
 
 def tricolour(strip):
     """Wipe color across display a pixel at a time."""
