@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-# rpi_ws281x library strandtest example
-# Author: Tony DiCola (tony@tonydicola.com)
-#
-# Direct port of the Arduino NeoPixel library strandtest example.  Showcases
-# various animations on a strip of NeoPixels.
+#Must be run with sudo
 
 import time
 from rpi_ws281x import *
