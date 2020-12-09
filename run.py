@@ -93,8 +93,8 @@ if __name__ == '__main__':
 
         while True:
             print ('Color wipe animations.')
-            colorWipe(strip, Color(255, 0, 0))  # Red wipe
-            colorWipe(strip, Color(0, 255, 0))  # Green wipe
+            colorWipe(strip, Color(150, 0, 0))  # Red wipe
+            colorWipe(strip, Color(0, 150, 0))  # Green wipe
             # colorWipe(strip, Color(0, 0, 255))  # Blue wipe
             print ('Theater chase animations.')
             # theaterChase(strip, Color(127, 127, 127))  # White theater chase
