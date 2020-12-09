@@ -21,7 +21,6 @@ def solid_colour(strip, colour):
         strip.setPixelColor(led, colour)
     strip.show()
 
-solid_colour(strip, Color(255,0,0))
 def colour_flipper(num_in_block,colour_1, colour_2):
     in_this_block = 0
     while True:
