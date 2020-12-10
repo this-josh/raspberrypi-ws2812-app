@@ -73,7 +73,6 @@ def block_wave(strip, wait_ms=20, num_iter=1):
         num_in_block=30, colour_1=Color(255, 0, 0), colour_2=Color(0, 120, 0)
     )
     start = 0
-    global block_wave_on
     while block_wave_on:
         start += 1
         for led in range(start, strip.numPixels() + start):
@@ -99,7 +98,6 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10, num_iter=1):
     clear(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
-    global pulse_on
     while pulse_on:
         for led in range(strip.numPixels()):
             strip.setPixelColor(led, colour1)
@@ -114,7 +112,6 @@ def meet_in_the_middle(strip, wait_ms=20, num_iter=1):
     clear(strip)
     num_leds = strip.numPixels()
     halfway = num_leds // 2
-    global meet_in_middle_on
     while meet_in_the_middle_on:
         for led in range(halfway):
             strip.setPixelColor(led, Color(255, 0, 0))
