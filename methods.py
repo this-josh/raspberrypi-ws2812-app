@@ -134,11 +134,16 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
         for led in range(halfway):
             strip.setPixelColor(led, colour1)
             strip.setPixelColor(num_leds - led, colour2)
+            if which_effect != "meet_in_middle":
+                return
             strip.show()
             time.sleep(wait_ms / 1000.0)
         for led in range(halfway, 0, -1):
             strip.setPixelColor(led, Color(0, 0, 0))
             strip.setPixelColor(num_leds - led, Color(0, 0, 0))
+            if which_effect != "meet_in_middle":
+                return
+
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
