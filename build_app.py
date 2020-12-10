@@ -2,7 +2,9 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-
+import logging
+logging.basicConfig()
+logging.getLogger().setLevel(logging.DEBUG)
 import flask
 
 from methods import setup_strip, block_wave, pulse, meet_in_the_middle
@@ -69,17 +71,17 @@ app.layout = html.Div(
 
 
 @app.callback(
-    Output(component_id="blank", component_property="blank"),
     [Input(component_id="light-mode", component_property="value")],
 )
 def change_mode(mode_of_operation):
     print(mode_of_operation)
-    if mode_of_operation == "colour_wave":
-        block_wave(strip)
-    elif mode_of_operation == "mode_of_operation":
-        pulse(strip)
-    else:
-        meet_in_the_middle(strip)
+    return
+    # if mode_of_operation == "colour_wave":
+    #     block_wave(strip)
+    # elif mode_of_operation == "mode_of_operation":
+    #     pulse(strip)
+    # else:
+    #     meet_in_the_middle(strip)
 
 
 from waitress import serve
