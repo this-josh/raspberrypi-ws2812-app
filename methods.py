@@ -73,7 +73,7 @@ def block_wave(strip, wait_ms=20, num_iter=1):
         num_in_block=30, colour_1=Color(255, 0, 0), colour_2=Color(0, 120, 0)
     )
     start = 0
-    for _ in range(num_iter):
+    for _ in range(num_iter * strip.numPixels()):
         start += 1
         for led in range(start, strip.numPixels() + start):
             led = led % strip.numPixels()
