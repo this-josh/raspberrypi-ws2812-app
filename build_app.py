@@ -34,9 +34,8 @@ app.layout = html.Div(
                         {"label": "Pulse", "value": "pulse"},
                         {"label": "Clear strip", "value": "clear_strip"},
                     ],
-                    value="colour_wave",
+                    value="clear_strip",
                     labelStyle={"display": "inline-block"},
-                    persistence=True,
                 ),
             ]
         ),
