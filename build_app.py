@@ -36,6 +36,7 @@ app.layout = html.Div(
                     ],
                     value="colour_wave",
                     labelStyle={"display": "inline-block"},
+                    persistence=True,
                 ),
             ]
         ),
@@ -43,7 +44,14 @@ app.layout = html.Div(
         html.Div(
             [
                 dcc.Markdown("Choose how bright you would like the lights to be"),
-                dcc.Slider(id="chosen-brightness", min=0, max=255, step=1, value=0),
+                dcc.Slider(
+                    id="chosen-brightness",
+                    min=0,
+                    max=255,
+                    step=1,
+                    value=0,
+                    persistence=True,
+                ),
             ]
         ),
         html.Div(id="selected-brightness"),
