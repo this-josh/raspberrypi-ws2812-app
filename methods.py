@@ -36,7 +36,7 @@ def setup_strip():
     return strip
 
 
-def tricolour(strip):
+def tricolour(strip, **kwargs):
     """Wipe color across display a pixel at a time."""
     each_part = strip.numPixels() // 3
     logger.debug(each_part)
@@ -54,9 +54,9 @@ def clear_strip(strip):
     strip.show()
 
 
-def solid_colour(strip, colour):
+def solid_colour(strip, colour1, **kwargs):
     for led in range(strip.numPixels()):
-        strip.setPixelColor(led, colour)
+        strip.setPixelColor(led, colour1)
     strip.show()
 
 

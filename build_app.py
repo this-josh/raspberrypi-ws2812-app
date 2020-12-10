@@ -13,6 +13,8 @@ logger.setLevel(logging.DEBUG)
 from methods import (
     clear_strip,
     setup_strip,
+    solid_colour,
+    tricolour,
     block_wave,
     pulse,
     meet_in_the_middle,
@@ -46,6 +48,8 @@ app.layout = html.Div(
                     id="light-mode",
                     options=[
                         {"label": "Two colour wave", "value": "colour_wave"},
+                        {"label": "Solid colour", "value": "solid_colour"},
+                        {"label": "Vive la France", "value": "tricolour"},
                         {"label": "Meet at the middle", "value": "meet_in_middle"},
                         {"label": "Pulse", "value": "pulse"},
                         {"label": "Colour wipe", "value": "colour_wipe"},
@@ -111,6 +115,12 @@ def change_mode(mode_of_operation, colour1, colour2):
     if mode_of_operation == "colour_wave":
         logger.debug("block wave")
         block_wave(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "solid_colour":
+        logger.debug("solid_colour")
+        solid_colour(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "tricolour":
+        logger.debug("tricolour")
+        tricolour(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "pulse":
         logger.debug("pulse")
         pulse(strip, colour1=colour1, colour2=colour2)
