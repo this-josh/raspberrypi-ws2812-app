@@ -82,16 +82,16 @@ app.layout = html.Div(
 def change_mode(mode_of_operation, colour1, colour2):
     print(mode_of_operation)
     which_method(mode_of_operation, strip)
-
+    print(colour1, colour2)
     if mode_of_operation == "colour_wave":
         print("block wave")
-        block_wave(strip, colour1, colour2)
+        block_wave(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "pulse":
         print("pulse")
-        pulse(strip, colour1, colour2)
+        pulse(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "meet_in_middle":
         print("meet in middle")
-        meet_in_the_middle(strip, colour1, colour2)
+        meet_in_the_middle(strip, colour1=colour1, colour2=colour2)
     return mode_of_operation
 
 

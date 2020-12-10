@@ -78,9 +78,7 @@ def block_wave(strip, colour1=None, colour2=None, wait_ms=20):
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
     clear_strip(strip)
     # Red, Green, Gold
-    colour_iter = colour_flipper(
-        num_in_block=30, colour_1=Color(255, 0, 0), colour_2=Color(0, 120, 0)
-    )
+    colour_iter = colour_flipper(num_in_block=30, colour_1=colour1, colour_2=colour2)
     start = 0
     while block_wave_on:
         start += 1
@@ -116,7 +114,7 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10):
         _pulse_brightness(strip, wait_ms)
 
 
-def meet_in_the_middle(strip,colour1=None, colour2=None, wait_ms=20):
+def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
     """Both ends go towards the middle, then bounce back away"""
     clear_strip(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
@@ -126,8 +124,8 @@ def meet_in_the_middle(strip,colour1=None, colour2=None, wait_ms=20):
     halfway = num_leds // 2
     while meet_in_the_middle_on:
         for led in range(halfway):
-            strip.setPixelColor(led, Color(255, 0, 0))
-            strip.setPixelColor(num_leds - led, Color(0, 255, 0))
+            strip.setPixelColor(led, colour1)
+            strip.setPixelColor(num_leds - led, colour2)
             strip.show()
             time.sleep(wait_ms / 1000.0)
         for led in range(halfway, 0, -1):
