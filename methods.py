@@ -15,6 +15,7 @@ def which_method(which_true):
         block_wave_on = True
         meet_in_the_middle_on = False
     elif which_true == "meet_in_the_middle":
+        print('which method meet in middle')
         pulse_on = False
         block_wave_on = False
         meet_in_the_middle_on = True
@@ -64,7 +65,7 @@ def tricolour(strip):
 
 
 def clear(strip):
-    print('clearing strip')
+    print("clearing strip")
     for led in range(strip.numPixels()):
         strip.setPixelColor(led, 0)
     strip.show()
@@ -133,6 +134,7 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10, num_iter=1):
 def meet_in_the_middle(strip, wait_ms=20, num_iter=1):
     """Both ends go towards the middle, then bounce back away"""
     clear(strip)
+    print("meet in the middle")
     num_leds = strip.numPixels()
     halfway = num_leds // 2
     while meet_in_the_middle_on:
