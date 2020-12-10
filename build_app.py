@@ -43,9 +43,10 @@ app.layout = html.Div(
         html.Div(
             [
                 dcc.Markdown("Choose how bright you would like the lights to be"),
-                dcc.Slider(min=0, max=255, step=1, value=0),
+                dcc.Slider(id="chosen-brightness", min=0, max=255, step=1, value=0),
             ]
         ),
+        html.Div(id="selected-brightness"),
         html.Div(
             [
                 dcc.Markdown("What colours would you like in the pattern?"),
@@ -82,6 +83,15 @@ def change_mode(mode_of_operation):
         print("meet in middle")
         meet_in_the_middle(strip)
     return mode_of_operation
+
+
+@app.callback(
+    Output(component_id="selected-brightness", component_property="children"),
+    Input(component_id="chosen-brightness", component_property="value"),
+)
+def change_brightness(chosen_brightness):
+    strip.setBrightness(chosen_brightness)
+    return strip.getBrightness()
 
 
 application = app.server
