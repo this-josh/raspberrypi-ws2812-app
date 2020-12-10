@@ -191,7 +191,7 @@ def rainbow(strip, wait_ms=20, **kwargs):
             time.sleep(wait_ms / 1000.0)
 
 
-def rainbow_cycle(strip, wait_ms=20,, **kwargs):
+def rainbow_cycle(strip, wait_ms=20, **kwargs):
     """Draw rainbow that uniformly distributes itself across all pixels."""
     while which_effect == "rainbow_cycle":
         for j in range(256):
