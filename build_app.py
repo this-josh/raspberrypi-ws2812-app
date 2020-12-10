@@ -18,6 +18,7 @@ from methods import (
     block_wave,
     pulse,
     meet_in_the_middle,
+    colour_wipe,
     which_method,
     theater_chase,
     theater_chase_rainbow,
@@ -51,6 +52,7 @@ app.layout = html.Div(
                         {"label": "Solid colour", "value": "solid_colour"},
                         {"label": "Vive la France", "value": "tricolour"},
                         {"label": "Meet at the middle", "value": "meet_in_middle"},
+                        {"label": "Colour wipe", "value": "colour_wipe"},
                         {"label": "Pulse", "value": "pulse"},
                         {"label": "Colour wipe", "value": "colour_wipe"},
                         {"label": "Chase", "value": "theater_chase"},
@@ -127,6 +129,9 @@ def change_mode(mode_of_operation, colour1, colour2):
     elif mode_of_operation == "meet_in_middle":
         logger.debug("meet in middle")
         meet_in_the_middle(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "colour_wipe":
+        logger.debug("colour_wipe")
+        colour_wipe(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "colour_wipe":
         logger.debug("colour_wipe")
         colour_wipe(strip, colour1=colour1, colour2=colour2)
