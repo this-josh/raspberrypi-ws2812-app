@@ -1,5 +1,6 @@
 from rpi_ws281x import Color
 import time
+from build_app import block_wave_on, pulse_on, meet_in_middle_on
 
 
 def setup_strip():
