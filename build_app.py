@@ -2,9 +2,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import logging
-logging.basicConfig()
-logging.getLogger().setLevel(logging.DEBUG)
+from waitress import serve
 import flask
 
 from methods import setup_strip, block_wave, pulse, meet_in_the_middle
@@ -39,6 +37,7 @@ app.layout = html.Div(
                 ),
             ]
         ),
+        html.Div(id="selected-mode"),
         html.Div(
             [
                 dcc.Markdown("Choose how bright you would like the lights to be"),
@@ -59,32 +58,24 @@ app.layout = html.Div(
                 ),
             ]
         ),
-        # Maybe confirm changes
-        # html.Div(
-        #     dcc.ConfirmDialog(
-        #         id="confirm",
-        #         message="Danger danger! Are you sure you want to continue?",
-        #     )
-        # ),
     ]
 )
 
 
 @app.callback(
-    [Input(component_id="light-mode", component_property="value")],
+    Output(component_id="selected-mode", component_property="children"),
+    Input(component_id="light-mode", component_property="value"),
 )
 def change_mode(mode_of_operation):
     print(mode_of_operation)
-    return
-    # if mode_of_operation == "colour_wave":
-    #     block_wave(strip)
-    # elif mode_of_operation == "mode_of_operation":
-    #     pulse(strip)
-    # else:
-    #     meet_in_the_middle(strip)
+    if mode_of_operation == "colour_wave":
+        block_wave(strip)
+    elif mode_of_operation == "mode_of_operation":
+        pulse(strip)
+    else:
+        meet_in_the_middle(strip)
+    return mode_of_operation
 
-
-from waitress import serve
 
 application = app.server
 serve(application)
