@@ -147,6 +147,8 @@ def colour_wipe(strip, colour1, wait_ms=50, **kwargs):
     """Wipe color across display a pixel at a time."""
     for i in range(strip.numPixels()):
         strip.setPixelColor(i, colour1)
+        if which_effect != "rainbow":
+            return
         strip.show()
         time.sleep(wait_ms / 1000.0)
 
@@ -157,6 +159,8 @@ def theater_chase(strip, colour1, wait_ms=50, **kwargs):
         for q in range(3):
             for i in range(0, strip.numPixels(), 3):
                 strip.setPixelColor(i + q, colour1)
+            if which_effect != "rainbow":
+                return
             strip.show()
             time.sleep(wait_ms / 1000.0)
             for i in range(0, strip.numPixels(), 3):
@@ -186,6 +190,8 @@ def rainbow(strip, wait_ms=20, **kwargs):
             for i in range(strip.numPixels()):
                 # Set the  colour for each led in this iter
                 strip.setPixelColor(i, wheel((i + j) & 255))
+            if which_effect != "rainbow":
+                return
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
@@ -198,6 +204,8 @@ def rainbow_cycle(strip, wait_ms=20, **kwargs):
                 strip.setPixelColor(
                     i, wheel((int(i * 256 / strip.numPixels()) + j) & 255)
                 )
+            if which_effect != "rainbow":
+                return
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
@@ -209,6 +217,8 @@ def theater_chase_rainbow(strip, wait_ms=50, **kwargs):
             for q in range(3):
                 for i in range(0, strip.numPixels(), 3):
                     strip.setPixelColor(i + q, wheel((i + j) % 255))
+                if which_effect != "rainbow":
+                    return
                 strip.show()
                 time.sleep(wait_ms / 1000.0)
                 for i in range(0, strip.numPixels(), 3):
