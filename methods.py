@@ -2,31 +2,8 @@ from rpi_ws281x import Color, PixelStrip
 import time
 
 
-def which_method(which_true):
-    global pulse_on
-    global block_wave_on
-    global meet_in_the_middle_on
-    if which_true == "pulse":
-        pulse_on = True
-        block_wave_on = False
-        meet_in_the_middle_on = False
-    elif which_true == "colour_wave":
-        pulse_on = False
-        block_wave_on = True
-        meet_in_the_middle_on = False
-    elif which_true == "meet_in_the_middle":
-        print("which method meet in middle")
-        pulse_on = False
-        block_wave_on = False
-        meet_in_the_middle_on = True
-    else:
-        pulse_on = False
-        block_wave_on = False
-        meet_in_the_middle_on = False
-
-
 def setup_strip():
-
+    global LED_BRIGHTNESS
     # LED strip configuration:
     LED_COUNT = 300  # Number of LED pixels.
     LED_PIN = 18  # GPIO pin connected to the pixels (18 uses PWM!).
@@ -147,3 +124,28 @@ def meet_in_the_middle(strip, wait_ms=20):
             strip.setPixelColor(num_leds - led, Color(0, 0, 0))
             strip.show()
             time.sleep(wait_ms / 1000.0)
+
+
+def which_method(which_true, strip):
+    global pulse_on
+    global block_wave_on
+    global meet_in_the_middle_on
+    if which_true == "pulse":
+        pulse_on = True
+        block_wave_on = False
+        meet_in_the_middle_on = False
+    elif which_true == "colour_wave":
+        strip.setBrightness(LED_BRIGHTNESS)
+        pulse_on = False
+        block_wave_on = True
+        meet_in_the_middle_on = False
+    elif which_true == "meet_in_the_middle":
+        strip.setBrightness(LED_BRIGHTNESS)
+        print("which, method meet in middle")
+        pulse_on = False
+        block_wave_on = False
+        meet_in_the_middle_on = True
+    else:
+        pulse_on = False
+        block_wave_on = False
+        meet_in_the_middle_on = False

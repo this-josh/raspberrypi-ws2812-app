@@ -70,7 +70,7 @@ app.layout = html.Div(
 )
 def change_mode(mode_of_operation):
     print(mode_of_operation)
-    which_method(mode_of_operation)
+    which_method(mode_of_operation, strip)
 
     if mode_of_operation == "colour_wave":
         print("block wave")
