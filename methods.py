@@ -144,6 +144,78 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
             time.sleep(wait_ms / 1000.0)
 
 
+def colour_wipe(strip, color1, wait_ms=50, **kwargs):
+    """Wipe color across display a pixel at a time."""
+    for i in range(strip.numPixels()):
+        strip.setPixelColor(i, color1)
+        strip.show()
+        time.sleep(wait_ms / 1000.0)
+
+
+def theater_chase(strip, color1, wait_ms=50, **kwargs):
+    """Movie theater light style chaser animation."""
+    while which_effect == "theater_chase":
+        for q in range(3):
+            for i in range(0, strip.numPixels(), 3):
+                strip.setPixelColor(i + q, color1)
+            strip.show()
+            time.sleep(wait_ms / 1000.0)
+            for i in range(0, strip.numPixels(), 3):
+                strip.setPixelColor(i + q, 0)
+
+
+def wheel(pos):
+    """Generate rainbow colors across 0-255 positions."""
+    if pos < 85:
+        return Color(pos * 3, 255 - pos * 3, 0)
+    elif pos < 170:
+        pos -= 85
+        return Color(255 - pos * 3, 0, pos * 3)
+    else:
+        pos -= 170
+        return Color(0, pos * 3, 255 - pos * 3)
+
+
+def rainbow(strip, wait_ms=20, **kwargs):
+    """Draw rainbow that fades across all pixels at once.
+
+    Think of a rainbow wave
+    """
+    while which_effect == "rainbow":
+        for j in range(256):
+            # Ensure each led takes all 255 colours
+            for i in range(strip.numPixels()):
+                # Set the  colour for each led in this iter
+                strip.setPixelColor(i, wheel((i + j) & 255))
+            strip.show()
+            time.sleep(wait_ms / 1000.0)
+
+
+def rainbow_cycle(strip, wait_ms=20,, **kwargs):
+    """Draw rainbow that uniformly distributes itself across all pixels."""
+    while which_effect == "rainbow_cycle":
+        for j in range(256):
+            for i in range(strip.numPixels()):
+                strip.setPixelColor(
+                    i, wheel((int(i * 256 / strip.numPixels()) + j) & 255)
+                )
+            strip.show()
+            time.sleep(wait_ms / 1000.0)
+
+
+def theater_chase_rainbow(strip, wait_ms=50, **kwargs):
+    """Rainbow movie theater light style chaser animation."""
+    while which_effect == "theater_chase_rainbow":
+        for j in range(256):
+            for q in range(3):
+                for i in range(0, strip.numPixels(), 3):
+                    strip.setPixelColor(i + q, wheel((i + j) % 255))
+                strip.show()
+                time.sleep(wait_ms / 1000.0)
+                for i in range(0, strip.numPixels(), 3):
+                    strip.setPixelColor(i + q, 0)
+
+
 def which_method(which_true, strip):
     global which_effect
 
