@@ -5,12 +5,9 @@ from dash.dependencies import Input, Output
 from waitress import serve
 import flask
 
-pulse_on = False
-block_wave_on = False
-meet_in_middle_on = False
 
 
-from methods import setup_strip, block_wave, pulse, meet_in_the_middle
+from methods import setup_strip, block_wave, pulse, meet_in_the_middle, which_method
 
 strip = setup_strip()
 
@@ -73,22 +70,15 @@ app.layout = html.Div(
 )
 def change_mode(mode_of_operation):
     print(mode_of_operation)
+    which_method(mode_of_operation)
+
     if mode_of_operation == "colour_wave":
         print("block wave")
-        block_wave_on = True
-        pulse_on = False
-        meet_in_middle_on = False
         block_wave(strip)
     elif mode_of_operation == "pulse":
-        pulse_on = True
-        meet_in_middle_on = False
-        block_wave_on = False
         print("pulse")
         pulse(strip)
-    elif mode_of_operation == "meet_in_middle":
-        meet_in_middle_on = True
-        block_wave_on = False
-        pulse_on = False
+    elif mode_of_operation == "meet_in_the_middle":
         print("meet in middle")
         meet_in_the_middle(strip)
     return mode_of_operation
