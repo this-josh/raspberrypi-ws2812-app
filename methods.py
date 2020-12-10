@@ -4,6 +4,12 @@ import time
 
 def setup_strip():
     global LED_BRIGHTNESS
+    global pulse_on
+    global block_wave_on
+    global meet_in_the_middle_on
+    pulse_on = False
+    block_wave_on = False
+    meet_in_the_middle_on = False
     # LED strip configuration:
     LED_COUNT = 300  # Number of LED pixels.
     LED_PIN = 18  # GPIO pin connected to the pixels (18 uses PWM!).
@@ -132,20 +138,17 @@ def meet_in_the_middle(strip,colour1=None, colour2=None, wait_ms=20):
 
 
 def which_method(which_true, strip):
-    global pulse_on
-    global block_wave_on
-    global meet_in_the_middle_on
     if which_true == "pulse":
         pulse_on = True
         block_wave_on = False
         meet_in_the_middle_on = False
-    elif which_true == "colour_wave":
+    elif pulse_on is True and which_true != "pulse":
         strip.setBrightness(LED_BRIGHTNESS)
+    if which_true == "colour_wave":
         pulse_on = False
         block_wave_on = True
         meet_in_the_middle_on = False
     elif which_true == "meet_in_middle":
-        strip.setBrightness(LED_BRIGHTNESS)
         print("which, method meet in middle")
         pulse_on = False
         block_wave_on = False
