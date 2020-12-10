@@ -10,7 +10,14 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-from methods import setup_strip, block_wave, pulse, meet_in_the_middle, which_method
+from methods import (
+    clear_strip,
+    setup_strip,
+    block_wave,
+    pulse,
+    meet_in_the_middle,
+    which_method,
+)
 
 strip = setup_strip()
 
@@ -86,6 +93,8 @@ app.layout = html.Div(
 def change_mode(mode_of_operation, colour1, colour2):
     logger.debug(mode_of_operation)
     which_method(mode_of_operation, strip)
+    clear_strip(strip)
+
     if mode_of_operation == "colour_wave":
         logger.debug("block wave")
         block_wave(strip, colour1=colour1, colour2=colour2)
@@ -95,6 +104,8 @@ def change_mode(mode_of_operation, colour1, colour2):
     elif mode_of_operation == "meet_in_middle":
         logger.debug("meet in middle")
         meet_in_the_middle(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "clear_strip":
+        clear_strip(strip)
     return mode_of_operation
 
 
@@ -103,6 +114,7 @@ def change_mode(mode_of_operation, colour1, colour2):
     Input(component_id="chosen-brightness", component_property="value"),
 )
 def change_brightness(chosen_brightness):
+    clear_strip(strip)
     strip.setBrightness(chosen_brightness)
     return strip.getBrightness()
 
