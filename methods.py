@@ -53,9 +53,9 @@ def solid_colour(strip, colour):
     strip.show()
 
 
-def colour_flipper(num_in_block, colour_1, colour_2, num_iter=1):
+def colour_flipper(num_in_block, colour_1, colour_2):
     in_this_block = 0
-    for _ in range(num_iter):
+    while True:
         if in_this_block < num_in_block:
             in_this_block += 1
             yield colour_1
