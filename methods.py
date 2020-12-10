@@ -138,6 +138,9 @@ def meet_in_the_middle(strip,colour1=None, colour2=None, wait_ms=20):
 
 
 def which_method(which_true, strip):
+    global pulse_on
+    global block_wave_on
+    global meet_in_the_middle_on
     if which_true == "pulse":
         pulse_on = True
         block_wave_on = False
