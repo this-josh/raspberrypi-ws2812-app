@@ -68,13 +68,26 @@ app.layout = html.Div(
 )
 def change_mode(mode_of_operation):
     print(mode_of_operation)
+    global pulse_on
+    global block_wave_on
+    global meet_in_middle_on
+
     if mode_of_operation == "colour_wave":
         print("block wave")
+        block_wave_on = True
+        pulse_on = False
+        meet_in_middle_on = False
         block_wave(strip)
     elif mode_of_operation == "pulse":
-        print("puls")
+        pulse_on = True
+        meet_in_middle_on = False
+        block_wave_on = False
+        print("pulse")
         pulse(strip)
     elif mode_of_operation == "meet_in_middle":
+        meet_in_middle_on = True
+        block_wave_on = False
+        pulse_on = False
         print("meet in middle")
         meet_in_the_middle(strip)
     return mode_of_operation
