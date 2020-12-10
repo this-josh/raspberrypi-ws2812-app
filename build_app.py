@@ -54,7 +54,6 @@ app.layout = html.Div(
                         {"label": "Meet at the middle", "value": "meet_in_middle"},
                         {"label": "Colour wipe", "value": "colour_wipe"},
                         {"label": "Pulse", "value": "pulse"},
-                        {"label": "Colour wipe", "value": "colour_wipe"},
                         {"label": "Chase", "value": "theater_chase"},
                         {"label": "Rainbow", "value": "rainbow"},
                         {"label": "Rainbow cycle", "value": "rainbow_cycle"},

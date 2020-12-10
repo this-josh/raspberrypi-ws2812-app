@@ -143,20 +143,20 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
             time.sleep(wait_ms / 1000.0)
 
 
-def colour_wipe(strip, color1, wait_ms=50, **kwargs):
+def colour_wipe(strip, colour1, wait_ms=50, **kwargs):
     """Wipe color across display a pixel at a time."""
     for i in range(strip.numPixels()):
-        strip.setPixelColor(i, color1)
+        strip.setPixelColor(i, colour1)
         strip.show()
         time.sleep(wait_ms / 1000.0)
 
 
-def theater_chase(strip, color1, wait_ms=50, **kwargs):
+def theater_chase(strip, colour1, wait_ms=50, **kwargs):
     """Movie theater light style chaser animation."""
     while which_effect == "theater_chase":
         for q in range(3):
             for i in range(0, strip.numPixels(), 3):
-                strip.setPixelColor(i + q, color1)
+                strip.setPixelColor(i + q, colour1)
             strip.show()
             time.sleep(wait_ms / 1000.0)
             for i in range(0, strip.numPixels(), 3):
