@@ -1,5 +1,9 @@
 from rpi_ws281x import Color, PixelStrip
 import time
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
 
 
 def setup_strip():
@@ -77,7 +81,9 @@ def block_wave(strip, colour1=None, colour2=None, wait_ms=20):
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
     clear_strip(strip)
-    # Red, Green, Gold
+    logger.debug(colour1)
+    logger.debug(colour2)
+
     colour_iter = colour_flipper(num_in_block=30, colour_1=colour1, colour_2=colour2)
     start = 0
     while block_wave_on:
@@ -105,7 +111,11 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10):
     clear_strip(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
+    logger.debug("pulse option")
+    logger.debug(colour1)
+    logger.debug(colour2)
     while pulse_on:
+        print("loop")
         for led in range(strip.numPixels()):
             strip.setPixelColor(led, colour1)
         _pulse_brightness(strip, wait_ms)
@@ -119,6 +129,8 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
     clear_strip(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
+    logger.debug(colour1)
+    logger.debug(colour2)
 
     num_leds = strip.numPixels()
     halfway = num_leds // 2
