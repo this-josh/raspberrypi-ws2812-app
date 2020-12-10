@@ -1,12 +1,4 @@
-from waitress import serve
-from flask import Flask
+from build_app import make_app
 
-app = Flask(__name__)
-
-
-@app.route("/")
-def hello():
-    return "Hello World!"
-
-
-serve(app)
+app = make_app()
+application = app.server
