@@ -1,7 +1,7 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Input
+from dash.dependencies import Input, Output
 
 import flask
 
@@ -68,8 +68,12 @@ app.layout = html.Div(
 )
 
 
-@app.callback([Input(component_id="mode", component_property="value")])
+@app.callback(
+    Output(component_id="blank", component_property="blank"),
+    [Input(component_id="mode", component_property="value")],
+)
 def change_mode(mode_of_operation):
+    print(mode_of_operation)
     if mode_of_operation == "colour_wave":
         block_wave(strip)
     elif mode_of_operation == "mode_of_operation":
