@@ -67,6 +67,7 @@ def colour_flipper(num_in_block, colour_1, colour_2):
 
 
 def block_wave(strip, wait_ms=20, num_iter=1):
+    clear(strip)
     # Red, Green, Gold
     colour_iter = colour_flipper(
         num_in_block=30, colour_1=Color(255, 0, 0), colour_2=Color(0, 120, 0)
@@ -94,6 +95,7 @@ def _pulse_brightness(strip, wait_ms):
 
 
 def pulse(strip, colour1=None, colour2=None, wait_ms=10, num_iter=1):
+    clear(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
     for _ in range(num_iter):
@@ -107,6 +109,7 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10, num_iter=1):
 
 def meet_in_the_middle(strip, wait_ms=20, num_iter=1):
     """Both ends go towards the middle, then bounce back away"""
+    clear(strip)
     num_leds = strip.numPixels()
     halfway = num_leds // 2
     for _ in range(num_iter):
