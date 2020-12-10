@@ -64,8 +64,8 @@ app.layout = html.Div(
                 ),
                 dcc.Dropdown(
                     id="colour-2",
-                    options=colour_options[4]["label"],
-                    value="Green",
+                    options=colour_options,
+                    value=colour_options[4]["label"],
                 ),
             ]
         ),
