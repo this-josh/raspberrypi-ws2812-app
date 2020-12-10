@@ -21,7 +21,7 @@ from methods import (
     theater_chase_rainbow,
     rainbow_cycle,
     rainbow,
-    colour_wipe
+    colour_wipe,
 )
 
 strip = setup_strip()
@@ -127,7 +127,7 @@ def change_mode(mode_of_operation, colour1, colour2):
         logger.debug("rainbow")
         rainbow(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "rainbow_cycle":
-        logger.debug("rainbow_cycle)
+        logger.debug("rainbow_cycle")
         rainbow_cycle(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "theater_chase_rainbow":
         logger.debug("theater_chase_rainbow")
