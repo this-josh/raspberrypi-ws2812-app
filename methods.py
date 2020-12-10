@@ -1,4 +1,4 @@
-from rpi_ws281x import Color
+from rpi_ws281x import Color, PixelStrip
 import time
 
 
@@ -15,7 +15,7 @@ def which_method(which_true):
         block_wave_on = True
         meet_in_the_middle_on = False
     elif which_true == "meet_in_the_middle":
-        print('which method meet in middle')
+        print("which method meet in middle")
         pulse_on = False
         block_wave_on = False
         meet_in_the_middle_on = True
@@ -26,7 +26,6 @@ def which_method(which_true):
 
 
 def setup_strip():
-    from rpi_ws281x import PixelStrip
 
     # LED strip configuration:
     LED_COUNT = 300  # Number of LED pixels.
@@ -34,7 +33,7 @@ def setup_strip():
     # LED_PIN        = 10      # GPIO pin connected to the pixels (10 uses SPI /dev/spidev0.0).
     LED_FREQ_HZ = 800000  # LED signal frequency in hertz (usually 800khz)
     LED_DMA = 10  # DMA channel to use for generating signal (try 10)
-    LED_BRIGHTNESS = 10  # Set to 0 for darkest and 255 for brightest
+    LED_BRIGHTNESS = 255  # Set to 0 for darkest and 255 for brightest
     LED_INVERT = (
         False  # True to invert the signal (when using NPN transistor level shift)
     )
@@ -50,6 +49,7 @@ def setup_strip():
     )
     # Intialize the library (must be called once before other functions).
     strip.begin()
+    clear_strip(strip)
     return strip
 
 
@@ -64,8 +64,8 @@ def tricolour(strip):
     strip.show()
 
 
-def clear(strip):
-    print("clearing strip")
+def clear_strip(strip):
+    print("clear_striping strip")
     for led in range(strip.numPixels()):
         strip.setPixelColor(led, 0)
     strip.show()
@@ -91,7 +91,7 @@ def colour_flipper(num_in_block, colour_1, colour_2):
 
 
 def block_wave(strip, wait_ms=20, num_iter=1):
-    clear(strip)
+    clear_strip(strip)
     # Red, Green, Gold
     colour_iter = colour_flipper(
         num_in_block=30, colour_1=Color(255, 0, 0), colour_2=Color(0, 120, 0)
@@ -119,7 +119,7 @@ def _pulse_brightness(strip, wait_ms):
 
 
 def pulse(strip, colour1=None, colour2=None, wait_ms=10, num_iter=1):
-    clear(strip)
+    clear_strip(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
     while pulse_on:
@@ -133,7 +133,7 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10, num_iter=1):
 
 def meet_in_the_middle(strip, wait_ms=20, num_iter=1):
     """Both ends go towards the middle, then bounce back away"""
-    clear(strip)
+    clear_strip(strip)
     print("meet in the middle")
     num_leds = strip.numPixels()
     halfway = num_leds // 2
