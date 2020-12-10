@@ -33,6 +33,8 @@ app.layout = html.Div(
                         {"label": "Two colour wave", "value": "colour_wave"},
                         {"label": "Meet at the middle", "value": "meet_in_middle"},
                         {"label": "Pulse", "value": "pulse"},
+                        {"label": "Clear", "value": "clear"},
+
                     ],
                     value="colour_wave",
                     labelStyle={"display": "inline-block"},

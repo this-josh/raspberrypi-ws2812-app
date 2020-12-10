@@ -139,7 +139,7 @@ def which_method(which_true, strip):
         pulse_on = False
         block_wave_on = True
         meet_in_the_middle_on = False
-    elif which_true == "meet_in_the_middle":
+    elif which_true == "meet_in_middle":
         strip.setBrightness(LED_BRIGHTNESS)
         print("which, method meet in middle")
         pulse_on = False
@@ -149,3 +149,4 @@ def which_method(which_true, strip):
         pulse_on = False
         block_wave_on = False
         meet_in_the_middle_on = False
+        clear_strip(strip)
