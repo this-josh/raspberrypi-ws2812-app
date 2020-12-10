@@ -110,7 +110,6 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10):
     logger.debug("pulse option")
     logger.debug(colour1)
     logger.debug(colour2)
-    logger.debug(f"Pulse is {pulse}")
     while which_effect == "pulse":
         logger.debug("loop")
         for led in range(strip.numPixels()):
