@@ -10,7 +10,7 @@ LED_PIN        = 18      # GPIO pin connected to the pixels (18 uses PWM!).
 #LED_PIN        = 10      # GPIO pin connected to the pixels (10 uses SPI /dev/spidev0.0).
 LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
 LED_DMA        = 10      # DMA channel to use for generating signal (try 10)
-LED_BRIGHTNESS = 100     # Set to 0 for darkest and 255 for brightest
+LED_BRIGHTNESS = 10     # Set to 0 for darkest and 255 for brightest
 LED_INVERT     = False   # True to invert the signal (when using NPN transistor level shift)
 LED_CHANNEL    = 0       # set to '1' for GPIOs 13, 19, 41, 45 or 53
 
@@ -37,19 +37,24 @@ def theaterChase(strip, color, wait_ms=50, iterations=10):
 
 def wheel(pos):
     """Generate rainbow colors across 0-255 positions."""
-    if pos < 85:
-        return Color(pos * 3, 255 - pos * 3, 0)
-    elif pos < 170:
-        pos -= 85
-        return Color(255 - pos * 3, 0, pos * 3)
+    if pos < 128:
+        return Color(pos * 2, 255 - pos * 2, 0)
+    # elif pos < 170:
+    #     pos -= 85
+    #     return Color(255 - pos * 3, 0, pos * 3)
     else:
-        pos -= 170
-        return Color(0, pos * 3, 255 - pos * 3)
+        pos -= 128
+        return Color(255-pos*2, pos*2,0)
 
 def rainbow(strip, wait_ms=20, iterations=1):
-    """Draw rainbow that fades across all pixels at once."""
+    """Draw rainbow that fades across all pixels at once.
+    
+    Think of a rainbow wave
+    """
     for j in range(256*iterations):
+        # Ensure each led takes all 255 colours
         for i in range(strip.numPixels()):
+            # Set the  colour for each led in this iter
             strip.setPixelColor(i, wheel((i+j) & 255))
         strip.show()
         time.sleep(wait_ms/1000.0)
