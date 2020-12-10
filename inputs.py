@@ -3,7 +3,7 @@ from rpi_ws281x import Color
 
 colour_options = [
     {"label": "Red", "value": Color(255, 0, 0)},
-    {"label": "Orange", "value": Color(255, 96, 0)},
+    {"label": "Orange", "value": Color(255, 20, 0)},
     {"label": "Yellow", "value": Color(255, 255, 0)},
     {"label": "Light Green", "value": Color(128, 255, 0)},
     {"label": "Green", "value": Color(0, 255, 0)},
