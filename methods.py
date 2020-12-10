@@ -64,6 +64,7 @@ def tricolour(strip):
 
 
 def clear(strip):
+    print('clearing strip')
     for led in range(strip.numPixels()):
         strip.setPixelColor(led, 0)
     strip.show()
