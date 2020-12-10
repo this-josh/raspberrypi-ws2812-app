@@ -78,7 +78,7 @@ def change_mode(mode_of_operation):
     elif mode_of_operation == "pulse":
         print("pulse")
         pulse(strip)
-    elif mode_of_operation == "meet_in_the_middle":
+    elif mode_of_operation == "meet_in_middle":
         print("meet in middle")
         meet_in_the_middle(strip)
     return mode_of_operation
