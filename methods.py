@@ -1,26 +1,27 @@
 from rpi_ws281x import Color
 import time
 
+
 def which_method(which_true):
-    global pulse_on 
+    global pulse_on
     global block_wave_on
-    global meet_in_middle_on
-    if which_true == 'pulse':
-        pulse_on=True
-        block_wave_on=False
-        meet_in_the_middle=False
-    elif which_true == 'colour_wave':
-        pulse_on=False
-        block_wave_on=True
-        meet_in_the_middle=False
-    elif which_true == 'meet_in_the_middle':
-        pulse_on=False
-        block_wave_on=False
-        meet_in_the_middle=True
+    global meet_in_the_middle_on
+    if which_true == "pulse":
+        pulse_on = True
+        block_wave_on = False
+        meet_in_the_middle_on = False
+    elif which_true == "colour_wave":
+        pulse_on = False
+        block_wave_on = True
+        meet_in_the_middle_on = False
+    elif which_true == "meet_in_the_middle":
+        pulse_on = False
+        block_wave_on = False
+        meet_in_the_middle_on = True
     else:
-        pulse_on=False
-        block_wave_on=False
-        meet_in_the_middle=False
+        pulse_on = False
+        block_wave_on = False
+        meet_in_the_middle_on = False
 
 
 def setup_strip():
