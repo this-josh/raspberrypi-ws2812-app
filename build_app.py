@@ -17,6 +17,11 @@ from methods import (
     pulse,
     meet_in_the_middle,
     which_method,
+    theater_chase,
+    theater_chase_rainbow,
+    rainbow_cycle,
+    rainbow,
+    colour_wipe
 )
 
 strip = setup_strip()
@@ -112,6 +117,21 @@ def change_mode(mode_of_operation, colour1, colour2):
     elif mode_of_operation == "meet_in_middle":
         logger.debug("meet in middle")
         meet_in_the_middle(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "colour_wipe":
+        logger.debug("colour_wipe")
+        colour_wipe(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "theater_chase":
+        logger.debug("theater_chase")
+        theater_chase(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "rainbow":
+        logger.debug("rainbow")
+        rainbow(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "rainbow_cycle":
+        logger.debug("rainbow_cycle)
+        rainbow_cycle(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "theater_chase_rainbow":
+        logger.debug("theater_chase_rainbow")
+        theater_chase_rainbow(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "clear_strip":
         clear_strip(strip)
     return mode_of_operation
