@@ -26,7 +26,7 @@ app.layout = html.Div(
             [
                 dcc.Markdown("Choose your pattern"),
                 dcc.RadioItems(
-                    id="mode",
+                    id="light-mode",
                     options=[
                         {"label": "Two colour wave", "value": "colour_wave"},
                         {"label": "Meet at the middle", "value": "meet_in_middle"},
@@ -70,7 +70,7 @@ app.layout = html.Div(
 
 @app.callback(
     Output(component_id="blank", component_property="blank"),
-    [Input(component_id="mode", component_property="value")],
+    [Input(component_id="light-mode", component_property="value")],
 )
 def change_mode(mode_of_operation):
     print(mode_of_operation)
