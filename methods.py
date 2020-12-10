@@ -114,6 +114,7 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10):
     logger.debug("pulse option")
     logger.debug(colour1)
     logger.debug(colour2)
+    logger.debug(f"{pulse_on=}")
     while pulse_on:
         print("loop")
         for led in range(strip.numPixels()):
@@ -152,21 +153,26 @@ def which_method(which_true, strip):
     global block_wave_on
     global meet_in_the_middle_on
     if which_true == "pulse":
+        logger.debug("Setting pulse_on to true")
         pulse_on = True
         block_wave_on = False
         meet_in_the_middle_on = False
     elif pulse_on is True and which_true != "pulse":
+        logger.debug(f"Setting brightness to {LED_BRIGHTNESS}")
         strip.setBrightness(LED_BRIGHTNESS)
     if which_true == "colour_wave":
+        logger.debug("Setting block_wave_on to true")
         pulse_on = False
         block_wave_on = True
         meet_in_the_middle_on = False
     elif which_true == "meet_in_middle":
         print("which, method meet in middle")
+        logger.debug("Setting meet_in_the_middle_on to true")
         pulse_on = False
         block_wave_on = False
         meet_in_the_middle_on = True
     else:
+        logger.debug("Setting all options to False")
         pulse_on = False
         block_wave_on = False
         meet_in_the_middle_on = False
