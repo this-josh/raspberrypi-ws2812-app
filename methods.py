@@ -158,6 +158,7 @@ def which_method(which_true, strip):
         pulse_on = True
         block_wave_on = False
         meet_in_the_middle_on = False
+        return
     elif pulse_on is True and which_true != "pulse":
         logger.debug(f"Setting brightness to {LED_BRIGHTNESS}")
         strip.setBrightness(LED_BRIGHTNESS)
