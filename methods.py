@@ -82,7 +82,7 @@ def block_wave(strip, colour1=None, colour2=None, wait_ms=20):
 
     colour_iter = colour_flipper(num_in_block=30, colour_1=colour1, colour_2=colour2)
     start = 0
-    while which_effect == "block_wave_on":
+    while which_effect == "block_wave":
         start += 1
         for led in range(start, strip.numPixels() + start):
             led = led % strip.numPixels()
@@ -110,8 +110,8 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10):
     logger.debug("pulse option")
     logger.debug(colour1)
     logger.debug(colour2)
-    logger.debug(f"Pulse_on is {pulse_on}")
-    while which_effect == "pulse_on":
+    logger.debug(f"Pulse is {pulse}")
+    while which_effect == "pulse":
         logger.debug("loop")
         for led in range(strip.numPixels()):
             strip.setPixelColor(led, colour1)
@@ -131,7 +131,7 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
 
     num_leds = strip.numPixels()
     halfway = num_leds // 2
-    while which_effect == "meet_in_the_middle_on":
+    while which_effect == "meet_in_the_middle":
         for led in range(halfway):
             strip.setPixelColor(led, colour1)
             strip.setPixelColor(num_leds - led, colour2)
@@ -152,7 +152,7 @@ def which_method(which_true, strip):
         logger.debug(f"Setting brightness to {LED_BRIGHTNESS}")
         strip.setBrightness(LED_BRIGHTNESS)
 
-    logger.debug(f"settin which_effect to {which_true}")
+    logger.debug(f"setting which_effect to {which_true}")
     which_effect = which_true
     if which_effect == "clear_strip":
         clear_strip(strip)
