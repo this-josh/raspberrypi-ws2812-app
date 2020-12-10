@@ -8,12 +8,8 @@ logger.setLevel(logging.DEBUG)
 
 def setup_strip():
     global LED_BRIGHTNESS
-    global pulse_on
-    global block_wave_on
-    global meet_in_the_middle_on
-    pulse_on = False
-    block_wave_on = False
-    meet_in_the_middle_on = False
+    global which_effect
+    which_effect = False
     # LED strip configuration:
     LED_COUNT = 300  # Number of LED pixels.
     LED_PIN = 18  # GPIO pin connected to the pixels (18 uses PWM!).
@@ -86,7 +82,7 @@ def block_wave(strip, colour1=None, colour2=None, wait_ms=20):
 
     colour_iter = colour_flipper(num_in_block=30, colour_1=colour1, colour_2=colour2)
     start = 0
-    while block_wave_on:
+    while which_effect == "block_wave_on":
         start += 1
         for led in range(start, strip.numPixels() + start):
             led = led % strip.numPixels()
@@ -115,7 +111,7 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10):
     logger.debug(colour1)
     logger.debug(colour2)
     logger.debug(f"Pulse_on is {pulse_on}")
-    while pulse_on:
+    while which_effect == "pulse_on":
         logger.debug("loop")
         for led in range(strip.numPixels()):
             strip.setPixelColor(led, colour1)
@@ -135,7 +131,7 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
 
     num_leds = strip.numPixels()
     halfway = num_leds // 2
-    while meet_in_the_middle_on:
+    while which_effect == "meet_in_the_middle_on":
         for led in range(halfway):
             strip.setPixelColor(led, colour1)
             strip.setPixelColor(num_leds - led, colour2)
@@ -149,33 +145,14 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
 
 
 def which_method(which_true, strip):
-    global pulse_on
-    global block_wave_on
-    global meet_in_the_middle_on
-    logger.debug(f"which_true = {which_true}")
-    if which_true == "pulse":
-        logger.debug("Setting pulse_on to true")
-        pulse_on = True
-        block_wave_on = False
-        meet_in_the_middle_on = False
-        return
-    elif pulse_on is True and which_true != "pulse":
+    global which_effect
+
+    if which_effect == "pulse" and which_true != "pulse":
+        # If we are about to change from pulse, reset brightness.
         logger.debug(f"Setting brightness to {LED_BRIGHTNESS}")
         strip.setBrightness(LED_BRIGHTNESS)
-    if which_true == "colour_wave":
-        logger.debug("Setting block_wave_on to true")
-        pulse_on = False
-        block_wave_on = True
-        meet_in_the_middle_on = False
-    elif which_true == "meet_in_middle":
-        logger.debug("which, method meet in middle")
-        logger.debug("Setting meet_in_the_middle_on to true")
-        pulse_on = False
-        block_wave_on = False
-        meet_in_the_middle_on = True
-    else:
-        logger.debug("Setting all options to False")
-        pulse_on = False
-        block_wave_on = False
-        meet_in_the_middle_on = False
+
+    logger.debug(f"settin which_effect to {which_true}")
+    which_effect = which_true
+    if which_effect == "clear_strip":
         clear_strip(strip)
