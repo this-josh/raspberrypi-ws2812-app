@@ -1,2 +1,2 @@
-source lights_dash/bin/activate
+source lights_app/bin/activate
 waitress-serve --port=8080 app:application
