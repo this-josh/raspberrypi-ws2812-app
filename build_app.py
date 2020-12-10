@@ -19,6 +19,7 @@ app.layout = html.Div(
         ),
         html.Div(
             [
+                dcc.Markdown("Choose your pattern"),
                 dcc.RadioItems(
                     id="mode",
                     options=[
@@ -28,12 +29,18 @@ app.layout = html.Div(
                     ],
                     value="colour_wave",
                     labelStyle={"display": "inline-block"},
-                )
+                ),
             ]
         ),
-        html.Div([dcc.Slider(min=0, max=255, step=1, value=0)]),
         html.Div(
             [
+                dcc.Markdown("Choose how bright you would like the lights to be"),
+                dcc.Slider(min=0, max=255, step=1, value=0),
+            ]
+        ),
+        html.Div(
+            [
+                dcc.Markdown("What colours would you like in the pattern?"),
                 dcc.Dropdown(
                     options=[
                         {"label": "Red", "value": "Red"},
@@ -42,8 +49,17 @@ app.layout = html.Div(
                     ],
                     multi=True,
                     value="Red",
-                )
+                ),
             ]
         ),
+        # Maybe confirm changes
+        # html.Div(
+        #     dcc.ConfirmDialog(
+        #         id="confirm",
+        #         message="Danger danger! Are you sure you want to continue?",
+        #     )
+        # ),
     ]
 )
+
+application = app.server
