@@ -6,7 +6,6 @@ from waitress import serve
 import flask
 
 
-
 from methods import setup_strip, block_wave, pulse, meet_in_the_middle, which_method
 
 strip = setup_strip()
@@ -33,8 +32,7 @@ app.layout = html.Div(
                         {"label": "Two colour wave", "value": "colour_wave"},
                         {"label": "Meet at the middle", "value": "meet_in_middle"},
                         {"label": "Pulse", "value": "pulse"},
-                        {"label": "Clear", "value": "clear"},
-
+                        {"label": "Clear strip", "value": "clear_strip"},
                     ],
                     value="colour_wave",
                     labelStyle={"display": "inline-block"},
