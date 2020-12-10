@@ -1,4 +1,4 @@
 echo activating env
 source lights_app/bin/activate
 echo starting server
-sudo python3 app.py
+sudo lights_app/bin/python3 build_app.py
