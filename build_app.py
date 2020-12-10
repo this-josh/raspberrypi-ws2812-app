@@ -31,5 +31,19 @@ app.layout = html.Div(
                 )
             ]
         ),
+        html.Div([dcc.Slider(min=0, max=255, step=1, value=0)]),
+        html.Div(
+            [
+                dcc.Dropdown(
+                    options=[
+                        {"label": "Red", "value": "Red"},
+                        {"label": "Green", "value": "Green"},
+                        {"label": "Blue", "value": "Blue"},
+                    ],
+                    multi=True,
+                    value="Red",
+                )
+            ]
+        ),
     ]
 )
