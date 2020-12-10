@@ -5,6 +5,10 @@ from dash.dependencies import Input, Output
 from waitress import serve
 import flask
 from inputs import colour_options
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
 
 from methods import setup_strip, block_wave, pulse, meet_in_the_middle, which_method
 
@@ -80,17 +84,16 @@ app.layout = html.Div(
     Input(component_id="colour-2", component_property="value"),
 )
 def change_mode(mode_of_operation, colour1, colour2):
-    print(mode_of_operation)
+    logger.debug(mode_of_operation)
     which_method(mode_of_operation, strip)
-    print(colour1, colour2)
     if mode_of_operation == "colour_wave":
-        print("block wave")
+        logger.debug("block wave")
         block_wave(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "pulse":
-        print("pulse")
+        logger.debug("pulse")
         pulse(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "meet_in_middle":
-        print("meet in middle")
+        logger.debug("meet in middle")
         meet_in_the_middle(strip, colour1=colour1, colour2=colour2)
     return mode_of_operation
 

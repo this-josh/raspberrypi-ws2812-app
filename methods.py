@@ -43,7 +43,7 @@ def setup_strip():
 def tricolour(strip):
     """Wipe color across display a pixel at a time."""
     each_part = strip.numPixels() // 3
-    print(each_part)
+    logger.debug(each_part)
     for led in range(each_part):
         strip.setPixelColorRGB(led, 255, 0, 0)
         strip.setPixelColorRGB(led + each_part, 255, 255, 255)
@@ -52,7 +52,7 @@ def tricolour(strip):
 
 
 def clear_strip(strip):
-    print("clear_striping strip")
+    logger.debug("clear_striping strip")
     for led in range(strip.numPixels()):
         strip.setPixelColor(led, 0)
     strip.show()
@@ -116,7 +116,7 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10):
     logger.debug(colour2)
     logger.debug(f"Pulse_on is {pulse_on}")
     while pulse_on:
-        print("loop")
+        logger.debug("loop")
         for led in range(strip.numPixels()):
             strip.setPixelColor(led, colour1)
         _pulse_brightness(strip, wait_ms)
@@ -152,6 +152,7 @@ def which_method(which_true, strip):
     global pulse_on
     global block_wave_on
     global meet_in_the_middle_on
+    logger.debug(f"which_true = {which_true}")
     if which_true == "pulse":
         logger.debug("Setting pulse_on to true")
         pulse_on = True
@@ -166,7 +167,7 @@ def which_method(which_true, strip):
         block_wave_on = True
         meet_in_the_middle_on = False
     elif which_true == "meet_in_middle":
-        print("which, method meet in middle")
+        logger.debug("which, method meet in middle")
         logger.debug("Setting meet_in_the_middle_on to true")
         pulse_on = False
         block_wave_on = False
