@@ -82,7 +82,7 @@ def block_wave(strip, colour1=None, colour2=None, wait_ms=20):
 
     colour_iter = colour_flipper(num_in_block=30, colour_1=colour1, colour_2=colour2)
     start = 0
-    while which_effect == "block_wave":
+    while which_effect == "colour_wave":
         start += 1
         for led in range(start, strip.numPixels() + start):
             led = led % strip.numPixels()
@@ -131,7 +131,7 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
 
     num_leds = strip.numPixels()
     halfway = num_leds // 2
-    while which_effect == "meet_in_the_middle":
+    while which_effect == "meet_in_middle":
         for led in range(halfway):
             strip.setPixelColor(led, colour1)
             strip.setPixelColor(num_leds - led, colour2)
