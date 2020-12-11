@@ -32,7 +32,7 @@ strip = setup_strip()
 server = flask.Flask(__name__)
 app = dash.Dash(__name__, server=server)
 
-app.title = "Chrimbo lights"
+app.title = "Crimbo lights"
 
 app.layout = html.Div(
     [
