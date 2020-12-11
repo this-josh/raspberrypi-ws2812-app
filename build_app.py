@@ -112,7 +112,7 @@ app.layout = html.Div(
 def change_mode(mode_of_operation, colour1, colour2):
     logger.debug(mode_of_operation)
     which_method("clear_strip", strip)
-    time.sleep(10 / 1000.0)
+    time.sleep(20 / 1000.0)
     which_method(mode_of_operation, strip)
     clear_strip(strip)
 
