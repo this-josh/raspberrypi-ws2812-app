@@ -164,5 +164,8 @@ def change_brightness(chosen_brightness):
     return strip.getBrightness()
 
 
-application = app.server
-serve(application)
+try:
+    application = app.server
+    serve(application)
+except Exception as e:
+    logger.exception(e)
