@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 from methods import (
-    clear_strip,
+    turn_off,
     setup_strip,
     solid_colour,
     tricolour,
@@ -67,9 +67,9 @@ app.layout = html.Div(
                             "label": "Chase the rainbow",
                             "value": "theater_chase_rainbow",
                         },
-                        {"label": "Clear strip", "value": "clear_strip"},
+                        {"label": "Clear strip", "value": "turn_off"},
                     ],
-                    value="clear_strip",
+                    value="turn_off",
                     labelStyle={"display": "inline-block"},
                 ),
             ]
@@ -116,9 +116,9 @@ app.layout = html.Div(
 )
 def change_mode(mode_of_operation, colour1, colour2):
     logger.debug(mode_of_operation)
-    which_method("clear_strip", strip)
+    which_method("turn_off", strip)
     which_method(mode_of_operation, strip)
-    clear_strip(strip)
+    turn_off(strip)
 
     if mode_of_operation == "colour_wave":
         logger.debug("block wave")
@@ -153,8 +153,8 @@ def change_mode(mode_of_operation, colour1, colour2):
     elif mode_of_operation == "theater_chase_rainbow":
         logger.debug("theater_chase_rainbow")
         theater_chase_rainbow(strip, colour1=colour1, colour2=colour2)
-    elif mode_of_operation == "clear_strip":
-        clear_strip(strip)
+    elif mode_of_operation == "turn_off":
+        turn_off(strip)
     return mode_of_operation
 
 
@@ -163,7 +163,7 @@ def change_mode(mode_of_operation, colour1, colour2):
     Input(component_id="chosen-brightness", component_property="value"),
 )
 def change_brightness(chosen_brightness):
-    # clear_strip(strip)
+    # turn_off(strip)
     strip.setBrightness(chosen_brightness)
     return strip.getBrightness()
 

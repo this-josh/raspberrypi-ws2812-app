@@ -33,7 +33,7 @@ def setup_strip():
     # Intialize the library (must be called once before other functions).
     logger.debug(f"Setting up strip")
     strip.begin()
-    clear_strip(strip)
+    turn_off(strip)
     return strip
 
 
@@ -48,8 +48,8 @@ def tricolour(strip, **kwargs):
     strip.show()
 
 
-def clear_strip(strip):
-    logger.debug("clear_striping strip")
+def turn_off(strip):
+    logger.debug("turn_offing strip")
     for led in range(strip.numPixels()):
         strip.setPixelColor(led, 0)
     strip.show()
@@ -77,7 +77,7 @@ def colour_flipper(num_in_block, colour_1, colour_2):
 def block_wave(strip, colour1=None, colour2=None, wait_ms=20):
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
-    clear_strip(strip)
+    turn_off(strip)
     logger.debug(colour1)
     logger.debug(colour2)
 
@@ -105,7 +105,7 @@ def _pulse_brightness(strip, wait_ms):
 
 
 def pulse(strip, colour1=None, colour2=None, wait_ms=10):
-    clear_strip(strip)
+    turn_off(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
     logger.debug("pulse option")
@@ -123,7 +123,7 @@ def pulse(strip, colour1=None, colour2=None, wait_ms=10):
 
 def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
     """Both ends go towards the middle, then bounce back away"""
-    clear_strip(strip)
+    turn_off(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2
     logger.debug(colour1)
@@ -241,5 +241,5 @@ def which_method(which_true, strip):
 
     logger.debug(f"setting which_effect to {which_true}")
     which_effect = which_true
-    if which_effect == "clear_strip":
-        clear_strip(strip)
+    if which_effect == "turn_off":
+        turn_off(strip)
