@@ -4,6 +4,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 from waitress import serve
 import flask
+import time
 from inputs import colour_options
 import logging
 
@@ -111,6 +112,7 @@ app.layout = html.Div(
 def change_mode(mode_of_operation, colour1, colour2):
     logger.debug(mode_of_operation)
     which_method("clear_strip", strip)
+    time.sleep(1000 / 1000.0)
     which_method(mode_of_operation, strip)
     clear_strip(strip)
 
