@@ -42,6 +42,12 @@ app.layout = html.Div(
                 "textAlign": "center",
             },
         ),
+        html.H3(
+            children="If a problem occurs, leave on Clear strip",
+            style={
+                "textAlign": "center",
+            },
+        ),
         html.Div(
             [
                 dcc.Markdown("Choose your pattern"),
