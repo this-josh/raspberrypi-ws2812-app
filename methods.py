@@ -31,6 +31,7 @@ def setup_strip():
         LED_CHANNEL,
     )
     # Intialize the library (must be called once before other functions).
+    logger.debug(f"Setting up strip")
     strip.begin()
     clear_strip(strip)
     return strip
