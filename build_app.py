@@ -67,7 +67,7 @@ app.layout = html.Div(
                             "label": "Chase the rainbow",
                             "value": "theater_chase_rainbow",
                         },
-                        {"label": "Clear strip", "value": "clear_strip"},
+                        {"label": "Turn off", "value": "clear_strip"},
                     ],
                     value="clear_strip",
                     labelStyle={"display": "inline-block"},
