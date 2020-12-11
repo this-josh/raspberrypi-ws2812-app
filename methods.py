@@ -86,6 +86,8 @@ def block_wave(strip, colour1=None, colour2=None, wait_ms=20):
     while which_effect == "colour_wave":
         start += 1
         for led in range(start, strip.numPixels() + start):
+            if which_effect != "colour_wave":
+                return
             led = led % strip.numPixels()
             strip.setPixelColor(led, next(colour_iter))
         strip.show()
