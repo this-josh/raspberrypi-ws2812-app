@@ -1,3 +1,4 @@
+cd /src/git/raspberrypi
 echo activating env
 source lights_app/bin/activate
 echo starting server
