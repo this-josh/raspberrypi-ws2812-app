@@ -166,8 +166,8 @@ def change_mode(mode_of_operation, colour1, colour2):
     Input(component_id="chosen-brightness", component_property="value"),
 )
 def change_brightness(chosen_brightness):
-    # clear_strip(strip)
     strip.setBrightness(chosen_brightness)
+    strip.show()
     return strip.getBrightness()
 
 
