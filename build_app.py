@@ -10,7 +10,7 @@ from inputs import colour_options
 import logging
 
 logger = logging.getLogger(__name__)
-format = "%(asctime)-15s %(clientip)s %(user)-8s %(message)s"
+format = "%(asctime)-15s %(name)s - %(levelname)s - %(message)s"
 logging.basicConfig(
     filename=f"./logs/{datetime.now().strftime('%Y%m%d-%H%M%S')}.log",
     format=format,
