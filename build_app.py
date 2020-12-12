@@ -1,5 +1,4 @@
 import dash
-import dash_daq as daq
 import dash_core_components as dcc
 from dash_core_components.Markdown import Markdown
 import dash_html_components as html
@@ -83,15 +82,14 @@ app.layout = html.Div(
             [
                 dcc.Markdown("Choose how bright you would like the lights to be"),
                 dcc.Markdown("Note this does not change pulse"),
-                daq.Knob(id="chosen-brightness", min=0, max=255, value=255)
-                # dcc.Slider(
-                #     id="chosen-brightness",
-                #     min=0,
-                #     max=255,
-                #     step=1,
-                #     value=0,
-                #     persistence=True,
-                # ),
+                dcc.Slider(
+                    id="chosen-brightness",
+                    min=0,
+                    max=255,
+                    step=1,
+                    value=0,
+                    persistence=True,
+                ),
             ]
         ),
         html.Div(id="selected-brightness"),
