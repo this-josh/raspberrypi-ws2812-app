@@ -34,8 +34,10 @@ def setup_strip():
     logger.debug(f"Setting up strip")
     strip.begin()
     clear_strip(strip)
+    which_effect == "colour_wipe"
     colour_wipe(strip, Color(255, 0, 0), wait_ms=10)
     colour_wipe(strip, Color(0, 0, 0), wait_ms=10)
+    which_effect == False
     return strip
 
 
