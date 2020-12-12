@@ -5,10 +5,12 @@ from dash.dependencies import Input, Output
 from waitress import serve
 import flask
 import time
+from datetime import datetime
 from inputs import colour_options
 import logging
 
 logger = logging.getLogger(__name__)
+logging.basicConfig(filename=f"./logs/{datetime.now()}")
 logger.setLevel(logging.DEBUG)
 
 from methods import (
