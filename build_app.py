@@ -83,12 +83,7 @@ app.layout = html.Div(
             [
                 dcc.Markdown("Choose how bright you would like the lights to be"),
                 dcc.Markdown("Note this does not change pulse"),
-                daq.Knob(
-                    id='chosen-brightness',
-                    min=0,
-                    max=255,
-                    value=255
-                    )  
+                daq.Knob(id="chosen-brightness", min=0, max=255, value=255)
                 # dcc.Slider(
                 #     id="chosen-brightness",
                 #     min=0,
@@ -103,7 +98,9 @@ app.layout = html.Div(
         html.Div(
             [
                 dcc.Markdown("What colours would you like in the pattern?"),
-                dcc.Markdown('Rainbow and flags have fixed colours, methods which only use one colour use colour 1')
+                dcc.Markdown(
+                    "Rainbow and flags have fixed colours, methods which only use one colour use colour 1"
+                ),
                 dcc.Dropdown(
                     id="colour-1",
                     options=colour_options,
@@ -178,7 +175,7 @@ def change_mode(mode_of_operation, colour1, colour2):
 def change_brightness(chosen_brightness):
     strip.setBrightness(chosen_brightness)
     strip.show()
-    return f'Brightness is currently at {strip.getBrightness()} out of 255'
+    return f"Brightness is currently at {strip.getBrightness()} out of 255"
 
 
 try:
