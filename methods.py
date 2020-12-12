@@ -34,10 +34,8 @@ def setup_strip():
     logger.debug(f"Setting up strip")
     strip.begin()
     clear_strip(strip)
-    which_effect == "colour_wipe"
-    colour_wipe(strip, Color(255, 0, 0), wait_ms=10)
-    colour_wipe(strip, Color(0, 0, 0), wait_ms=10)
-    which_effect == False
+    colour_wipe(strip, Color(255, 0, 0), wait_ms=10, force=True)
+    colour_wipe(strip, Color(0, 0, 0), wait_ms=10, force=True)
     return strip
 
 
@@ -155,12 +153,12 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
             time.sleep(wait_ms / 1000.0)
 
 
-def colour_wipe(strip, colour1, wait_ms=50, **kwargs):
+def colour_wipe(strip, colour1, wait_ms=50, force: bool = False ** kwargs):
     """Wipe color across display a pixel at a time."""
     logger.debug(f"Colour wipe, colour = {colour1}, delay = {wait_ms}")
     for i in range(strip.numPixels()):
         strip.setPixelColor(i, colour1)
-        if which_effect != "colour_wipe":
+        if which_effect != "colour_wipe" and not force:
             return
         strip.show()
         time.sleep(wait_ms / 1000.0)
