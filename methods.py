@@ -155,6 +155,7 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
 
 def colour_wipe(strip, colour1, wait_ms=50, **kwargs):
     """Wipe color across display a pixel at a time."""
+    logger.debug(f"Colour wipe, colour = {colour1}, delay = {wait_ms}")
     for i in range(strip.numPixels()):
         strip.setPixelColor(i, colour1)
         if which_effect != "colour_wipe":
