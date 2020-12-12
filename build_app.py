@@ -10,7 +10,7 @@ from inputs import colour_options
 import logging
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename=f"./logs/{datetime.now()}")
+logging.basicConfig(filename=f"./logs/{datetime.now().strftime('%Y%m%d-%H%M%S')}")
 logger.setLevel(logging.DEBUG)
 
 from methods import (
