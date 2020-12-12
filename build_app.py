@@ -10,8 +10,10 @@ from inputs import colour_options
 import logging
 
 logger = logging.getLogger(__name__)
+format = "%(asctime)-15s %(clientip)s %(user)-8s %(message)s"
 logging.basicConfig(
     filename=f"./logs/{datetime.now().strftime('%Y%m%d-%H%M%S')}.log",
+    format=format,
     level=logging.DEBUG,
 )
 logger.setLevel(logging.DEBUG)
