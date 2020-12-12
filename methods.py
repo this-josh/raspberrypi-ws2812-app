@@ -153,7 +153,7 @@ def meet_in_the_middle(strip, colour1=None, colour2=None, wait_ms=20):
             time.sleep(wait_ms / 1000.0)
 
 
-def colour_wipe(strip, colour1, wait_ms=50, force: bool = False ** kwargs):
+def colour_wipe(strip, colour1, wait_ms=50, force: bool = False, **kwargs):
     """Wipe color across display a pixel at a time."""
     logger.debug(f"Colour wipe, colour = {colour1}, delay = {wait_ms}")
     for i in range(strip.numPixels()):
