@@ -98,7 +98,7 @@ app.layout = html.Div(
             [
                 dcc.Markdown("What colours would you like in the pattern?"),
                 dcc.Markdown(
-                    "Rainbow and flags have fixed colours, methods which only use one colour use colour 1"
+                    "Rainbow and flags have fixed colours, methods which only use one colour use the top one"
                 ),
                 dcc.Dropdown(
                     id="colour-1",
