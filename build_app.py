@@ -41,12 +41,12 @@ strip = setup_strip()
 server = flask.Flask(__name__)
 app = dash.Dash(__name__, server=server)
 
-app.title = "Crimbo lights"
+app.title = "Crimbo lights checking service"
 
 app.layout = html.Div(
     [
         html.H1(
-            children="Chrimbo lights controller",
+            children="Chrimbo lights controller checking servic1",
             style={
                 "textAlign": "center",
             },
