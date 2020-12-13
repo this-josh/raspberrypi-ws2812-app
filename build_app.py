@@ -74,6 +74,7 @@ app.layout = html.Div(
                         {"label": "Turn off", "value": "clear_strip"},
                     ],
                     value="colour_wave",
+                    searchable=False,
                 ),
             ]
         ),
