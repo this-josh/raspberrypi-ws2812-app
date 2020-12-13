@@ -111,6 +111,14 @@ app.layout = html.Div(
                 ),
             ]
         ),
+        dcc.ConfirmDialogProvider(
+            children=html.Button(
+                "Restart server?",
+            ),
+            id="restart-server",
+            message="Are you sure you want to restart the server? This will take around 90 seconds",
+        ),
+        html.Div(id="reboot-status"),
     ]
 )
 
@@ -174,6 +182,27 @@ def change_brightness(chosen_brightness):
     strip.setBrightness(chosen_brightness)
     strip.show()
     return f"Brightness is currently at {strip.getBrightness()} out of 255"
+
+        dcc.ConfirmDialogProvider(
+            children=html.Button(
+                "Restart server?",
+            ),
+            id="restart-server",
+            message="Are you sure you want to restart the server? This will take around 90 seconds",
+        ),
+        html.Div(id="reboot-status"),
+    ]
+)
+
+@app.callback(
+    Output(component_id="reboot-status", component_property="children"),
+    Input(component_id="restart-server", component_property="submit_n_clicks"),
+)
+def change_brightness(num_confirmed):
+    if num_confirmed!=0:
+        logger.warning('Rebooting the pi')
+        return f"Rebooting..."
+    return f'Not rebooting.'
 
 
 try:
