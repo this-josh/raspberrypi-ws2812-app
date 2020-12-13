@@ -73,7 +73,7 @@ app.layout = html.Div(
                         },
                         {"label": "Turn off", "value": "clear_strip"},
                     ],
-                    value="clear_strip",
+                    value="colour_wave",
                     labelStyle={"display": "inline-block"},
                 ),
             ]
