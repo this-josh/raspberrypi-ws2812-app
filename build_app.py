@@ -75,6 +75,7 @@ app.layout = html.Div(
                     ],
                     value="colour_wave",
                     searchable=False,
+                    persistence=True,
                 ),
             ]
         ),
@@ -105,12 +106,14 @@ app.layout = html.Div(
                     options=colour_options,
                     value=colour_options[0]["value"],
                     searchable=False,
+                    persistence=True,
                 ),
                 dcc.Dropdown(
                     id="colour-2",
                     options=colour_options,
                     value=colour_options[4]["value"],
                     searchable=False,
+                    persistence=True,
                 ),
             ]
         ),
