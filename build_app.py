@@ -9,6 +9,7 @@ import time
 from datetime import datetime
 from inputs import colour_options
 import logging
+import os
 
 logger = logging.getLogger(__name__)
 format = "%(asctime)-15s %(name)s - %(levelname)s - %(message)s"
@@ -192,6 +193,7 @@ def change_brightness(num_confirmed):
     logger.warning(num_confirmed)
     if num_confirmed is not None:
         logger.warning("Rebooting the pi")
+        os.system("sudo reboot")
         return f"Rebooting... {num_confirmed}"
     return f"Not rebooting.{num_confirmed}"
 
