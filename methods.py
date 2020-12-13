@@ -108,6 +108,7 @@ def _pulse_brightness(strip, wait_ms):
 
 
 def pulse(strip, colour1=None, colour2=None, wait_ms=10):
+    #! problem if user changes colour
     clear_strip(strip)
     colour1 = Color(255, 0, 0) if colour1 is None else colour1
     colour2 = Color(0, 120, 0) if colour2 is None else colour2

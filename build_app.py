@@ -75,7 +75,6 @@ app.layout = html.Div(
                     ],
                     value="colour_wave",
                     searchable=False,
-                    persistence=True,
                 ),
             ]
         ),
