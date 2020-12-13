@@ -100,6 +100,8 @@ def block_wave(strip, colour1=None, colour2=None, wait_ms=20):
 def _pulse_brightness(strip, wait_ms):
     max_brightness = 200
     for brightness in range(0, max_brightness * 2, 2):
+        if which_effect != "pulse":
+            return
         if brightness > 200:
             brightness = abs(brightness - max_brightness * 2)
         strip.setBrightness(brightness)
