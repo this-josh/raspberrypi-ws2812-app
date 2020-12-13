@@ -104,11 +104,13 @@ app.layout = html.Div(
                     id="colour-1",
                     options=colour_options,
                     value=colour_options[0]["value"],
+                    searchable=False,
                 ),
                 dcc.Dropdown(
                     id="colour-2",
                     options=colour_options,
                     value=colour_options[4]["value"],
+                    searchable=False,
                 ),
             ]
         ),
