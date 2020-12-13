@@ -190,7 +190,7 @@ def change_brightness(chosen_brightness):
 )
 def change_brightness(num_confirmed):
     logger.warning(num_confirmed)
-    if num_confirmed != 0:
+    if num_confirmed is not None:
         logger.warning("Rebooting the pi")
         return f"Rebooting... {num_confirmed}"
     return f"Not rebooting.{num_confirmed}"
