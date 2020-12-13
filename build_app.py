@@ -42,12 +42,12 @@ strip = setup_strip()
 server = flask.Flask(__name__)
 app = dash.Dash(__name__, server=server)
 
-app.title = "Crimbo lights checking service"
+app.title = "Crimbo lights"
 
 app.layout = html.Div(
     [
         html.H1(
-            children="Chrimbo lights controller checking servic1",
+            children="Crimbo lights controller",
             style={
                 "textAlign": "center",
             },
@@ -190,7 +190,6 @@ def change_brightness(chosen_brightness):
     Input(component_id="restart-server", component_property="submit_n_clicks"),
 )
 def change_brightness(num_confirmed):
-    logger.warning(num_confirmed)
     if num_confirmed is not None:
         logger.warning("Rebooting the pi")
         os.system("sudo reboot")
