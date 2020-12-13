@@ -199,7 +199,7 @@ def change_brightness(num_confirmed):
         logger.warning("Rebooting the pi")
         os.system("sudo reboot")
         return f"Rebooting... {num_confirmed}"
-    return f"Not rebooting.{num_confirmed}"
+    return f""
 
 
 try:
