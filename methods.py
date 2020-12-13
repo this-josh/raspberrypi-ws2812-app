@@ -161,6 +161,7 @@ def colour_wipe(strip, colour1, wait_ms=50, force: bool = False, **kwargs):
     for i in range(strip.numPixels()):
         strip.setPixelColor(i, colour1)
         if which_effect != "colour_wipe" and not force:
+            clear_strip(strip)
             return
         strip.show()
         time.sleep(wait_ms / 1000.0)
