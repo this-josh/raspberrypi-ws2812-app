@@ -55,7 +55,7 @@ app.layout = html.Div(
         html.Div(
             [
                 dcc.Markdown("Choose your pattern"),
-                dcc.RadioItems(
+                dcc.Dropdown(
                     id="light-mode",
                     options=[
                         {"label": "Two colour wave", "value": "colour_wave"},
@@ -74,7 +74,6 @@ app.layout = html.Div(
                         {"label": "Turn off", "value": "clear_strip"},
                     ],
                     value="colour_wave",
-                    labelStyle={"display": "inline-block"},
                 ),
             ]
         ),
