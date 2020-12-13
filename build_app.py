@@ -124,8 +124,7 @@ app.layout = html.Div(
             message="Are you sure you want to restart the server? This will take around 90 seconds",
         ),
         html.Div(id="reboot-status"),
-    ],
-    style={"width": "48%", "display": "inline-block"},
+    ]
 )
 
 
