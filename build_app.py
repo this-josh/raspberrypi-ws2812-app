@@ -73,7 +73,7 @@ app.layout = html.Div(
                             "label": "Chase the rainbow",
                             "value": "theater_chase_rainbow",
                         },
-                        {"label": "Twinkle one led", "value": "twinkle_leds"},
+                        {"label": "Twinkle", "value": "twinkle_leds"},
                         {"label": "Oscillate", "value": "oscillate"},
                         {"label": "Turn off", "value": "clear_strip"},
                     ],
