@@ -266,13 +266,16 @@ def oscillate(strip, colour1, wait_ms=20):
                 # if we need to head up to the target
                 start_point += 1
                 end_point -= 1
+                strip.setPixelColor(start_point, colour1)
+                strip.setPixelColor(end_point, colour1)
+
             else:
                 # If we need to head down
                 start_point -= 1
                 end_point += 1
+                strip.setPixelColor(start_point, Color(0, 0, 0))
+                strip.setPixelColor(end_point, Color(0, 0, 0))
 
-            strip.setPixelColor(start_point, colour1)
-            strip.setPixelColor(end_point, colour1)
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
