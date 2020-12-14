@@ -258,23 +258,23 @@ def oscillate(strip, colour1, wait_ms=20):
     while which_effect == "oscillate":
         # raise to x
         print(which_effect)
+        logging.debug(current_target)
         for point in range(abs(current_target - start_point)):
             # go from 0 to 50 and 300 to 250
             if which_effect != "oscillate":
                 return
             if current_target > start_point:
                 # if we need to head up to the target
-                start_point += 1
-                end_point -= 1
                 strip.setPixelColor(start_point, colour1)
                 strip.setPixelColor(end_point, colour1)
-
+                start_point += 1
+                end_point -= 1
             else:
                 # If we need to head down
-                start_point -= 1
-                end_point += 1
                 strip.setPixelColor(start_point, Color(0, 0, 0))
                 strip.setPixelColor(end_point, Color(0, 0, 0))
+                start_point -= 1
+                end_point += 1
 
             strip.show()
             time.sleep(wait_ms / 1000.0)
