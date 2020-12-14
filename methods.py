@@ -256,6 +256,7 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
     middle_point = int(LED_COUNT / 2)
     third = int(middle_point / 3)
     current_target = random.randrange(third, third * 2)
+    new_target = 0
     start_point = 0
     end_point = LED_COUNT
     while which_effect == "oscillate":
@@ -281,12 +282,11 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
 
         # next_target
         initial = True
-        while (current_target > middle_point) | (current_target < 0) | initial == True:
-            current_target = current_target + random.randrange(
-                -max_movement, max_movement
-            )
-            logger.debug(f"Current target is {current_target}")
+        while (new_target > middle_point) | (new_target < 0) | initial == True:
+            new_target = current_target + random.randrange(-max_movement, max_movement)
+            logger.debug(f"New target is {new_target}")
             initial = False
+        current_target = new_target
 
 
 def which_method(which_true, strip):
