@@ -242,11 +242,11 @@ def theater_chase_rainbow(strip, wait_ms=50, **kwargs):
 def twinkle_leds(strip, colour1, wait_ms=60):
     """Twinkle 5 leds"""
     while which_effect == "twinkle_leds":
-        strip.setPixelColor(random.randrange(0, LED_COUNT), colour1)
-        strip.setPixelColor(random.randrange(0, LED_COUNT), colour1)
-        strip.setPixelColor(random.randrange(0, LED_COUNT), colour1)
-        strip.setPixelColor(random.randrange(0, LED_COUNT), colour1)
-        strip.setPixelColor(random.randrange(0, LED_COUNT), colour1)
+        strip.setPixelColor(random.randrange(0, strip.numPixels()), colour1)
+        strip.setPixelColor(random.randrange(0, strip.numPixels()), colour1)
+        strip.setPixelColor(random.randrange(0, strip.numPixels()), colour1)
+        strip.setPixelColor(random.randrange(0, strip.numPixels()), colour1)
+        strip.setPixelColor(random.randrange(0, strip.numPixels()), colour1)
         strip.show()
         time.sleep(wait_ms / 1000.0)
         # Ensure min white possible is used
@@ -256,7 +256,7 @@ def twinkle_leds(strip, colour1, wait_ms=60):
 
 def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
     """Oscillates the colours up and down in a random fashion"""
-    middle_point = int(LED_COUNT / 2)
+    middle_point = int(strip.numPixels() / 2)
     third = int(middle_point / 3)
     current_target = random.randrange(third, third * 2)
     new_target = 0
@@ -287,6 +287,56 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
         initial = True
         num_attempts = 0
         while (new_target > middle_point) | (new_target < 0) | initial == True:
+            new_target = current_target + random.randrange(-max_movement, max_movement)
+            logger.debug(f"New target is {new_target}")
+            initial = False
+            num_attempts += 1
+            if num_attempts > 300:
+                raise StopIteration(
+                    f"Have tried {num_attempts} to get a suitable current target and failed."
+                )
+        current_target = new_target
+
+
+def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40):
+    """Oscillates the colours up and down in a random fashion"""
+    # target is based on 0
+    current_target = random.randrange(0, strip.numPixels())
+    new_target = 0
+    start_point = 0
+    end_point = strip.numPixels()
+    for pixel in range(strip.numPixels()):
+        # intialise
+        if pixel <= current_target:
+            strip.setPixelColour(pixel, colour1)
+        else:
+            strip.setPixelColour(pixel, colour2)
+
+    while which_effect == "oscillate_comprehensive":
+        logger.debug(f"Setting the lights")
+        for point in range(abs(current_target - start_point)):
+            if which_effect != "oscillate_comprehensive":
+                return
+            if current_target > start_point:
+                # if we need to head up to the target
+                strip.setPixelColor(start_point, colour1)
+                strip.setPixelColor(end_point, colour2)
+                start_point += 1
+                end_point -= 1
+            else:
+                # If we need to go down
+                strip.setPixelColor(start_point, Color(0, 0, 0))
+                strip.setPixelColor(end_point, Color(0, 0, 0))
+                start_point -= 1
+                end_point += 1
+
+            strip.show()
+            time.sleep(wait_ms / 1000.0)
+
+        # next_target
+        initial = True
+        num_attempts = 0
+        while (new_target > strip.numPixels()) | (new_target < 0) | initial == True:
             new_target = current_target + random.randrange(-max_movement, max_movement)
             logger.debug(f"New target is {new_target}")
             initial = False
