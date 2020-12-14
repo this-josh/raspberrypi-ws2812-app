@@ -246,8 +246,12 @@ def twinkle_one_led(strip, colour1, wait_ms=20):
         print(this_led)
         strip.setPixelColor(this_led, colour1)
         strip.show()
+        print(which_effect)
         strip.setPixelColour(this_led, Color(0, 0, 0))
+        print(which_effect)
         time.sleep(wait_ms / 1000.0)
+        print(which_effect)
+
 
 
 def which_method(which_true, strip):
