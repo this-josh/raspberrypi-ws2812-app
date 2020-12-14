@@ -282,9 +282,7 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
 
         # next_target
         initial = True
-        while (current_target <= middle_point) & (
-            current_target >= 0
-        ) | initial == True:
+        while (current_target > middle_point) | (current_target < 0) | initial == True:
             current_target = current_target + random.randrange(
                 -max_movement, max_movement
             )
