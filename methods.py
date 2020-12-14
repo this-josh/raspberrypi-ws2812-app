@@ -305,7 +305,6 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
     new_target = 0
     start_point = 0
     end_point = strip.numPixels()
-    print(current_target)
     for pixel in range(strip.numPixels()):
         # intialise
         if pixel <= current_target:
