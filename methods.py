@@ -250,14 +250,13 @@ def twinkle_three_led(strip, colour1, wait_ms=60):
         clear_strip(strip)
 
 
-def oscillate(strip, colour1, wait_ms=20):
+def oscillate(strip, colour1, wait_ms=10):
     middle_point = int(LED_COUNT / 2)
     current_target = random.randrange(0, middle_point)  #  50
     start_point = 0
     end_point = LED_COUNT
     while which_effect == "oscillate":
         # raise to x
-        print(which_effect)
         logging.debug(current_target)
         for point in range(abs(current_target - start_point)):
             # go from 0 to 50 and 300 to 250
