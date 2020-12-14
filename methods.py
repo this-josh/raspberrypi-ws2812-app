@@ -239,7 +239,7 @@ def theater_chase_rainbow(strip, wait_ms=50, **kwargs):
                     strip.setPixelColor(i + q, 0)
 
 
-def twinkle_one_led(strip, colour1, wait_ms=5):
+def twinkle_one_led(strip, colour1, wait_ms=20):
     while which_effect == "twinkle_one_led":
         print("twinkle")
         this_led = random.randrange(0, LED_COUNT)
