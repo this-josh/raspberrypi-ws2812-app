@@ -321,7 +321,12 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
         logger.debug(f"The new target join {join}")
         logger.debug(f"The old join was {old_join}")
         for pixel in range(abs(old_join - join)):
+            #! missing first pixel
             logger.debug(f"Initial pixel values {pixel}")
+            if join > old_join:
+                pixel = old_join + pixel
+            if join < old_join:
+                pixel = old_join - pixel
             logger.debug(f"About to change {pixel}")
             if pixel > old_join:
                 pixel = pixel % strip.numPixels()
@@ -331,11 +336,6 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
                 pixel = pixel % strip.numPixels()
                 logger.debug(f"Setting {pixel} with more colour 2")
                 strip.setPixelColor(pixel, colour2)
-            if join > old_join:
-                pixel = old_join + pixel
-            if join < old_join:
-                pixel = old_join - pixel
-
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
