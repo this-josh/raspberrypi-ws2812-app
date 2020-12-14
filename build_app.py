@@ -36,6 +36,7 @@ from methods import (
     rainbow,
     colour_wipe,
     twinkle_three_led,
+    oscillate,
 )
 
 strip = setup_strip()
@@ -73,6 +74,7 @@ app.layout = html.Div(
                             "value": "theater_chase_rainbow",
                         },
                         {"label": "Twinkle one led", "value": "twinkle_three_led"},
+                        {"label": "Oscillate", "value": "oscillate"},
                         {"label": "Turn off", "value": "clear_strip"},
                     ],
                     value="colour_wave",
@@ -181,6 +183,9 @@ def change_mode(mode_of_operation, colour1, colour2):
     elif mode_of_operation == "twinkle_three_led":
         logger.debug("twinkle_three_led")
         twinkle_three_led(strip, colour1=colour1)
+    elif mode_of_operation == "oscillate":
+        logger.debug("oscillate")
+        oscillate(strip, colour1=colour1)
     elif mode_of_operation == "clear_strip":
         clear_strip(strip)
     # return f"Currently doing {mode_of_operation}"
