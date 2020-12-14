@@ -255,14 +255,13 @@ def twinkle_leds(strip, colour1, wait_ms=60):
 def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
     middle_point = int(LED_COUNT / 2)
     third = int(middle_point / 3)
-    current_target = random.randrange(third, third * 2)  #  50
+    current_target = random.randrange(third, third * 2)
     start_point = 0
     end_point = LED_COUNT
     while which_effect == "oscillate":
-        # raise to x
         logging.debug(current_target)
+
         for point in range(abs(current_target - start_point)):
-            # go from 0 to 50 and 300 to 250
             if which_effect != "oscillate":
                 return
             if current_target > start_point:
@@ -272,7 +271,7 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
                 start_point += 1
                 end_point -= 1
             else:
-                # If we need to head down
+                # If we need to go down
                 strip.setPixelColor(start_point, Color(0, 0, 0))
                 strip.setPixelColor(end_point, Color(0, 0, 0))
                 start_point -= 1
@@ -290,8 +289,6 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
                 -max_movement, max_movement
             )
             initial = False
-
-        # 120
 
 
 def which_method(which_true, strip):
