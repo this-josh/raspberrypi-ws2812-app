@@ -1,0 +1,2271 @@
+2020-12-14 17:51:46,771 methods - DEBUG - Setting up strip
+2020-12-14 17:51:46,775 methods - DEBUG - clear_striping strip
+2020-12-14 17:51:46,785 methods - DEBUG - Colour wipe, colour = 16711680, delay = 2
+2020-12-14 17:51:50,474 methods - DEBUG - Colour wipe, colour = 0, delay = 2
+2020-12-14 17:52:01,429 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 17:52:01,446 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:01,485 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 17:52:01,502 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:01,541 methods - DEBUG - setting which_effect to colour_wave
+2020-12-14 17:52:01,542 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:01,553 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:01,565 methods - DEBUG - 65280
+2020-12-14 17:52:01,566 methods - DEBUG - 16711680
+2020-12-14 17:52:04,933 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 17:52:04,946 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:05,022 methods - DEBUG - setting which_effect to oscillate_comprehensive
+2020-12-14 17:52:05,023 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:05,045 methods - DEBUG - Setting the lights
+2020-12-14 17:52:05,047 methods - DEBUG - The new target join 55
+2020-12-14 17:52:05,048 methods - DEBUG - The old join was 55
+2020-12-14 17:52:05,049 methods - DEBUG - Setting the lights
+2020-12-14 17:52:05,050 methods - DEBUG - The new target join 66
+2020-12-14 17:52:05,052 methods - DEBUG - The old join was 55
+2020-12-14 17:52:05,053 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:05,054 methods - DEBUG - About to change 0
+2020-12-14 17:52:05,056 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:05,089 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:05,090 methods - DEBUG - About to change 1
+2020-12-14 17:52:05,092 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:05,125 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:05,127 methods - DEBUG - About to change 2
+2020-12-14 17:52:05,128 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:05,161 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:05,163 methods - DEBUG - About to change 3
+2020-12-14 17:52:05,165 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:05,199 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:05,200 methods - DEBUG - About to change 4
+2020-12-14 17:52:05,202 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:05,236 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:05,238 methods - DEBUG - About to change 5
+2020-12-14 17:52:05,240 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:05,274 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:05,276 methods - DEBUG - About to change 6
+2020-12-14 17:52:05,277 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:05,312 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:05,313 methods - DEBUG - About to change 7
+2020-12-14 17:52:05,315 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:05,349 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:05,351 methods - DEBUG - About to change 8
+2020-12-14 17:52:05,352 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:05,387 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:05,388 methods - DEBUG - About to change 9
+2020-12-14 17:52:05,390 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:05,424 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:05,426 methods - DEBUG - About to change 10
+2020-12-14 17:52:05,428 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:05,462 methods - DEBUG - Setting the lights
+2020-12-14 17:52:05,464 methods - DEBUG - The new target join 92
+2020-12-14 17:52:05,465 methods - DEBUG - The old join was 66
+2020-12-14 17:52:05,467 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:05,468 methods - DEBUG - About to change 0
+2020-12-14 17:52:05,470 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:05,504 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:05,506 methods - DEBUG - About to change 1
+2020-12-14 17:52:05,507 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:05,542 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:05,543 methods - DEBUG - About to change 2
+2020-12-14 17:52:05,545 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:05,579 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:05,581 methods - DEBUG - About to change 3
+2020-12-14 17:52:05,583 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:05,617 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:05,619 methods - DEBUG - About to change 4
+2020-12-14 17:52:05,620 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:05,655 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:05,656 methods - DEBUG - About to change 5
+2020-12-14 17:52:05,658 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:05,692 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:05,694 methods - DEBUG - About to change 6
+2020-12-14 17:52:05,695 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:05,730 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:05,731 methods - DEBUG - About to change 7
+2020-12-14 17:52:05,733 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:05,767 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:05,769 methods - DEBUG - About to change 8
+2020-12-14 17:52:05,770 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:05,805 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:05,806 methods - DEBUG - About to change 9
+2020-12-14 17:52:05,808 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:05,842 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:05,844 methods - DEBUG - About to change 10
+2020-12-14 17:52:05,845 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:05,880 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:05,882 methods - DEBUG - About to change 11
+2020-12-14 17:52:05,883 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:05,929 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:05,930 methods - DEBUG - About to change 12
+2020-12-14 17:52:05,932 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:05,971 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:05,972 methods - DEBUG - About to change 13
+2020-12-14 17:52:05,974 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:06,013 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:06,014 methods - DEBUG - About to change 14
+2020-12-14 17:52:06,016 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:06,061 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:06,063 methods - DEBUG - About to change 15
+2020-12-14 17:52:06,064 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:06,101 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:06,103 methods - DEBUG - About to change 16
+2020-12-14 17:52:06,104 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:06,154 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:06,155 methods - DEBUG - About to change 17
+2020-12-14 17:52:06,157 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:06,201 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:06,203 methods - DEBUG - About to change 18
+2020-12-14 17:52:06,204 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:06,241 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:06,243 methods - DEBUG - About to change 19
+2020-12-14 17:52:06,244 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:06,283 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:06,284 methods - DEBUG - About to change 20
+2020-12-14 17:52:06,286 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:06,328 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:06,329 methods - DEBUG - About to change 21
+2020-12-14 17:52:06,330 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:06,372 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:06,373 methods - DEBUG - About to change 22
+2020-12-14 17:52:06,374 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:06,408 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:06,409 methods - DEBUG - About to change 23
+2020-12-14 17:52:06,411 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:06,444 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:06,449 methods - DEBUG - About to change 24
+2020-12-14 17:52:06,451 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:06,484 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:06,486 methods - DEBUG - About to change 25
+2020-12-14 17:52:06,487 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:06,520 methods - DEBUG - Setting the lights
+2020-12-14 17:52:06,522 methods - DEBUG - The new target join 78
+2020-12-14 17:52:06,523 methods - DEBUG - The old join was 92
+2020-12-14 17:52:06,524 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:06,525 methods - DEBUG - About to change 0
+2020-12-14 17:52:06,527 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:06,560 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:06,562 methods - DEBUG - About to change 1
+2020-12-14 17:52:06,563 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:06,596 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:06,598 methods - DEBUG - About to change 2
+2020-12-14 17:52:06,599 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:06,633 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:06,634 methods - DEBUG - About to change 3
+2020-12-14 17:52:06,635 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:06,669 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:06,670 methods - DEBUG - About to change 4
+2020-12-14 17:52:06,671 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:06,705 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:06,706 methods - DEBUG - About to change 5
+2020-12-14 17:52:06,707 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:06,741 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:06,742 methods - DEBUG - About to change 6
+2020-12-14 17:52:06,743 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:06,777 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:06,778 methods - DEBUG - About to change 7
+2020-12-14 17:52:06,780 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:06,813 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:06,814 methods - DEBUG - About to change 8
+2020-12-14 17:52:06,816 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:06,849 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:06,850 methods - DEBUG - About to change 9
+2020-12-14 17:52:06,852 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:06,885 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:06,887 methods - DEBUG - About to change 10
+2020-12-14 17:52:06,888 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:06,921 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:06,923 methods - DEBUG - About to change 11
+2020-12-14 17:52:06,924 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:06,958 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:06,959 methods - DEBUG - About to change 12
+2020-12-14 17:52:06,960 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:06,994 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:06,995 methods - DEBUG - About to change 13
+2020-12-14 17:52:06,996 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:07,030 methods - DEBUG - Setting the lights
+2020-12-14 17:52:07,031 methods - DEBUG - The new target join 84
+2020-12-14 17:52:07,033 methods - DEBUG - The old join was 78
+2020-12-14 17:52:07,034 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:07,035 methods - DEBUG - About to change 0
+2020-12-14 17:52:07,036 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:07,070 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:07,071 methods - DEBUG - About to change 1
+2020-12-14 17:52:07,076 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:07,109 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:07,110 methods - DEBUG - About to change 2
+2020-12-14 17:52:07,112 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:07,146 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:07,147 methods - DEBUG - About to change 3
+2020-12-14 17:52:07,148 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:07,182 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:07,183 methods - DEBUG - About to change 4
+2020-12-14 17:52:07,184 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:07,218 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:07,219 methods - DEBUG - About to change 5
+2020-12-14 17:52:07,220 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:07,254 methods - DEBUG - Setting the lights
+2020-12-14 17:52:07,255 methods - DEBUG - The new target join 114
+2020-12-14 17:52:07,256 methods - DEBUG - The old join was 84
+2020-12-14 17:52:07,258 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:07,259 methods - DEBUG - About to change 0
+2020-12-14 17:52:07,260 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:07,294 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:07,295 methods - DEBUG - About to change 1
+2020-12-14 17:52:07,296 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:07,330 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:07,331 methods - DEBUG - About to change 2
+2020-12-14 17:52:07,333 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:07,368 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:07,369 methods - DEBUG - About to change 3
+2020-12-14 17:52:07,371 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:07,405 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:07,407 methods - DEBUG - About to change 4
+2020-12-14 17:52:07,408 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:07,443 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:07,444 methods - DEBUG - About to change 5
+2020-12-14 17:52:07,446 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:07,480 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:07,482 methods - DEBUG - About to change 6
+2020-12-14 17:52:07,483 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:07,518 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:07,519 methods - DEBUG - About to change 7
+2020-12-14 17:52:07,521 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:07,555 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:07,557 methods - DEBUG - About to change 8
+2020-12-14 17:52:07,558 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:07,593 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:07,595 methods - DEBUG - About to change 9
+2020-12-14 17:52:07,596 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:07,631 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:07,632 methods - DEBUG - About to change 10
+2020-12-14 17:52:07,634 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:07,668 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:07,670 methods - DEBUG - About to change 11
+2020-12-14 17:52:07,671 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:07,706 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:07,707 methods - DEBUG - About to change 12
+2020-12-14 17:52:07,709 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:07,743 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:07,745 methods - DEBUG - About to change 13
+2020-12-14 17:52:07,746 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:07,787 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:07,788 methods - DEBUG - About to change 14
+2020-12-14 17:52:07,790 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:07,828 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:07,829 methods - DEBUG - About to change 15
+2020-12-14 17:52:07,831 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:07,865 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:07,867 methods - DEBUG - About to change 16
+2020-12-14 17:52:07,868 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:07,903 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:07,904 methods - DEBUG - About to change 17
+2020-12-14 17:52:07,911 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:07,946 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:07,947 methods - DEBUG - About to change 18
+2020-12-14 17:52:07,949 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:07,984 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:07,985 methods - DEBUG - About to change 19
+2020-12-14 17:52:07,987 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:08,021 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:08,023 methods - DEBUG - About to change 20
+2020-12-14 17:52:08,024 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:08,059 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:08,060 methods - DEBUG - About to change 21
+2020-12-14 17:52:08,062 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:08,096 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:08,100 methods - DEBUG - About to change 22
+2020-12-14 17:52:08,101 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:08,136 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:08,137 methods - DEBUG - About to change 23
+2020-12-14 17:52:08,139 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:08,174 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:08,175 methods - DEBUG - About to change 24
+2020-12-14 17:52:08,177 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:08,211 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:08,213 methods - DEBUG - About to change 25
+2020-12-14 17:52:08,214 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:08,248 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:08,250 methods - DEBUG - About to change 26
+2020-12-14 17:52:08,252 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:08,286 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:08,288 methods - DEBUG - About to change 27
+2020-12-14 17:52:08,289 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:08,324 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:08,325 methods - DEBUG - About to change 28
+2020-12-14 17:52:08,327 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:08,361 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:08,363 methods - DEBUG - About to change 29
+2020-12-14 17:52:08,364 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:08,399 methods - DEBUG - Setting the lights
+2020-12-14 17:52:08,400 methods - DEBUG - The new target join 106
+2020-12-14 17:52:08,402 methods - DEBUG - The old join was 114
+2020-12-14 17:52:08,403 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:08,405 methods - DEBUG - About to change 0
+2020-12-14 17:52:08,411 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:08,446 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:08,447 methods - DEBUG - About to change 1
+2020-12-14 17:52:08,449 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:08,483 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:08,485 methods - DEBUG - About to change 2
+2020-12-14 17:52:08,486 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:08,521 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:08,523 methods - DEBUG - About to change 3
+2020-12-14 17:52:08,524 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:08,559 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:08,560 methods - DEBUG - About to change 4
+2020-12-14 17:52:08,562 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:08,597 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:08,598 methods - DEBUG - About to change 5
+2020-12-14 17:52:08,600 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:08,634 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:08,636 methods - DEBUG - About to change 6
+2020-12-14 17:52:08,637 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:08,672 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:08,673 methods - DEBUG - About to change 7
+2020-12-14 17:52:08,675 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:08,709 methods - DEBUG - Setting the lights
+2020-12-14 17:52:08,711 methods - DEBUG - The new target join 77
+2020-12-14 17:52:08,713 methods - DEBUG - The old join was 106
+2020-12-14 17:52:08,714 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:08,716 methods - DEBUG - About to change 0
+2020-12-14 17:52:08,717 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:08,752 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:08,753 methods - DEBUG - About to change 1
+2020-12-14 17:52:08,755 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:08,789 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:08,791 methods - DEBUG - About to change 2
+2020-12-14 17:52:08,792 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:08,827 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:08,828 methods - DEBUG - About to change 3
+2020-12-14 17:52:08,830 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:08,864 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:08,866 methods - DEBUG - About to change 4
+2020-12-14 17:52:08,867 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:08,902 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:08,903 methods - DEBUG - About to change 5
+2020-12-14 17:52:08,905 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:08,944 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:08,946 methods - DEBUG - About to change 6
+2020-12-14 17:52:08,947 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:08,982 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:08,983 methods - DEBUG - About to change 7
+2020-12-14 17:52:08,986 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:09,020 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:09,022 methods - DEBUG - About to change 8
+2020-12-14 17:52:09,023 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:09,058 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:09,062 methods - DEBUG - About to change 9
+2020-12-14 17:52:09,063 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:09,098 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:09,099 methods - DEBUG - About to change 10
+2020-12-14 17:52:09,101 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:09,135 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:09,137 methods - DEBUG - About to change 11
+2020-12-14 17:52:09,138 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:09,173 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:09,174 methods - DEBUG - About to change 12
+2020-12-14 17:52:09,176 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:09,210 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:09,212 methods - DEBUG - About to change 13
+2020-12-14 17:52:09,213 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:09,248 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:09,249 methods - DEBUG - About to change 14
+2020-12-14 17:52:09,251 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:09,285 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:09,287 methods - DEBUG - About to change 15
+2020-12-14 17:52:09,288 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:09,323 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:09,325 methods - DEBUG - About to change 16
+2020-12-14 17:52:09,326 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:09,360 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:09,362 methods - DEBUG - About to change 17
+2020-12-14 17:52:09,364 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:09,398 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:09,400 methods - DEBUG - About to change 18
+2020-12-14 17:52:09,401 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:09,440 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:09,442 methods - DEBUG - About to change 19
+2020-12-14 17:52:09,443 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:09,478 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:09,479 methods - DEBUG - About to change 20
+2020-12-14 17:52:09,481 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:09,515 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:09,517 methods - DEBUG - About to change 21
+2020-12-14 17:52:09,518 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:09,553 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:09,555 methods - DEBUG - About to change 22
+2020-12-14 17:52:09,556 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:09,590 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:09,592 methods - DEBUG - About to change 23
+2020-12-14 17:52:09,594 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:09,628 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:09,630 methods - DEBUG - About to change 24
+2020-12-14 17:52:09,631 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:09,666 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:09,667 methods - DEBUG - About to change 25
+2020-12-14 17:52:09,669 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:09,703 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:09,705 methods - DEBUG - About to change 26
+2020-12-14 17:52:09,706 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:09,741 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:09,743 methods - DEBUG - About to change 27
+2020-12-14 17:52:09,744 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:09,778 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:09,780 methods - DEBUG - About to change 28
+2020-12-14 17:52:09,786 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:09,821 methods - DEBUG - Setting the lights
+2020-12-14 17:52:09,822 methods - DEBUG - The new target join 102
+2020-12-14 17:52:09,824 methods - DEBUG - The old join was 77
+2020-12-14 17:52:09,825 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:09,827 methods - DEBUG - About to change 0
+2020-12-14 17:52:09,828 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:09,863 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:09,865 methods - DEBUG - About to change 1
+2020-12-14 17:52:09,866 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:09,900 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:09,902 methods - DEBUG - About to change 2
+2020-12-14 17:52:09,904 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:09,943 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:09,944 methods - DEBUG - About to change 3
+2020-12-14 17:52:09,946 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:09,980 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:09,982 methods - DEBUG - About to change 4
+2020-12-14 17:52:09,983 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:10,019 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:10,020 methods - DEBUG - About to change 5
+2020-12-14 17:52:10,022 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:10,056 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:10,058 methods - DEBUG - About to change 6
+2020-12-14 17:52:10,059 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:10,094 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:10,095 methods - DEBUG - About to change 7
+2020-12-14 17:52:10,097 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:10,131 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:10,133 methods - DEBUG - About to change 8
+2020-12-14 17:52:10,135 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:10,169 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:10,171 methods - DEBUG - About to change 9
+2020-12-14 17:52:10,172 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:10,206 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:10,208 methods - DEBUG - About to change 10
+2020-12-14 17:52:10,210 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:10,244 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:10,246 methods - DEBUG - About to change 11
+2020-12-14 17:52:10,248 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:10,285 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:10,287 methods - DEBUG - About to change 12
+2020-12-14 17:52:10,288 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:10,322 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:10,324 methods - DEBUG - About to change 13
+2020-12-14 17:52:10,326 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:10,360 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:10,365 methods - DEBUG - About to change 14
+2020-12-14 17:52:10,368 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:10,404 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:10,411 methods - DEBUG - About to change 15
+2020-12-14 17:52:10,412 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:10,447 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:10,448 methods - DEBUG - About to change 16
+2020-12-14 17:52:10,450 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:10,485 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:10,486 methods - DEBUG - About to change 17
+2020-12-14 17:52:10,488 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:10,522 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:10,524 methods - DEBUG - About to change 18
+2020-12-14 17:52:10,525 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:10,560 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:10,561 methods - DEBUG - About to change 19
+2020-12-14 17:52:10,563 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:10,597 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:10,599 methods - DEBUG - About to change 20
+2020-12-14 17:52:10,600 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:10,635 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:10,636 methods - DEBUG - About to change 21
+2020-12-14 17:52:10,638 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:10,672 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:10,674 methods - DEBUG - About to change 22
+2020-12-14 17:52:10,675 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:10,710 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:10,711 methods - DEBUG - About to change 23
+2020-12-14 17:52:10,713 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:10,747 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:10,749 methods - DEBUG - About to change 24
+2020-12-14 17:52:10,750 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:10,786 methods - DEBUG - Setting the lights
+2020-12-14 17:52:10,788 methods - DEBUG - The new target join 70
+2020-12-14 17:52:10,789 methods - DEBUG - The old join was 102
+2020-12-14 17:52:10,793 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:10,797 methods - DEBUG - About to change 0
+2020-12-14 17:52:10,799 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:10,833 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:10,835 methods - DEBUG - About to change 1
+2020-12-14 17:52:10,836 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:10,871 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:10,872 methods - DEBUG - About to change 2
+2020-12-14 17:52:10,874 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:10,908 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:10,910 methods - DEBUG - About to change 3
+2020-12-14 17:52:10,912 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:10,946 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:10,948 methods - DEBUG - About to change 4
+2020-12-14 17:52:10,949 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:10,984 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:10,985 methods - DEBUG - About to change 5
+2020-12-14 17:52:10,987 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:11,022 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:11,024 methods - DEBUG - About to change 6
+2020-12-14 17:52:11,025 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:11,059 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:11,061 methods - DEBUG - About to change 7
+2020-12-14 17:52:11,063 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:11,097 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:11,099 methods - DEBUG - About to change 8
+2020-12-14 17:52:11,103 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:11,137 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:11,139 methods - DEBUG - About to change 9
+2020-12-14 17:52:11,140 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:11,175 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:11,176 methods - DEBUG - About to change 10
+2020-12-14 17:52:11,178 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:11,212 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:11,214 methods - DEBUG - About to change 11
+2020-12-14 17:52:11,215 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:11,249 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:11,251 methods - DEBUG - About to change 12
+2020-12-14 17:52:11,253 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:11,287 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:11,289 methods - DEBUG - About to change 13
+2020-12-14 17:52:11,290 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:11,325 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:11,326 methods - DEBUG - About to change 14
+2020-12-14 17:52:11,328 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:11,362 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:11,364 methods - DEBUG - About to change 15
+2020-12-14 17:52:11,365 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:11,400 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:11,401 methods - DEBUG - About to change 16
+2020-12-14 17:52:11,403 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:11,440 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:11,450 methods - DEBUG - About to change 17
+2020-12-14 17:52:11,452 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:11,486 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:11,488 methods - DEBUG - About to change 18
+2020-12-14 17:52:11,489 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:11,524 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:11,525 methods - DEBUG - About to change 19
+2020-12-14 17:52:11,527 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:11,571 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:11,573 methods - DEBUG - About to change 20
+2020-12-14 17:52:11,574 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:11,615 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:11,616 methods - DEBUG - About to change 21
+2020-12-14 17:52:11,618 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:11,653 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:11,654 methods - DEBUG - About to change 22
+2020-12-14 17:52:11,656 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:11,689 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:11,690 methods - DEBUG - About to change 23
+2020-12-14 17:52:11,692 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:11,725 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:11,727 methods - DEBUG - About to change 24
+2020-12-14 17:52:11,728 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:11,761 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:11,763 methods - DEBUG - About to change 25
+2020-12-14 17:52:11,764 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:11,798 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:11,799 methods - DEBUG - About to change 26
+2020-12-14 17:52:11,800 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:11,834 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:11,835 methods - DEBUG - About to change 27
+2020-12-14 17:52:11,836 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:11,870 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:11,871 methods - DEBUG - About to change 28
+2020-12-14 17:52:11,872 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:11,906 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:11,907 methods - DEBUG - About to change 29
+2020-12-14 17:52:11,908 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:11,942 methods - DEBUG - Initial pixel values 30
+2020-12-14 17:52:11,943 methods - DEBUG - About to change 30
+2020-12-14 17:52:11,944 methods - DEBUG - Setting 30 with more colour 2
+2020-12-14 17:52:11,978 methods - DEBUG - Initial pixel values 31
+2020-12-14 17:52:11,979 methods - DEBUG - About to change 31
+2020-12-14 17:52:11,980 methods - DEBUG - Setting 31 with more colour 2
+2020-12-14 17:52:12,014 methods - DEBUG - Setting the lights
+2020-12-14 17:52:12,015 methods - DEBUG - The new target join 85
+2020-12-14 17:52:12,017 methods - DEBUG - The old join was 70
+2020-12-14 17:52:12,018 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:12,019 methods - DEBUG - About to change 0
+2020-12-14 17:52:12,020 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:12,054 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:12,055 methods - DEBUG - About to change 1
+2020-12-14 17:52:12,057 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:12,090 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:12,091 methods - DEBUG - About to change 2
+2020-12-14 17:52:12,093 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:12,126 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:12,128 methods - DEBUG - About to change 3
+2020-12-14 17:52:12,129 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:12,163 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:12,164 methods - DEBUG - About to change 4
+2020-12-14 17:52:12,165 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:12,199 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:12,200 methods - DEBUG - About to change 5
+2020-12-14 17:52:12,202 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:12,235 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:12,236 methods - DEBUG - About to change 6
+2020-12-14 17:52:12,238 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:12,271 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:12,273 methods - DEBUG - About to change 7
+2020-12-14 17:52:12,274 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:12,307 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:12,309 methods - DEBUG - About to change 8
+2020-12-14 17:52:12,310 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:12,343 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:12,345 methods - DEBUG - About to change 9
+2020-12-14 17:52:12,346 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:12,380 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:12,381 methods - DEBUG - About to change 10
+2020-12-14 17:52:12,383 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:12,417 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:12,419 methods - DEBUG - About to change 11
+2020-12-14 17:52:12,420 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:12,455 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:12,456 methods - DEBUG - About to change 12
+2020-12-14 17:52:12,458 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:12,492 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:12,494 methods - DEBUG - About to change 13
+2020-12-14 17:52:12,495 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:12,530 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:12,531 methods - DEBUG - About to change 14
+2020-12-14 17:52:12,533 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:12,567 methods - DEBUG - Setting the lights
+2020-12-14 17:52:12,569 methods - DEBUG - The new target join 93
+2020-12-14 17:52:12,570 methods - DEBUG - The old join was 85
+2020-12-14 17:52:12,572 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:12,574 methods - DEBUG - About to change 0
+2020-12-14 17:52:12,575 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:12,610 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:12,611 methods - DEBUG - About to change 1
+2020-12-14 17:52:12,613 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:12,647 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:12,649 methods - DEBUG - About to change 2
+2020-12-14 17:52:12,650 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:12,685 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:12,686 methods - DEBUG - About to change 3
+2020-12-14 17:52:12,688 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:12,722 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:12,724 methods - DEBUG - About to change 4
+2020-12-14 17:52:12,725 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:12,760 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:12,762 methods - DEBUG - About to change 5
+2020-12-14 17:52:12,763 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:12,798 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:12,799 methods - DEBUG - About to change 6
+2020-12-14 17:52:12,801 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:12,837 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:12,839 methods - DEBUG - About to change 7
+2020-12-14 17:52:12,841 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:12,877 methods - DEBUG - Setting the lights
+2020-12-14 17:52:12,878 methods - DEBUG - The new target join 119
+2020-12-14 17:52:12,880 methods - DEBUG - The old join was 93
+2020-12-14 17:52:12,881 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:12,883 methods - DEBUG - About to change 0
+2020-12-14 17:52:12,885 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:12,920 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:12,922 methods - DEBUG - About to change 1
+2020-12-14 17:52:12,923 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:12,957 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:12,959 methods - DEBUG - About to change 2
+2020-12-14 17:52:12,961 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:12,995 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:12,997 methods - DEBUG - About to change 3
+2020-12-14 17:52:12,999 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:13,033 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:13,035 methods - DEBUG - About to change 4
+2020-12-14 17:52:13,036 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:13,070 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:13,072 methods - DEBUG - About to change 5
+2020-12-14 17:52:13,074 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:13,108 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:13,110 methods - DEBUG - About to change 6
+2020-12-14 17:52:13,111 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:13,146 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:13,147 methods - DEBUG - About to change 7
+2020-12-14 17:52:13,149 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:13,184 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:13,186 methods - DEBUG - About to change 8
+2020-12-14 17:52:13,187 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:13,222 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:13,223 methods - DEBUG - About to change 9
+2020-12-14 17:52:13,225 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:13,260 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:13,262 methods - DEBUG - About to change 10
+2020-12-14 17:52:13,264 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:13,298 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:13,299 methods - DEBUG - About to change 11
+2020-12-14 17:52:13,301 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:13,335 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:13,337 methods - DEBUG - About to change 12
+2020-12-14 17:52:13,339 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:13,373 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:13,375 methods - DEBUG - About to change 13
+2020-12-14 17:52:13,376 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:13,410 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:13,412 methods - DEBUG - About to change 14
+2020-12-14 17:52:13,414 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:13,448 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:13,449 methods - DEBUG - About to change 15
+2020-12-14 17:52:13,451 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:13,486 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:13,487 methods - DEBUG - About to change 16
+2020-12-14 17:52:13,489 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:13,523 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:13,525 methods - DEBUG - About to change 17
+2020-12-14 17:52:13,526 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:13,560 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:13,562 methods - DEBUG - About to change 18
+2020-12-14 17:52:13,564 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:13,598 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:13,600 methods - DEBUG - About to change 19
+2020-12-14 17:52:13,601 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:13,636 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:13,637 methods - DEBUG - About to change 20
+2020-12-14 17:52:13,639 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:13,678 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:13,679 methods - DEBUG - About to change 21
+2020-12-14 17:52:13,683 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:13,725 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:13,727 methods - DEBUG - About to change 22
+2020-12-14 17:52:13,729 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:13,764 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:13,765 methods - DEBUG - About to change 23
+2020-12-14 17:52:13,766 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:13,800 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:13,801 methods - DEBUG - About to change 24
+2020-12-14 17:52:13,802 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:13,836 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:13,837 methods - DEBUG - About to change 25
+2020-12-14 17:52:13,838 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:13,872 methods - DEBUG - Setting the lights
+2020-12-14 17:52:13,873 methods - DEBUG - The new target join 152
+2020-12-14 17:52:13,874 methods - DEBUG - The old join was 119
+2020-12-14 17:52:13,876 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:13,877 methods - DEBUG - About to change 0
+2020-12-14 17:52:13,878 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:13,912 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:13,913 methods - DEBUG - About to change 1
+2020-12-14 17:52:13,914 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:13,948 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:13,949 methods - DEBUG - About to change 2
+2020-12-14 17:52:13,950 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:13,984 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:13,985 methods - DEBUG - About to change 3
+2020-12-14 17:52:13,986 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:14,020 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:14,021 methods - DEBUG - About to change 4
+2020-12-14 17:52:14,023 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:14,056 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:14,058 methods - DEBUG - About to change 5
+2020-12-14 17:52:14,059 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:14,092 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:14,094 methods - DEBUG - About to change 6
+2020-12-14 17:52:14,095 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:14,128 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:14,130 methods - DEBUG - About to change 7
+2020-12-14 17:52:14,131 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:14,165 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:14,166 methods - DEBUG - About to change 8
+2020-12-14 17:52:14,167 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:14,201 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:14,202 methods - DEBUG - About to change 9
+2020-12-14 17:52:14,203 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:14,237 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:14,238 methods - DEBUG - About to change 10
+2020-12-14 17:52:14,239 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:14,273 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:14,274 methods - DEBUG - About to change 11
+2020-12-14 17:52:14,275 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:14,309 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:14,310 methods - DEBUG - About to change 12
+2020-12-14 17:52:14,312 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:14,345 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:14,346 methods - DEBUG - About to change 13
+2020-12-14 17:52:14,348 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:14,381 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:14,382 methods - DEBUG - About to change 14
+2020-12-14 17:52:14,384 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:14,417 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:14,418 methods - DEBUG - About to change 15
+2020-12-14 17:52:14,420 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:14,453 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:14,455 methods - DEBUG - About to change 16
+2020-12-14 17:52:14,457 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:14,491 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:14,492 methods - DEBUG - About to change 17
+2020-12-14 17:52:14,494 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:14,528 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:14,530 methods - DEBUG - About to change 18
+2020-12-14 17:52:14,532 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:14,566 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:14,568 methods - DEBUG - About to change 19
+2020-12-14 17:52:14,569 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:14,604 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:14,605 methods - DEBUG - About to change 20
+2020-12-14 17:52:14,607 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:14,641 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:14,643 methods - DEBUG - About to change 21
+2020-12-14 17:52:14,644 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:14,679 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:14,680 methods - DEBUG - About to change 22
+2020-12-14 17:52:14,682 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:14,716 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:14,718 methods - DEBUG - About to change 23
+2020-12-14 17:52:14,719 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:14,754 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:14,755 methods - DEBUG - About to change 24
+2020-12-14 17:52:14,757 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:14,791 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:14,793 methods - DEBUG - About to change 25
+2020-12-14 17:52:14,794 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:14,829 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:14,830 methods - DEBUG - About to change 26
+2020-12-14 17:52:14,832 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:14,866 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:14,868 methods - DEBUG - About to change 27
+2020-12-14 17:52:14,869 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:14,904 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:14,906 methods - DEBUG - About to change 28
+2020-12-14 17:52:14,907 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:14,941 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:14,943 methods - DEBUG - About to change 29
+2020-12-14 17:52:14,945 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:14,979 methods - DEBUG - Initial pixel values 30
+2020-12-14 17:52:14,980 methods - DEBUG - About to change 30
+2020-12-14 17:52:14,982 methods - DEBUG - Setting 30 with more colour 2
+2020-12-14 17:52:15,017 methods - DEBUG - Initial pixel values 31
+2020-12-14 17:52:15,018 methods - DEBUG - About to change 31
+2020-12-14 17:52:15,020 methods - DEBUG - Setting 31 with more colour 2
+2020-12-14 17:52:15,054 methods - DEBUG - Initial pixel values 32
+2020-12-14 17:52:15,056 methods - DEBUG - About to change 32
+2020-12-14 17:52:15,057 methods - DEBUG - Setting 32 with more colour 2
+2020-12-14 17:52:15,092 methods - DEBUG - Setting the lights
+2020-12-14 17:52:15,093 methods - DEBUG - The new target join 139
+2020-12-14 17:52:15,095 methods - DEBUG - The old join was 152
+2020-12-14 17:52:15,096 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:15,098 methods - DEBUG - About to change 0
+2020-12-14 17:52:15,099 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:15,134 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:15,135 methods - DEBUG - About to change 1
+2020-12-14 17:52:15,137 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:15,171 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:15,173 methods - DEBUG - About to change 2
+2020-12-14 17:52:15,174 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:15,209 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:15,210 methods - DEBUG - About to change 3
+2020-12-14 17:52:15,212 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:15,246 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:15,248 methods - DEBUG - About to change 4
+2020-12-14 17:52:15,249 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:15,284 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:15,285 methods - DEBUG - About to change 5
+2020-12-14 17:52:15,287 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:15,321 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:15,323 methods - DEBUG - About to change 6
+2020-12-14 17:52:15,324 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:15,359 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:15,360 methods - DEBUG - About to change 7
+2020-12-14 17:52:15,362 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:15,396 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:15,398 methods - DEBUG - About to change 8
+2020-12-14 17:52:15,399 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:15,434 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:15,436 methods - DEBUG - About to change 9
+2020-12-14 17:52:15,437 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:15,472 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:15,473 methods - DEBUG - About to change 10
+2020-12-14 17:52:15,475 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:15,509 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:15,511 methods - DEBUG - About to change 11
+2020-12-14 17:52:15,512 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:15,547 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:15,548 methods - DEBUG - About to change 12
+2020-12-14 17:52:15,550 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:15,584 methods - DEBUG - Setting the lights
+2020-12-14 17:52:15,586 methods - DEBUG - The new target join 149
+2020-12-14 17:52:15,587 methods - DEBUG - The old join was 139
+2020-12-14 17:52:15,589 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:15,590 methods - DEBUG - About to change 0
+2020-12-14 17:52:15,592 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:15,626 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:15,628 methods - DEBUG - About to change 1
+2020-12-14 17:52:15,630 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:15,664 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:15,665 methods - DEBUG - About to change 2
+2020-12-14 17:52:15,667 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:15,701 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:15,703 methods - DEBUG - About to change 3
+2020-12-14 17:52:15,705 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:15,739 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:15,740 methods - DEBUG - About to change 4
+2020-12-14 17:52:15,742 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:15,777 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:15,778 methods - DEBUG - About to change 5
+2020-12-14 17:52:15,780 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:15,814 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:15,816 methods - DEBUG - About to change 6
+2020-12-14 17:52:15,817 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:15,852 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:15,853 methods - DEBUG - About to change 7
+2020-12-14 17:52:15,855 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:15,889 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:15,891 methods - DEBUG - About to change 8
+2020-12-14 17:52:15,892 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:15,927 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:15,928 methods - DEBUG - About to change 9
+2020-12-14 17:52:15,930 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:15,964 methods - DEBUG - Setting the lights
+2020-12-14 17:52:15,966 methods - DEBUG - The new target join 176
+2020-12-14 17:52:15,968 methods - DEBUG - The old join was 149
+2020-12-14 17:52:15,969 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:15,971 methods - DEBUG - About to change 0
+2020-12-14 17:52:15,972 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:16,007 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:16,008 methods - DEBUG - About to change 1
+2020-12-14 17:52:16,010 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:16,044 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:16,046 methods - DEBUG - About to change 2
+2020-12-14 17:52:16,047 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:16,082 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:16,083 methods - DEBUG - About to change 3
+2020-12-14 17:52:16,085 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:16,119 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:16,121 methods - DEBUG - About to change 4
+2020-12-14 17:52:16,123 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:16,157 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:16,159 methods - DEBUG - About to change 5
+2020-12-14 17:52:16,160 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:16,195 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:16,196 methods - DEBUG - About to change 6
+2020-12-14 17:52:16,198 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:16,232 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:16,234 methods - DEBUG - About to change 7
+2020-12-14 17:52:16,235 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:16,269 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:16,271 methods - DEBUG - About to change 8
+2020-12-14 17:52:16,273 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:16,307 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:16,309 methods - DEBUG - About to change 9
+2020-12-14 17:52:16,310 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:16,345 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:16,346 methods - DEBUG - About to change 10
+2020-12-14 17:52:16,348 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:16,383 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:16,385 methods - DEBUG - About to change 11
+2020-12-14 17:52:16,387 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:16,422 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:16,424 methods - DEBUG - About to change 12
+2020-12-14 17:52:16,426 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:16,460 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:16,468 methods - DEBUG - About to change 13
+2020-12-14 17:52:16,470 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:16,505 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:16,506 methods - DEBUG - About to change 14
+2020-12-14 17:52:16,508 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:16,542 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:16,544 methods - DEBUG - About to change 15
+2020-12-14 17:52:16,545 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:16,580 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:16,582 methods - DEBUG - About to change 16
+2020-12-14 17:52:16,583 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:16,625 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:16,626 methods - DEBUG - About to change 17
+2020-12-14 17:52:16,628 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:16,663 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:16,664 methods - DEBUG - About to change 18
+2020-12-14 17:52:16,666 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:16,700 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:16,702 methods - DEBUG - About to change 19
+2020-12-14 17:52:16,703 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:16,738 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:16,739 methods - DEBUG - About to change 20
+2020-12-14 17:52:16,741 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:16,775 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:16,777 methods - DEBUG - About to change 21
+2020-12-14 17:52:16,778 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:16,813 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:16,814 methods - DEBUG - About to change 22
+2020-12-14 17:52:16,816 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:16,850 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:16,852 methods - DEBUG - About to change 23
+2020-12-14 17:52:16,853 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:16,888 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:16,889 methods - DEBUG - About to change 24
+2020-12-14 17:52:16,891 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:16,925 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:16,927 methods - DEBUG - About to change 25
+2020-12-14 17:52:16,929 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:16,963 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:16,965 methods - DEBUG - About to change 26
+2020-12-14 17:52:16,966 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:17,001 methods - DEBUG - Setting the lights
+2020-12-14 17:52:17,003 methods - DEBUG - The new target join 195
+2020-12-14 17:52:17,004 methods - DEBUG - The old join was 176
+2020-12-14 17:52:17,006 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:17,007 methods - DEBUG - About to change 0
+2020-12-14 17:52:17,009 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:17,043 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:17,045 methods - DEBUG - About to change 1
+2020-12-14 17:52:17,046 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:17,080 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:17,082 methods - DEBUG - About to change 2
+2020-12-14 17:52:17,084 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:17,118 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:17,120 methods - DEBUG - About to change 3
+2020-12-14 17:52:17,121 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:17,156 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:17,157 methods - DEBUG - About to change 4
+2020-12-14 17:52:17,159 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:17,193 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:17,195 methods - DEBUG - About to change 5
+2020-12-14 17:52:17,196 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:17,231 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:17,232 methods - DEBUG - About to change 6
+2020-12-14 17:52:17,234 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:17,268 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:17,270 methods - DEBUG - About to change 7
+2020-12-14 17:52:17,271 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:17,306 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:17,307 methods - DEBUG - About to change 8
+2020-12-14 17:52:17,309 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:17,343 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:17,345 methods - DEBUG - About to change 9
+2020-12-14 17:52:17,346 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:17,381 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:17,382 methods - DEBUG - About to change 10
+2020-12-14 17:52:17,384 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:17,418 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:17,420 methods - DEBUG - About to change 11
+2020-12-14 17:52:17,422 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:17,456 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:17,457 methods - DEBUG - About to change 12
+2020-12-14 17:52:17,459 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:17,493 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:17,495 methods - DEBUG - About to change 13
+2020-12-14 17:52:17,496 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:17,531 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:17,532 methods - DEBUG - About to change 14
+2020-12-14 17:52:17,534 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:17,569 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:17,570 methods - DEBUG - About to change 15
+2020-12-14 17:52:17,572 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:17,606 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:17,608 methods - DEBUG - About to change 16
+2020-12-14 17:52:17,610 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:17,645 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:17,647 methods - DEBUG - About to change 17
+2020-12-14 17:52:17,649 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:17,684 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:17,685 methods - DEBUG - About to change 18
+2020-12-14 17:52:17,687 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:17,722 methods - DEBUG - Setting the lights
+2020-12-14 17:52:17,724 methods - DEBUG - The new target join 219
+2020-12-14 17:52:17,726 methods - DEBUG - The old join was 195
+2020-12-14 17:52:17,728 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:17,729 methods - DEBUG - About to change 0
+2020-12-14 17:52:17,732 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:17,766 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:17,768 methods - DEBUG - About to change 1
+2020-12-14 17:52:17,769 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:17,804 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:17,806 methods - DEBUG - About to change 2
+2020-12-14 17:52:17,807 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:17,841 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:17,843 methods - DEBUG - About to change 3
+2020-12-14 17:52:17,845 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:17,879 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:17,880 methods - DEBUG - About to change 4
+2020-12-14 17:52:17,882 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:17,916 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:17,918 methods - DEBUG - About to change 5
+2020-12-14 17:52:17,920 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:17,954 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:17,955 methods - DEBUG - About to change 6
+2020-12-14 17:52:17,957 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:17,991 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:17,993 methods - DEBUG - About to change 7
+2020-12-14 17:52:17,995 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:18,029 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:18,030 methods - DEBUG - About to change 8
+2020-12-14 17:52:18,032 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:18,066 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:18,068 methods - DEBUG - About to change 9
+2020-12-14 17:52:18,070 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:18,104 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:18,106 methods - DEBUG - About to change 10
+2020-12-14 17:52:18,107 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:18,142 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:18,143 methods - DEBUG - About to change 11
+2020-12-14 17:52:18,145 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:18,179 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:18,181 methods - DEBUG - About to change 12
+2020-12-14 17:52:18,182 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:18,217 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:18,218 methods - DEBUG - About to change 13
+2020-12-14 17:52:18,220 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:18,254 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:18,256 methods - DEBUG - About to change 14
+2020-12-14 17:52:18,258 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:18,292 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:18,294 methods - DEBUG - About to change 15
+2020-12-14 17:52:18,296 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:18,330 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:18,331 methods - DEBUG - About to change 16
+2020-12-14 17:52:18,333 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:18,367 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:18,369 methods - DEBUG - About to change 17
+2020-12-14 17:52:18,371 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:18,405 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:18,407 methods - DEBUG - About to change 18
+2020-12-14 17:52:18,408 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:18,443 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:18,444 methods - DEBUG - About to change 19
+2020-12-14 17:52:18,446 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:18,480 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:18,482 methods - DEBUG - About to change 20
+2020-12-14 17:52:18,483 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:18,518 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:18,519 methods - DEBUG - About to change 21
+2020-12-14 17:52:18,521 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:18,555 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:18,557 methods - DEBUG - About to change 22
+2020-12-14 17:52:18,558 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:18,593 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:18,594 methods - DEBUG - About to change 23
+2020-12-14 17:52:18,596 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:18,630 methods - DEBUG - Setting the lights
+2020-12-14 17:52:18,632 methods - DEBUG - The new target join 254
+2020-12-14 17:52:18,634 methods - DEBUG - The old join was 219
+2020-12-14 17:52:18,635 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:18,637 methods - DEBUG - About to change 0
+2020-12-14 17:52:18,638 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:18,673 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:18,674 methods - DEBUG - About to change 1
+2020-12-14 17:52:18,676 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:18,710 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:18,712 methods - DEBUG - About to change 2
+2020-12-14 17:52:18,713 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:18,749 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:18,756 methods - DEBUG - About to change 3
+2020-12-14 17:52:18,757 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:18,792 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:18,793 methods - DEBUG - About to change 4
+2020-12-14 17:52:18,795 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:18,829 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:18,831 methods - DEBUG - About to change 5
+2020-12-14 17:52:18,833 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:18,867 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:18,868 methods - DEBUG - About to change 6
+2020-12-14 17:52:18,870 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:18,904 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:18,906 methods - DEBUG - About to change 7
+2020-12-14 17:52:18,908 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:18,942 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:18,944 methods - DEBUG - About to change 8
+2020-12-14 17:52:18,945 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:18,979 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:18,981 methods - DEBUG - About to change 9
+2020-12-14 17:52:18,983 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:19,017 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:19,019 methods - DEBUG - About to change 10
+2020-12-14 17:52:19,020 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:19,057 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:19,059 methods - DEBUG - About to change 11
+2020-12-14 17:52:19,061 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:19,096 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:19,098 methods - DEBUG - About to change 12
+2020-12-14 17:52:19,099 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:19,135 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:19,136 methods - DEBUG - About to change 13
+2020-12-14 17:52:19,138 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:19,173 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:19,175 methods - DEBUG - About to change 14
+2020-12-14 17:52:19,176 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:19,211 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:19,212 methods - DEBUG - About to change 15
+2020-12-14 17:52:19,214 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:19,248 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:19,250 methods - DEBUG - About to change 16
+2020-12-14 17:52:19,251 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:19,287 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:19,289 methods - DEBUG - About to change 17
+2020-12-14 17:52:19,290 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:19,325 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:19,326 methods - DEBUG - About to change 18
+2020-12-14 17:52:19,328 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:19,365 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:19,367 methods - DEBUG - About to change 19
+2020-12-14 17:52:19,368 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:19,403 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:19,404 methods - DEBUG - About to change 20
+2020-12-14 17:52:19,406 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:19,440 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:19,442 methods - DEBUG - About to change 21
+2020-12-14 17:52:19,443 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:19,478 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:19,479 methods - DEBUG - About to change 22
+2020-12-14 17:52:19,481 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:19,516 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:19,517 methods - DEBUG - About to change 23
+2020-12-14 17:52:19,519 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:19,553 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:19,555 methods - DEBUG - About to change 24
+2020-12-14 17:52:19,556 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:19,590 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:19,592 methods - DEBUG - About to change 25
+2020-12-14 17:52:19,594 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:19,628 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:19,630 methods - DEBUG - About to change 26
+2020-12-14 17:52:19,631 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:19,671 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:19,673 methods - DEBUG - About to change 27
+2020-12-14 17:52:19,674 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:19,710 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:19,712 methods - DEBUG - About to change 28
+2020-12-14 17:52:19,713 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:19,747 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:19,749 methods - DEBUG - About to change 29
+2020-12-14 17:52:19,751 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:19,786 methods - DEBUG - Initial pixel values 30
+2020-12-14 17:52:19,788 methods - DEBUG - About to change 30
+2020-12-14 17:52:19,789 methods - DEBUG - Setting 30 with more colour 2
+2020-12-14 17:52:19,823 methods - DEBUG - Initial pixel values 31
+2020-12-14 17:52:19,825 methods - DEBUG - About to change 31
+2020-12-14 17:52:19,827 methods - DEBUG - Setting 31 with more colour 2
+2020-12-14 17:52:19,861 methods - DEBUG - Initial pixel values 32
+2020-12-14 17:52:19,862 methods - DEBUG - About to change 32
+2020-12-14 17:52:19,864 methods - DEBUG - Setting 32 with more colour 2
+2020-12-14 17:52:19,898 methods - DEBUG - Initial pixel values 33
+2020-12-14 17:52:19,900 methods - DEBUG - About to change 33
+2020-12-14 17:52:19,902 methods - DEBUG - Setting 33 with more colour 2
+2020-12-14 17:52:19,936 methods - DEBUG - Initial pixel values 34
+2020-12-14 17:52:19,938 methods - DEBUG - About to change 34
+2020-12-14 17:52:19,939 methods - DEBUG - Setting 34 with more colour 2
+2020-12-14 17:52:19,978 methods - DEBUG - Setting the lights
+2020-12-14 17:52:19,984 methods - DEBUG - The new target join 215
+2020-12-14 17:52:19,990 methods - DEBUG - The old join was 254
+2020-12-14 17:52:19,992 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:19,993 methods - DEBUG - About to change 0
+2020-12-14 17:52:19,995 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:20,030 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:20,032 methods - DEBUG - About to change 1
+2020-12-14 17:52:20,033 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:20,068 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:20,069 methods - DEBUG - About to change 2
+2020-12-14 17:52:20,071 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:20,105 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:20,107 methods - DEBUG - About to change 3
+2020-12-14 17:52:20,108 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:20,143 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:20,144 methods - DEBUG - About to change 4
+2020-12-14 17:52:20,146 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:20,180 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:20,182 methods - DEBUG - About to change 5
+2020-12-14 17:52:20,183 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:20,218 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:20,220 methods - DEBUG - About to change 6
+2020-12-14 17:52:20,221 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:20,256 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:20,257 methods - DEBUG - About to change 7
+2020-12-14 17:52:20,259 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:20,293 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:20,295 methods - DEBUG - About to change 8
+2020-12-14 17:52:20,296 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:20,331 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:20,332 methods - DEBUG - About to change 9
+2020-12-14 17:52:20,334 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:20,368 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:20,370 methods - DEBUG - About to change 10
+2020-12-14 17:52:20,372 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:20,406 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:20,408 methods - DEBUG - About to change 11
+2020-12-14 17:52:20,409 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:20,444 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:20,445 methods - DEBUG - About to change 12
+2020-12-14 17:52:20,447 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:20,482 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:20,483 methods - DEBUG - About to change 13
+2020-12-14 17:52:20,486 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:20,521 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:20,523 methods - DEBUG - About to change 14
+2020-12-14 17:52:20,524 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:20,559 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:20,560 methods - DEBUG - About to change 15
+2020-12-14 17:52:20,562 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:20,596 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:20,598 methods - DEBUG - About to change 16
+2020-12-14 17:52:20,600 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:20,634 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:20,636 methods - DEBUG - About to change 17
+2020-12-14 17:52:20,637 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:20,672 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:20,673 methods - DEBUG - About to change 18
+2020-12-14 17:52:20,675 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:20,710 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:20,711 methods - DEBUG - About to change 19
+2020-12-14 17:52:20,713 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:20,747 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:20,749 methods - DEBUG - About to change 20
+2020-12-14 17:52:20,750 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:20,785 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:20,786 methods - DEBUG - About to change 21
+2020-12-14 17:52:20,788 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:20,822 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:20,824 methods - DEBUG - About to change 22
+2020-12-14 17:52:20,826 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:20,860 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:20,862 methods - DEBUG - About to change 23
+2020-12-14 17:52:20,863 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:20,911 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:20,913 methods - DEBUG - About to change 24
+2020-12-14 17:52:20,915 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:20,956 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:20,958 methods - DEBUG - About to change 25
+2020-12-14 17:52:20,959 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:21,003 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:21,004 methods - DEBUG - About to change 26
+2020-12-14 17:52:21,005 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:21,051 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:21,053 methods - DEBUG - About to change 27
+2020-12-14 17:52:21,054 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:21,091 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:21,093 methods - DEBUG - About to change 28
+2020-12-14 17:52:21,094 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:21,128 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:21,130 methods - DEBUG - About to change 29
+2020-12-14 17:52:21,131 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:21,171 methods - DEBUG - Initial pixel values 30
+2020-12-14 17:52:21,173 methods - DEBUG - About to change 30
+2020-12-14 17:52:21,174 methods - DEBUG - Setting 30 with more colour 2
+2020-12-14 17:52:21,211 methods - DEBUG - Initial pixel values 31
+2020-12-14 17:52:21,213 methods - DEBUG - About to change 31
+2020-12-14 17:52:21,214 methods - DEBUG - Setting 31 with more colour 2
+2020-12-14 17:52:21,251 methods - DEBUG - Initial pixel values 32
+2020-12-14 17:52:21,253 methods - DEBUG - About to change 32
+2020-12-14 17:52:21,254 methods - DEBUG - Setting 32 with more colour 2
+2020-12-14 17:52:21,295 methods - DEBUG - Initial pixel values 33
+2020-12-14 17:52:21,296 methods - DEBUG - About to change 33
+2020-12-14 17:52:21,297 methods - DEBUG - Setting 33 with more colour 2
+2020-12-14 17:52:21,341 methods - DEBUG - Initial pixel values 34
+2020-12-14 17:52:21,342 methods - DEBUG - About to change 34
+2020-12-14 17:52:21,344 methods - DEBUG - Setting 34 with more colour 2
+2020-12-14 17:52:21,383 methods - DEBUG - Initial pixel values 35
+2020-12-14 17:52:21,385 methods - DEBUG - About to change 35
+2020-12-14 17:52:21,386 methods - DEBUG - Setting 35 with more colour 2
+2020-12-14 17:52:21,421 methods - DEBUG - Initial pixel values 36
+2020-12-14 17:52:21,422 methods - DEBUG - About to change 36
+2020-12-14 17:52:21,424 methods - DEBUG - Setting 36 with more colour 2
+2020-12-14 17:52:21,457 methods - DEBUG - Initial pixel values 37
+2020-12-14 17:52:21,458 methods - DEBUG - About to change 37
+2020-12-14 17:52:21,460 methods - DEBUG - Setting 37 with more colour 2
+2020-12-14 17:52:21,494 methods - DEBUG - Initial pixel values 38
+2020-12-14 17:52:21,495 methods - DEBUG - About to change 38
+2020-12-14 17:52:21,496 methods - DEBUG - Setting 38 with more colour 2
+2020-12-14 17:52:21,530 methods - DEBUG - Setting the lights
+2020-12-14 17:52:21,532 methods - DEBUG - The new target join 224
+2020-12-14 17:52:21,533 methods - DEBUG - The old join was 215
+2020-12-14 17:52:21,534 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:21,535 methods - DEBUG - About to change 0
+2020-12-14 17:52:21,537 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:21,570 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:21,571 methods - DEBUG - About to change 1
+2020-12-14 17:52:21,573 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:21,606 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:21,608 methods - DEBUG - About to change 2
+2020-12-14 17:52:21,609 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:21,642 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:21,644 methods - DEBUG - About to change 3
+2020-12-14 17:52:21,645 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:21,678 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:21,680 methods - DEBUG - About to change 4
+2020-12-14 17:52:21,681 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:21,715 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:21,716 methods - DEBUG - About to change 5
+2020-12-14 17:52:21,717 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:21,751 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:21,752 methods - DEBUG - About to change 6
+2020-12-14 17:52:21,753 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:21,787 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:21,788 methods - DEBUG - About to change 7
+2020-12-14 17:52:21,789 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:21,825 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:21,826 methods - DEBUG - About to change 8
+2020-12-14 17:52:21,827 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:21,861 methods - DEBUG - Setting the lights
+2020-12-14 17:52:21,862 methods - DEBUG - The new target join 258
+2020-12-14 17:52:21,864 methods - DEBUG - The old join was 224
+2020-12-14 17:52:21,865 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:21,866 methods - DEBUG - About to change 0
+2020-12-14 17:52:21,868 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:21,901 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:21,902 methods - DEBUG - About to change 1
+2020-12-14 17:52:21,904 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:21,937 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:21,939 methods - DEBUG - About to change 2
+2020-12-14 17:52:21,940 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:21,973 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:21,975 methods - DEBUG - About to change 3
+2020-12-14 17:52:21,976 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:22,010 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:22,011 methods - DEBUG - About to change 4
+2020-12-14 17:52:22,012 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:22,046 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:22,048 methods - DEBUG - About to change 5
+2020-12-14 17:52:22,049 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:22,083 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:22,084 methods - DEBUG - About to change 6
+2020-12-14 17:52:22,085 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:22,119 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:22,120 methods - DEBUG - About to change 7
+2020-12-14 17:52:22,121 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:22,155 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:22,156 methods - DEBUG - About to change 8
+2020-12-14 17:52:22,157 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:22,191 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:22,192 methods - DEBUG - About to change 9
+2020-12-14 17:52:22,193 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:22,227 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:22,228 methods - DEBUG - About to change 10
+2020-12-14 17:52:22,230 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:22,263 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:22,264 methods - DEBUG - About to change 11
+2020-12-14 17:52:22,266 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:22,299 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:22,300 methods - DEBUG - About to change 12
+2020-12-14 17:52:22,302 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:22,335 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:22,337 methods - DEBUG - About to change 13
+2020-12-14 17:52:22,338 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:22,372 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:22,373 methods - DEBUG - About to change 14
+2020-12-14 17:52:22,375 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:22,409 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:22,411 methods - DEBUG - About to change 15
+2020-12-14 17:52:22,412 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:22,447 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:22,448 methods - DEBUG - About to change 16
+2020-12-14 17:52:22,450 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:22,484 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:22,486 methods - DEBUG - About to change 17
+2020-12-14 17:52:22,487 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:22,522 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:22,523 methods - DEBUG - About to change 18
+2020-12-14 17:52:22,525 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:22,559 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:22,561 methods - DEBUG - About to change 19
+2020-12-14 17:52:22,563 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:22,597 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:22,599 methods - DEBUG - About to change 20
+2020-12-14 17:52:22,600 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:22,635 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:22,636 methods - DEBUG - About to change 21
+2020-12-14 17:52:22,638 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:22,672 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:22,674 methods - DEBUG - About to change 22
+2020-12-14 17:52:22,675 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:22,710 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:22,711 methods - DEBUG - About to change 23
+2020-12-14 17:52:22,713 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:22,747 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:22,749 methods - DEBUG - About to change 24
+2020-12-14 17:52:22,750 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:22,788 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:22,790 methods - DEBUG - About to change 25
+2020-12-14 17:52:22,794 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:22,830 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:22,832 methods - DEBUG - About to change 26
+2020-12-14 17:52:22,833 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:22,868 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:22,869 methods - DEBUG - About to change 27
+2020-12-14 17:52:22,871 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:22,905 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:22,907 methods - DEBUG - About to change 28
+2020-12-14 17:52:22,914 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:22,948 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:22,950 methods - DEBUG - About to change 29
+2020-12-14 17:52:22,951 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:22,986 methods - DEBUG - Initial pixel values 30
+2020-12-14 17:52:22,987 methods - DEBUG - About to change 30
+2020-12-14 17:52:22,989 methods - DEBUG - Setting 30 with more colour 2
+2020-12-14 17:52:23,023 methods - DEBUG - Initial pixel values 31
+2020-12-14 17:52:23,025 methods - DEBUG - About to change 31
+2020-12-14 17:52:23,026 methods - DEBUG - Setting 31 with more colour 2
+2020-12-14 17:52:23,061 methods - DEBUG - Initial pixel values 32
+2020-12-14 17:52:23,062 methods - DEBUG - About to change 32
+2020-12-14 17:52:23,064 methods - DEBUG - Setting 32 with more colour 2
+2020-12-14 17:52:23,098 methods - DEBUG - Initial pixel values 33
+2020-12-14 17:52:23,100 methods - DEBUG - About to change 33
+2020-12-14 17:52:23,104 methods - DEBUG - Setting 33 with more colour 2
+2020-12-14 17:52:23,138 methods - DEBUG - Setting the lights
+2020-12-14 17:52:23,140 methods - DEBUG - The new target join 221
+2020-12-14 17:52:23,141 methods - DEBUG - The old join was 258
+2020-12-14 17:52:23,143 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:23,144 methods - DEBUG - About to change 0
+2020-12-14 17:52:23,146 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:23,180 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:23,182 methods - DEBUG - About to change 1
+2020-12-14 17:52:23,184 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:23,218 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:23,219 methods - DEBUG - About to change 2
+2020-12-14 17:52:23,221 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:23,255 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:23,257 methods - DEBUG - About to change 3
+2020-12-14 17:52:23,259 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:23,293 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:23,295 methods - DEBUG - About to change 4
+2020-12-14 17:52:23,296 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:23,330 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:23,332 methods - DEBUG - About to change 5
+2020-12-14 17:52:23,334 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:23,368 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:23,370 methods - DEBUG - About to change 6
+2020-12-14 17:52:23,371 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:23,406 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:23,407 methods - DEBUG - About to change 7
+2020-12-14 17:52:23,414 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:23,448 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:23,450 methods - DEBUG - About to change 8
+2020-12-14 17:52:23,451 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:23,486 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:23,487 methods - DEBUG - About to change 9
+2020-12-14 17:52:23,489 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:23,523 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:23,525 methods - DEBUG - About to change 10
+2020-12-14 17:52:23,526 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:23,561 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:23,562 methods - DEBUG - About to change 11
+2020-12-14 17:52:23,564 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:23,598 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:23,600 methods - DEBUG - About to change 12
+2020-12-14 17:52:23,602 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:23,636 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:23,638 methods - DEBUG - About to change 13
+2020-12-14 17:52:23,639 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:23,674 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:23,675 methods - DEBUG - About to change 14
+2020-12-14 17:52:23,677 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:23,711 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:23,713 methods - DEBUG - About to change 15
+2020-12-14 17:52:23,714 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:23,750 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:23,751 methods - DEBUG - About to change 16
+2020-12-14 17:52:23,753 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:23,787 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:23,789 methods - DEBUG - About to change 17
+2020-12-14 17:52:23,790 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:23,825 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:23,827 methods - DEBUG - About to change 18
+2020-12-14 17:52:23,828 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:23,863 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:23,864 methods - DEBUG - About to change 19
+2020-12-14 17:52:23,866 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:23,900 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:23,902 methods - DEBUG - About to change 20
+2020-12-14 17:52:23,903 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:23,937 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:23,939 methods - DEBUG - About to change 21
+2020-12-14 17:52:23,941 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:23,975 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:23,977 methods - DEBUG - About to change 22
+2020-12-14 17:52:23,978 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:24,013 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:24,014 methods - DEBUG - About to change 23
+2020-12-14 17:52:24,016 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:24,051 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:24,053 methods - DEBUG - About to change 24
+2020-12-14 17:52:24,054 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:24,089 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:24,090 methods - DEBUG - About to change 25
+2020-12-14 17:52:24,092 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:24,126 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:24,128 methods - DEBUG - About to change 26
+2020-12-14 17:52:24,129 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:24,164 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:24,165 methods - DEBUG - About to change 27
+2020-12-14 17:52:24,167 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:24,201 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:24,203 methods - DEBUG - About to change 28
+2020-12-14 17:52:24,204 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:24,239 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:24,240 methods - DEBUG - About to change 29
+2020-12-14 17:52:24,242 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:24,276 methods - DEBUG - Initial pixel values 30
+2020-12-14 17:52:24,278 methods - DEBUG - About to change 30
+2020-12-14 17:52:24,279 methods - DEBUG - Setting 30 with more colour 2
+2020-12-14 17:52:24,319 methods - DEBUG - Initial pixel values 31
+2020-12-14 17:52:24,320 methods - DEBUG - About to change 31
+2020-12-14 17:52:24,322 methods - DEBUG - Setting 31 with more colour 2
+2020-12-14 17:52:24,356 methods - DEBUG - Initial pixel values 32
+2020-12-14 17:52:24,358 methods - DEBUG - About to change 32
+2020-12-14 17:52:24,359 methods - DEBUG - Setting 32 with more colour 2
+2020-12-14 17:52:24,394 methods - DEBUG - Initial pixel values 33
+2020-12-14 17:52:24,395 methods - DEBUG - About to change 33
+2020-12-14 17:52:24,397 methods - DEBUG - Setting 33 with more colour 2
+2020-12-14 17:52:24,431 methods - DEBUG - Initial pixel values 34
+2020-12-14 17:52:24,433 methods - DEBUG - About to change 34
+2020-12-14 17:52:24,434 methods - DEBUG - Setting 34 with more colour 2
+2020-12-14 17:52:24,469 methods - DEBUG - Initial pixel values 35
+2020-12-14 17:52:24,470 methods - DEBUG - About to change 35
+2020-12-14 17:52:24,472 methods - DEBUG - Setting 35 with more colour 2
+2020-12-14 17:52:24,506 methods - DEBUG - Initial pixel values 36
+2020-12-14 17:52:24,508 methods - DEBUG - About to change 36
+2020-12-14 17:52:24,509 methods - DEBUG - Setting 36 with more colour 2
+2020-12-14 17:52:24,544 methods - DEBUG - Setting the lights
+2020-12-14 17:52:24,546 methods - DEBUG - The new target join 216
+2020-12-14 17:52:24,547 methods - DEBUG - The old join was 221
+2020-12-14 17:52:24,549 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:24,550 methods - DEBUG - About to change 0
+2020-12-14 17:52:24,552 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:24,586 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:24,588 methods - DEBUG - About to change 1
+2020-12-14 17:52:24,589 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:24,624 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:24,625 methods - DEBUG - About to change 2
+2020-12-14 17:52:24,627 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:24,662 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:24,664 methods - DEBUG - About to change 3
+2020-12-14 17:52:24,665 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:24,700 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:24,702 methods - DEBUG - About to change 4
+2020-12-14 17:52:24,703 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:24,737 methods - DEBUG - Setting the lights
+2020-12-14 17:52:24,739 methods - DEBUG - The new target join 213
+2020-12-14 17:52:24,741 methods - DEBUG - The old join was 216
+2020-12-14 17:52:24,742 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:24,744 methods - DEBUG - About to change 0
+2020-12-14 17:52:24,745 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:24,780 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:24,782 methods - DEBUG - About to change 1
+2020-12-14 17:52:24,788 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:24,823 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:24,824 methods - DEBUG - About to change 2
+2020-12-14 17:52:24,826 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:24,860 methods - DEBUG - Setting the lights
+2020-12-14 17:52:24,862 methods - DEBUG - The new target join 215
+2020-12-14 17:52:24,863 methods - DEBUG - The old join was 213
+2020-12-14 17:52:24,865 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:24,866 methods - DEBUG - About to change 0
+2020-12-14 17:52:24,868 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:24,902 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:24,904 methods - DEBUG - About to change 1
+2020-12-14 17:52:24,906 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:24,945 methods - DEBUG - Setting the lights
+2020-12-14 17:52:24,946 methods - DEBUG - The new target join 253
+2020-12-14 17:52:24,948 methods - DEBUG - The old join was 215
+2020-12-14 17:52:24,949 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:24,951 methods - DEBUG - About to change 0
+2020-12-14 17:52:24,952 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:24,987 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:24,988 methods - DEBUG - About to change 1
+2020-12-14 17:52:24,990 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:25,024 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:25,026 methods - DEBUG - About to change 2
+2020-12-14 17:52:25,028 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:25,062 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:25,064 methods - DEBUG - About to change 3
+2020-12-14 17:52:25,065 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:25,100 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:25,101 methods - DEBUG - About to change 4
+2020-12-14 17:52:25,103 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:25,137 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:25,139 methods - DEBUG - About to change 5
+2020-12-14 17:52:25,140 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:25,175 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:25,177 methods - DEBUG - About to change 6
+2020-12-14 17:52:25,178 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:25,213 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:25,214 methods - DEBUG - About to change 7
+2020-12-14 17:52:25,216 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:25,250 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:25,252 methods - DEBUG - About to change 8
+2020-12-14 17:52:25,253 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:25,288 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:25,289 methods - DEBUG - About to change 9
+2020-12-14 17:52:25,291 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:25,325 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:25,327 methods - DEBUG - About to change 10
+2020-12-14 17:52:25,328 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:25,363 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:25,364 methods - DEBUG - About to change 11
+2020-12-14 17:52:25,366 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:25,400 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:25,402 methods - DEBUG - About to change 12
+2020-12-14 17:52:25,404 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:25,443 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:25,444 methods - DEBUG - About to change 13
+2020-12-14 17:52:25,446 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:25,480 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:25,483 methods - DEBUG - About to change 14
+2020-12-14 17:52:25,486 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:25,523 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:25,525 methods - DEBUG - About to change 15
+2020-12-14 17:52:25,526 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:25,561 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:25,562 methods - DEBUG - About to change 16
+2020-12-14 17:52:25,564 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:25,598 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:25,600 methods - DEBUG - About to change 17
+2020-12-14 17:52:25,601 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:25,636 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:25,637 methods - DEBUG - About to change 18
+2020-12-14 17:52:25,639 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:25,673 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:25,675 methods - DEBUG - About to change 19
+2020-12-14 17:52:25,676 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:25,711 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:25,712 methods - DEBUG - About to change 20
+2020-12-14 17:52:25,714 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:25,748 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:25,750 methods - DEBUG - About to change 21
+2020-12-14 17:52:25,751 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:25,788 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:25,790 methods - DEBUG - About to change 22
+2020-12-14 17:52:25,794 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:25,831 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:25,832 methods - DEBUG - About to change 23
+2020-12-14 17:52:25,834 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:25,868 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:25,870 methods - DEBUG - About to change 24
+2020-12-14 17:52:25,871 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:25,906 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:25,911 methods - DEBUG - About to change 25
+2020-12-14 17:52:25,912 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:25,947 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:25,949 methods - DEBUG - About to change 26
+2020-12-14 17:52:25,950 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:25,985 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:25,986 methods - DEBUG - About to change 27
+2020-12-14 17:52:25,988 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:26,022 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:26,024 methods - DEBUG - About to change 28
+2020-12-14 17:52:26,026 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:26,060 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:26,062 methods - DEBUG - About to change 29
+2020-12-14 17:52:26,063 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:26,098 methods - DEBUG - Initial pixel values 30
+2020-12-14 17:52:26,099 methods - DEBUG - About to change 30
+2020-12-14 17:52:26,103 methods - DEBUG - Setting 30 with more colour 2
+2020-12-14 17:52:26,137 methods - DEBUG - Initial pixel values 31
+2020-12-14 17:52:26,139 methods - DEBUG - About to change 31
+2020-12-14 17:52:26,140 methods - DEBUG - Setting 31 with more colour 2
+2020-12-14 17:52:26,175 methods - DEBUG - Initial pixel values 32
+2020-12-14 17:52:26,177 methods - DEBUG - About to change 32
+2020-12-14 17:52:26,178 methods - DEBUG - Setting 32 with more colour 2
+2020-12-14 17:52:26,213 methods - DEBUG - Initial pixel values 33
+2020-12-14 17:52:26,214 methods - DEBUG - About to change 33
+2020-12-14 17:52:26,216 methods - DEBUG - Setting 33 with more colour 2
+2020-12-14 17:52:26,250 methods - DEBUG - Initial pixel values 34
+2020-12-14 17:52:26,252 methods - DEBUG - About to change 34
+2020-12-14 17:52:26,253 methods - DEBUG - Setting 34 with more colour 2
+2020-12-14 17:52:26,288 methods - DEBUG - Initial pixel values 35
+2020-12-14 17:52:26,289 methods - DEBUG - About to change 35
+2020-12-14 17:52:26,291 methods - DEBUG - Setting 35 with more colour 2
+2020-12-14 17:52:26,325 methods - DEBUG - Initial pixel values 36
+2020-12-14 17:52:26,327 methods - DEBUG - About to change 36
+2020-12-14 17:52:26,328 methods - DEBUG - Setting 36 with more colour 2
+2020-12-14 17:52:26,363 methods - DEBUG - Initial pixel values 37
+2020-12-14 17:52:26,364 methods - DEBUG - About to change 37
+2020-12-14 17:52:26,366 methods - DEBUG - Setting 37 with more colour 2
+2020-12-14 17:52:26,400 methods - DEBUG - Setting the lights
+2020-12-14 17:52:26,402 methods - DEBUG - The new target join 265
+2020-12-14 17:52:26,404 methods - DEBUG - The old join was 253
+2020-12-14 17:52:26,405 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:26,407 methods - DEBUG - About to change 0
+2020-12-14 17:52:26,411 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:26,446 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:26,447 methods - DEBUG - About to change 1
+2020-12-14 17:52:26,449 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:26,484 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:26,485 methods - DEBUG - About to change 2
+2020-12-14 17:52:26,487 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:26,521 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:26,526 methods - DEBUG - About to change 3
+2020-12-14 17:52:26,527 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:26,563 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:26,564 methods - DEBUG - About to change 4
+2020-12-14 17:52:26,566 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:26,610 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:26,612 methods - DEBUG - About to change 5
+2020-12-14 17:52:26,614 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:26,656 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:26,658 methods - DEBUG - About to change 6
+2020-12-14 17:52:26,659 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:26,694 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:26,695 methods - DEBUG - About to change 7
+2020-12-14 17:52:26,696 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:26,730 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:26,731 methods - DEBUG - About to change 8
+2020-12-14 17:52:26,733 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:26,766 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:26,768 methods - DEBUG - About to change 9
+2020-12-14 17:52:26,769 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:26,802 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:26,804 methods - DEBUG - About to change 10
+2020-12-14 17:52:26,805 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:26,839 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:26,840 methods - DEBUG - About to change 11
+2020-12-14 17:52:26,841 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:26,875 methods - DEBUG - Setting the lights
+2020-12-14 17:52:26,876 methods - DEBUG - The new target join 244
+2020-12-14 17:52:26,877 methods - DEBUG - The old join was 265
+2020-12-14 17:52:26,878 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:26,880 methods - DEBUG - About to change 0
+2020-12-14 17:52:26,881 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:26,915 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:26,916 methods - DEBUG - About to change 1
+2020-12-14 17:52:26,917 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:26,951 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:26,952 methods - DEBUG - About to change 2
+2020-12-14 17:52:26,953 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:26,987 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:26,988 methods - DEBUG - About to change 3
+2020-12-14 17:52:26,989 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:27,023 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:27,024 methods - DEBUG - About to change 4
+2020-12-14 17:52:27,025 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:27,059 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:27,060 methods - DEBUG - About to change 5
+2020-12-14 17:52:27,062 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:27,095 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:27,096 methods - DEBUG - About to change 6
+2020-12-14 17:52:27,098 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:27,131 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:27,132 methods - DEBUG - About to change 7
+2020-12-14 17:52:27,134 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:27,167 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:27,168 methods - DEBUG - About to change 8
+2020-12-14 17:52:27,170 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:27,204 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:27,205 methods - DEBUG - About to change 9
+2020-12-14 17:52:27,206 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:27,240 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:27,241 methods - DEBUG - About to change 10
+2020-12-14 17:52:27,242 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:27,276 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:27,277 methods - DEBUG - About to change 11
+2020-12-14 17:52:27,278 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:27,312 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:27,313 methods - DEBUG - About to change 12
+2020-12-14 17:52:27,314 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:27,348 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:27,349 methods - DEBUG - About to change 13
+2020-12-14 17:52:27,350 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:27,384 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:27,386 methods - DEBUG - About to change 14
+2020-12-14 17:52:27,388 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:27,423 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:27,425 methods - DEBUG - About to change 15
+2020-12-14 17:52:27,427 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:27,462 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:27,463 methods - DEBUG - About to change 16
+2020-12-14 17:52:27,465 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:27,500 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:27,503 methods - DEBUG - About to change 17
+2020-12-14 17:52:27,505 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:27,539 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:27,540 methods - DEBUG - About to change 18
+2020-12-14 17:52:27,542 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:27,576 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:27,578 methods - DEBUG - About to change 19
+2020-12-14 17:52:27,580 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:27,614 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:27,616 methods - DEBUG - About to change 20
+2020-12-14 17:52:27,617 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:27,652 methods - DEBUG - Setting the lights
+2020-12-14 17:52:27,653 methods - DEBUG - The new target join 264
+2020-12-14 17:52:27,655 methods - DEBUG - The old join was 244
+2020-12-14 17:52:27,656 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:27,658 methods - DEBUG - About to change 0
+2020-12-14 17:52:27,659 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:27,694 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:27,695 methods - DEBUG - About to change 1
+2020-12-14 17:52:27,697 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:27,731 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:27,733 methods - DEBUG - About to change 2
+2020-12-14 17:52:27,734 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:27,769 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:27,770 methods - DEBUG - About to change 3
+2020-12-14 17:52:27,772 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:27,806 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:27,808 methods - DEBUG - About to change 4
+2020-12-14 17:52:27,810 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:27,844 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:27,846 methods - DEBUG - About to change 5
+2020-12-14 17:52:27,847 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:27,882 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:27,883 methods - DEBUG - About to change 6
+2020-12-14 17:52:27,885 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:27,919 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:27,921 methods - DEBUG - About to change 7
+2020-12-14 17:52:27,922 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:27,957 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:27,958 methods - DEBUG - About to change 8
+2020-12-14 17:52:27,960 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:27,994 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:27,996 methods - DEBUG - About to change 9
+2020-12-14 17:52:27,997 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:28,032 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:28,033 methods - DEBUG - About to change 10
+2020-12-14 17:52:28,035 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:28,069 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:28,071 methods - DEBUG - About to change 11
+2020-12-14 17:52:28,073 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:28,107 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:28,109 methods - DEBUG - About to change 12
+2020-12-14 17:52:28,110 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:28,145 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:28,146 methods - DEBUG - About to change 13
+2020-12-14 17:52:28,148 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:28,182 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:28,184 methods - DEBUG - About to change 14
+2020-12-14 17:52:28,185 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:28,219 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:28,221 methods - DEBUG - About to change 15
+2020-12-14 17:52:28,223 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:28,257 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:28,259 methods - DEBUG - About to change 16
+2020-12-14 17:52:28,260 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:28,295 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:28,296 methods - DEBUG - About to change 17
+2020-12-14 17:52:28,298 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:28,332 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:28,334 methods - DEBUG - About to change 18
+2020-12-14 17:52:28,335 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:28,370 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:28,371 methods - DEBUG - About to change 19
+2020-12-14 17:52:28,373 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:28,408 methods - DEBUG - Setting the lights
+2020-12-14 17:52:28,409 methods - DEBUG - The new target join 239
+2020-12-14 17:52:28,411 methods - DEBUG - The old join was 264
+2020-12-14 17:52:28,413 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:28,414 methods - DEBUG - About to change 0
+2020-12-14 17:52:28,416 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:28,450 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:28,452 methods - DEBUG - About to change 1
+2020-12-14 17:52:28,453 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:28,487 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:28,489 methods - DEBUG - About to change 2
+2020-12-14 17:52:28,491 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:28,525 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:28,527 methods - DEBUG - About to change 3
+2020-12-14 17:52:28,528 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:28,563 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:28,564 methods - DEBUG - About to change 4
+2020-12-14 17:52:28,566 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:28,600 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:28,602 methods - DEBUG - About to change 5
+2020-12-14 17:52:28,603 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:28,638 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:28,639 methods - DEBUG - About to change 6
+2020-12-14 17:52:28,641 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:28,675 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:28,677 methods - DEBUG - About to change 7
+2020-12-14 17:52:28,678 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:28,713 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:28,714 methods - DEBUG - About to change 8
+2020-12-14 17:52:28,716 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:28,750 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:28,752 methods - DEBUG - About to change 9
+2020-12-14 17:52:28,754 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:28,788 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:28,789 methods - DEBUG - About to change 10
+2020-12-14 17:52:28,791 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:28,825 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:28,827 methods - DEBUG - About to change 11
+2020-12-14 17:52:28,829 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:28,863 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:28,864 methods - DEBUG - About to change 12
+2020-12-14 17:52:28,866 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:28,900 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:28,902 methods - DEBUG - About to change 13
+2020-12-14 17:52:28,904 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:28,938 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:28,939 methods - DEBUG - About to change 14
+2020-12-14 17:52:28,941 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:28,976 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:28,977 methods - DEBUG - About to change 15
+2020-12-14 17:52:28,979 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:29,013 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:29,015 methods - DEBUG - About to change 16
+2020-12-14 17:52:29,017 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:29,051 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:29,053 methods - DEBUG - About to change 17
+2020-12-14 17:52:29,054 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:29,088 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:29,090 methods - DEBUG - About to change 18
+2020-12-14 17:52:29,092 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:29,126 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:29,128 methods - DEBUG - About to change 19
+2020-12-14 17:52:29,129 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:29,164 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:29,165 methods - DEBUG - About to change 20
+2020-12-14 17:52:29,167 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:29,201 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:29,203 methods - DEBUG - About to change 21
+2020-12-14 17:52:29,204 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:29,239 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:29,240 methods - DEBUG - About to change 22
+2020-12-14 17:52:29,242 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:29,276 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:29,278 methods - DEBUG - About to change 23
+2020-12-14 17:52:29,279 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:29,314 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:29,315 methods - DEBUG - About to change 24
+2020-12-14 17:52:29,317 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:29,351 methods - DEBUG - Setting the lights
+2020-12-14 17:52:29,353 methods - DEBUG - The new target join 249
+2020-12-14 17:52:29,354 methods - DEBUG - The old join was 239
+2020-12-14 17:52:29,356 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:29,357 methods - DEBUG - About to change 0
+2020-12-14 17:52:29,359 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:29,393 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:29,395 methods - DEBUG - About to change 1
+2020-12-14 17:52:29,396 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:29,430 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:29,433 methods - DEBUG - About to change 2
+2020-12-14 17:52:29,435 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:29,469 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:29,470 methods - DEBUG - About to change 3
+2020-12-14 17:52:29,472 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:29,506 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:29,508 methods - DEBUG - About to change 4
+2020-12-14 17:52:29,510 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:29,544 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:29,546 methods - DEBUG - About to change 5
+2020-12-14 17:52:29,547 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:29,582 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:29,583 methods - DEBUG - About to change 6
+2020-12-14 17:52:29,585 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:29,619 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:29,621 methods - DEBUG - About to change 7
+2020-12-14 17:52:29,622 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:29,657 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:29,658 methods - DEBUG - About to change 8
+2020-12-14 17:52:29,660 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:29,694 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:29,696 methods - DEBUG - About to change 9
+2020-12-14 17:52:29,698 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:29,732 methods - DEBUG - Setting the lights
+2020-12-14 17:52:29,734 methods - DEBUG - The new target join 259
+2020-12-14 17:52:29,735 methods - DEBUG - The old join was 249
+2020-12-14 17:52:29,737 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:29,738 methods - DEBUG - About to change 0
+2020-12-14 17:52:29,740 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:29,774 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:29,776 methods - DEBUG - About to change 1
+2020-12-14 17:52:29,777 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:29,812 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:29,813 methods - DEBUG - About to change 2
+2020-12-14 17:52:29,815 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:29,849 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:29,851 methods - DEBUG - About to change 3
+2020-12-14 17:52:29,852 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:29,887 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:29,888 methods - DEBUG - About to change 4
+2020-12-14 17:52:29,890 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:29,925 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:29,926 methods - DEBUG - About to change 5
+2020-12-14 17:52:29,928 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:29,962 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:29,964 methods - DEBUG - About to change 6
+2020-12-14 17:52:29,965 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:29,999 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:30,001 methods - DEBUG - About to change 7
+2020-12-14 17:52:30,003 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:30,037 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:30,039 methods - DEBUG - About to change 8
+2020-12-14 17:52:30,041 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:30,075 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:30,077 methods - DEBUG - About to change 9
+2020-12-14 17:52:30,078 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:30,113 methods - DEBUG - Setting the lights
+2020-12-14 17:52:30,114 methods - DEBUG - The new target join 297
+2020-12-14 17:52:30,116 methods - DEBUG - The old join was 259
+2020-12-14 17:52:30,117 methods - DEBUG - Initial pixel values 0
+2020-12-14 17:52:30,119 methods - DEBUG - About to change 0
+2020-12-14 17:52:30,120 methods - DEBUG - Setting 0 with more colour 2
+2020-12-14 17:52:30,155 methods - DEBUG - Initial pixel values 1
+2020-12-14 17:52:30,157 methods - DEBUG - About to change 1
+2020-12-14 17:52:30,158 methods - DEBUG - Setting 1 with more colour 2
+2020-12-14 17:52:30,193 methods - DEBUG - Initial pixel values 2
+2020-12-14 17:52:30,194 methods - DEBUG - About to change 2
+2020-12-14 17:52:30,196 methods - DEBUG - Setting 2 with more colour 2
+2020-12-14 17:52:30,230 methods - DEBUG - Initial pixel values 3
+2020-12-14 17:52:30,232 methods - DEBUG - About to change 3
+2020-12-14 17:52:30,233 methods - DEBUG - Setting 3 with more colour 2
+2020-12-14 17:52:30,268 methods - DEBUG - Initial pixel values 4
+2020-12-14 17:52:30,269 methods - DEBUG - About to change 4
+2020-12-14 17:52:30,271 methods - DEBUG - Setting 4 with more colour 2
+2020-12-14 17:52:30,305 methods - DEBUG - Initial pixel values 5
+2020-12-14 17:52:30,307 methods - DEBUG - About to change 5
+2020-12-14 17:52:30,308 methods - DEBUG - Setting 5 with more colour 2
+2020-12-14 17:52:30,343 methods - DEBUG - Initial pixel values 6
+2020-12-14 17:52:30,344 methods - DEBUG - About to change 6
+2020-12-14 17:52:30,346 methods - DEBUG - Setting 6 with more colour 2
+2020-12-14 17:52:30,380 methods - DEBUG - Initial pixel values 7
+2020-12-14 17:52:30,382 methods - DEBUG - About to change 7
+2020-12-14 17:52:30,383 methods - DEBUG - Setting 7 with more colour 2
+2020-12-14 17:52:30,418 methods - DEBUG - Initial pixel values 8
+2020-12-14 17:52:30,419 methods - DEBUG - About to change 8
+2020-12-14 17:52:30,421 methods - DEBUG - Setting 8 with more colour 2
+2020-12-14 17:52:30,455 methods - DEBUG - Initial pixel values 9
+2020-12-14 17:52:30,457 methods - DEBUG - About to change 9
+2020-12-14 17:52:30,458 methods - DEBUG - Setting 9 with more colour 2
+2020-12-14 17:52:30,493 methods - DEBUG - Initial pixel values 10
+2020-12-14 17:52:30,495 methods - DEBUG - About to change 10
+2020-12-14 17:52:30,496 methods - DEBUG - Setting 10 with more colour 2
+2020-12-14 17:52:30,530 methods - DEBUG - Initial pixel values 11
+2020-12-14 17:52:30,532 methods - DEBUG - About to change 11
+2020-12-14 17:52:30,534 methods - DEBUG - Setting 11 with more colour 2
+2020-12-14 17:52:30,568 methods - DEBUG - Initial pixel values 12
+2020-12-14 17:52:30,570 methods - DEBUG - About to change 12
+2020-12-14 17:52:30,571 methods - DEBUG - Setting 12 with more colour 2
+2020-12-14 17:52:30,606 methods - DEBUG - Initial pixel values 13
+2020-12-14 17:52:30,607 methods - DEBUG - About to change 13
+2020-12-14 17:52:30,609 methods - DEBUG - Setting 13 with more colour 2
+2020-12-14 17:52:30,643 methods - DEBUG - Initial pixel values 14
+2020-12-14 17:52:30,645 methods - DEBUG - About to change 14
+2020-12-14 17:52:30,646 methods - DEBUG - Setting 14 with more colour 2
+2020-12-14 17:52:30,681 methods - DEBUG - Initial pixel values 15
+2020-12-14 17:52:30,682 methods - DEBUG - About to change 15
+2020-12-14 17:52:30,684 methods - DEBUG - Setting 15 with more colour 2
+2020-12-14 17:52:30,718 methods - DEBUG - Initial pixel values 16
+2020-12-14 17:52:30,720 methods - DEBUG - About to change 16
+2020-12-14 17:52:30,722 methods - DEBUG - Setting 16 with more colour 2
+2020-12-14 17:52:30,742 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 17:52:30,743 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:30,763 methods - DEBUG - Initial pixel values 17
+2020-12-14 17:52:30,765 methods - DEBUG - About to change 17
+2020-12-14 17:52:30,766 methods - DEBUG - Setting 17 with more colour 2
+2020-12-14 17:52:30,801 methods - DEBUG - Initial pixel values 18
+2020-12-14 17:52:30,803 methods - DEBUG - About to change 18
+2020-12-14 17:52:30,804 methods - DEBUG - Setting 18 with more colour 2
+2020-12-14 17:52:30,808 methods - DEBUG - setting which_effect to colour_wave
+2020-12-14 17:52:30,810 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:30,823 methods - DEBUG - clear_striping strip
+2020-12-14 17:52:30,835 methods - DEBUG - 65280
+2020-12-14 17:52:30,837 methods - DEBUG - 16711680
+2020-12-14 17:52:30,856 methods - DEBUG - Initial pixel values 19
+2020-12-14 17:52:30,858 methods - DEBUG - About to change 19
+2020-12-14 17:52:30,860 methods - DEBUG - Setting 19 with more colour 2
+2020-12-14 17:52:30,911 methods - DEBUG - Initial pixel values 20
+2020-12-14 17:52:30,913 methods - DEBUG - About to change 20
+2020-12-14 17:52:30,914 methods - DEBUG - Setting 20 with more colour 2
+2020-12-14 17:52:30,955 methods - DEBUG - Initial pixel values 21
+2020-12-14 17:52:30,956 methods - DEBUG - About to change 21
+2020-12-14 17:52:30,957 methods - DEBUG - Setting 21 with more colour 2
+2020-12-14 17:52:30,998 methods - DEBUG - Initial pixel values 22
+2020-12-14 17:52:30,999 methods - DEBUG - About to change 22
+2020-12-14 17:52:31,000 methods - DEBUG - Setting 22 with more colour 2
+2020-12-14 17:52:31,040 methods - DEBUG - Initial pixel values 23
+2020-12-14 17:52:31,042 methods - DEBUG - About to change 23
+2020-12-14 17:52:31,043 methods - DEBUG - Setting 23 with more colour 2
+2020-12-14 17:52:31,081 methods - DEBUG - Initial pixel values 24
+2020-12-14 17:52:31,082 methods - DEBUG - About to change 24
+2020-12-14 17:52:31,083 methods - DEBUG - Setting 24 with more colour 2
+2020-12-14 17:52:31,118 methods - DEBUG - Initial pixel values 25
+2020-12-14 17:52:31,119 methods - DEBUG - About to change 25
+2020-12-14 17:52:31,120 methods - DEBUG - Setting 25 with more colour 2
+2020-12-14 17:52:31,155 methods - DEBUG - Initial pixel values 26
+2020-12-14 17:52:31,156 methods - DEBUG - About to change 26
+2020-12-14 17:52:31,158 methods - DEBUG - Setting 26 with more colour 2
+2020-12-14 17:52:31,192 methods - DEBUG - Initial pixel values 27
+2020-12-14 17:52:31,194 methods - DEBUG - About to change 27
+2020-12-14 17:52:31,195 methods - DEBUG - Setting 27 with more colour 2
+2020-12-14 17:52:31,229 methods - DEBUG - Initial pixel values 28
+2020-12-14 17:52:31,231 methods - DEBUG - About to change 28
+2020-12-14 17:52:31,232 methods - DEBUG - Setting 28 with more colour 2
+2020-12-14 17:52:31,267 methods - DEBUG - Initial pixel values 29
+2020-12-14 17:52:31,268 methods - DEBUG - About to change 29
+2020-12-14 17:52:31,269 methods - DEBUG - Setting 29 with more colour 2
+2020-12-14 17:52:31,304 methods - DEBUG - Initial pixel values 30
+2020-12-14 17:52:31,305 methods - DEBUG - About to change 30
+2020-12-14 17:52:31,307 methods - DEBUG - Setting 30 with more colour 2
+2020-12-14 17:52:31,341 methods - DEBUG - Initial pixel values 31
+2020-12-14 17:52:31,342 methods - DEBUG - About to change 31
+2020-12-14 17:52:31,344 methods - DEBUG - Setting 31 with more colour 2
+2020-12-14 17:52:31,379 methods - DEBUG - Initial pixel values 32
+2020-12-14 17:52:31,380 methods - DEBUG - About to change 32
+2020-12-14 17:52:31,381 methods - DEBUG - Setting 32 with more colour 2
+2020-12-14 17:52:31,416 methods - DEBUG - Initial pixel values 33
+2020-12-14 17:52:31,417 methods - DEBUG - About to change 33
+2020-12-14 17:52:31,418 methods - DEBUG - Setting 33 with more colour 2
+2020-12-14 17:52:31,453 methods - DEBUG - Initial pixel values 34
+2020-12-14 17:52:31,454 methods - DEBUG - About to change 34
+2020-12-14 17:52:31,456 methods - DEBUG - Setting 34 with more colour 2
+2020-12-14 17:52:31,490 methods - DEBUG - Initial pixel values 35
+2020-12-14 17:52:31,492 methods - DEBUG - About to change 35
+2020-12-14 17:52:31,493 methods - DEBUG - Setting 35 with more colour 2
+2020-12-14 17:52:31,528 methods - DEBUG - Initial pixel values 36
+2020-12-14 17:52:31,531 methods - DEBUG - About to change 36
+2020-12-14 17:52:31,533 methods - DEBUG - Setting 36 with more colour 2
+2020-12-14 17:52:31,567 methods - DEBUG - Initial pixel values 37
+2020-12-14 17:52:31,568 methods - DEBUG - About to change 37
+2020-12-14 17:52:31,569 methods - DEBUG - Setting 37 with more colour 2
+2020-12-14 18:24:56,137 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:24:56,150 methods - DEBUG - clear_striping strip
+2020-12-14 18:24:56,210 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:24:56,212 methods - DEBUG - clear_striping strip
+2020-12-14 18:24:56,242 methods - DEBUG - setting which_effect to colour_wave
+2020-12-14 18:24:56,243 methods - DEBUG - clear_striping strip
+2020-12-14 18:24:56,273 methods - DEBUG - clear_striping strip
+2020-12-14 18:24:56,285 methods - DEBUG - 16711680
+2020-12-14 18:24:56,289 methods - DEBUG - 65280
+2020-12-14 18:25:01,791 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:25:01,793 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:01,853 methods - DEBUG - setting which_effect to oscillate
+2020-12-14 18:25:01,855 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:01,865 methods - DEBUG - Setting the lights
+2020-12-14 18:25:04,784 methods - DEBUG - New target is 99
+2020-12-14 18:25:04,786 methods - DEBUG - Setting the lights
+2020-12-14 18:25:05,153 methods - DEBUG - New target is 108
+2020-12-14 18:25:05,155 methods - DEBUG - Setting the lights
+2020-12-14 18:25:05,456 methods - DEBUG - New target is 110
+2020-12-14 18:25:05,458 methods - DEBUG - Setting the lights
+2020-12-14 18:25:05,526 methods - DEBUG - New target is 107
+2020-12-14 18:25:05,528 methods - DEBUG - Setting the lights
+2020-12-14 18:25:05,630 methods - DEBUG - New target is 97
+2020-12-14 18:25:05,632 methods - DEBUG - Setting the lights
+2020-12-14 18:25:05,986 methods - DEBUG - New target is 106
+2020-12-14 18:25:05,987 methods - DEBUG - Setting the lights
+2020-12-14 18:25:06,300 methods - DEBUG - New target is 115
+2020-12-14 18:25:06,301 methods - DEBUG - Setting the lights
+2020-12-14 18:25:06,403 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:25:06,407 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:06,469 methods - DEBUG - setting which_effect to twinkle_leds
+2020-12-14 18:25:06,470 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:17,146 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:25:17,147 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:17,214 methods - DEBUG - setting which_effect to solid_colour
+2020-12-14 18:25:17,216 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:19,948 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:25:19,950 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:20,015 methods - DEBUG - setting which_effect to colour_wave
+2020-12-14 18:25:20,017 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:20,032 methods - DEBUG - clear_striping strip
+2020-12-14 18:25:20,046 methods - DEBUG - 16711680
+2020-12-14 18:25:20,047 methods - DEBUG - 65280
+2020-12-14 18:35:36,814 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:35:36,844 methods - DEBUG - clear_striping strip
+2020-12-14 18:35:36,873 waitress.queue - WARNING - Task queue depth is 1
+2020-12-14 18:35:36,894 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:35:36,896 methods - DEBUG - clear_striping strip
+2020-12-14 18:35:36,926 methods - DEBUG - setting which_effect to colour_wave
+2020-12-14 18:35:36,927 methods - DEBUG - clear_striping strip
+2020-12-14 18:35:36,937 methods - DEBUG - clear_striping strip
+2020-12-14 18:35:36,949 methods - DEBUG - 16711680
+2020-12-14 18:35:36,951 methods - DEBUG - 65280
+2020-12-14 18:35:59,193 methods - DEBUG - setting which_effect to clear_strip
+2020-12-14 18:35:59,207 methods - DEBUG - clear_striping strip
+2020-12-14 18:35:59,272 methods - DEBUG - setting which_effect to colour_wave
+2020-12-14 18:35:59,274 methods - DEBUG - clear_striping strip
+2020-12-14 18:35:59,284 methods - DEBUG - clear_striping strip
+2020-12-14 18:35:59,296 methods - DEBUG - 16711680
+2020-12-14 18:35:59,298 methods - DEBUG - 16711776
