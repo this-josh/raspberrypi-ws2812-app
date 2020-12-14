@@ -302,7 +302,6 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
     """Oscillates the colours up and down in a random fashion"""
     # target is based on 0
     current_target = random.randrange(0, strip.numPixels())
-    old_join = current_target
     join = current_target
     pixel = current_target
     for pixel in range(strip.numPixels()):
@@ -314,35 +313,21 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
     strip.show()
     add_or_subtract = "add"
 
-    #! want it to pass through zero
     while which_effect == "oscillate_comprehensive":
-        logger.debug(f"Setting the lights")
-        # Find how far we need to go
-        # logger.debug(f"Join is {join}")
-        # join = join % strip.numPixels()
-        # logger.debug(f"Join is {join} after division")
-        logger.debug(f"The new target join {join}")
-        logger.debug(f"The old join was {old_join}")
         while pixel != join:
-            #! missing first pixel
-            logger.debug(f"Initial pixel values {pixel}")
             if add_or_subtract == "add":
-                logger.debug(f"Setting {pixel} with more colour 1")
                 strip.setPixelColor(pixel, colour1)
                 pixel += 1
                 pixel = pixel % strip.numPixels()
 
             elif add_or_subtract == "subtract":
-                logger.debug(f"Setting {pixel} with more colour 2")
                 strip.setPixelColor(pixel, colour2)
                 pixel -= 1
                 pixel = pixel % strip.numPixels()
-            print(pixel)
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
         # next_target
-        old_join = join
         join = join + random.randrange(-max_movement, max_movement)
         join = join % strip.numPixels()
         add_or_subtract = "subtract" if add_or_subtract == "add" else "add"
