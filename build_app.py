@@ -52,9 +52,9 @@ app.layout = html.Div(
                 "textAlign": "center",
             },
         ),
+        html.H2(children="Choose your pattern"),
         html.Div(
             [
-                dcc.Markdown("Choose your pattern"),
                 dcc.Dropdown(
                     id="light-mode",
                     options=[
@@ -79,10 +79,9 @@ app.layout = html.Div(
             ]
         ),
         html.Div(id="selected-mode"),
+        html.H2(children="Choose how bright you would like the lights to be"),
         html.Div(
             [
-                dcc.Markdown("Choose how bright you would like the lights to be"),
-                dcc.Markdown("Note this does not change pulse"),
                 dcc.Slider(
                     id="chosen-brightness",
                     min=0,
@@ -94,12 +93,9 @@ app.layout = html.Div(
             ]
         ),
         html.Div(id="selected-brightness"),
+        html.H2(children="What colours would you like in the pattern?"),
         html.Div(
             [
-                dcc.Markdown("What colours would you like in the pattern?"),
-                dcc.Markdown(
-                    "Rainbow and flags have fixed colours, methods which only use one colour use the top one"
-                ),
                 dcc.Dropdown(
                     id="colour-1",
                     options=colour_options,
@@ -116,8 +112,8 @@ app.layout = html.Div(
                 ),
             ]
         ),
-        #! maybe add a button for turning off the strip
-        html.Button("Press to turn the lights off", id="turn-off"),
+        html.H2(children="Press the button below to turn the lights off"),
+        html.Button("Turn lights off", id="turn-off"),
         dcc.Markdown(
             "If something is going awry, the button below can be used to restart the server"
         ),
@@ -182,7 +178,7 @@ def change_mode(mode_of_operation, colour1, colour2):
         theater_chase_rainbow(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "clear_strip":
         clear_strip(strip)
-    return mode_of_operation
+    return f"Currently doing {mode_of_operation}"
 
 
 @app.callback(
