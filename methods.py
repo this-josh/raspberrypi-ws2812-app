@@ -282,10 +282,16 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
 
         # next_target
         initial = True
+        num_attempts = 0
         while (new_target > middle_point) | (new_target < 0) | initial == True:
             new_target = current_target + random.randrange(-max_movement, max_movement)
             logger.debug(f"New target is {new_target}")
             initial = False
+            num_attempts += 1
+            if num_attempts > 300:
+                raise StopIteration(
+                    f"Have tried {num_attempts} to get a suitable current target and failed."
+                )
         current_target = new_target
 
 
