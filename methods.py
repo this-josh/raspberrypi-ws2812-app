@@ -298,8 +298,62 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
         current_target = new_target
 
 
+def oscillate_no_bottom(strip, colour1, colour2, wait_ms=30, max_movement=40):
+    """Oscillates the colours up and down in a random fashion, stop at each ends"""
+    # target is based on 0
+    current_target = random.randrange(0, strip.numPixels())
+    new_target = 0
+    join = current_target
+    end_point = strip.numPixels()
+    for pixel in range(strip.numPixels()):
+        # intialise
+        if pixel <= current_target:
+            strip.setPixelColor(pixel, colour1)
+        else:
+            strip.setPixelColor(pixel, colour2)
+    strip.show()
+    while which_effect == "oscillate_comprehensive":
+        logger.debug(f"Setting the lights")
+        # Find how far we need to go
+        for point in range(abs(current_target - join)):
+            if which_effect != "oscillate_comprehensive":
+                return
+            logger.debug(f"Join is {join}")
+            join = join % strip.numPixels()
+            logger.debug(f"Join is {join} after division")
+            if current_target > join:
+                logger.debug(f"More colour 1, {join}")
+                # if we need to head up to the target
+                strip.setPixelColor(join, colour1)
+                # strip.setPixelColor(end_point, colour2)
+                join += 1
+            elif current_target < join:
+                logger.debug(f"More colour 2, {join}")
+                # If we need to go down
+                # strip.setPixelColor(start_point, Color(0, 0, 0))
+                strip.setPixelColor(join, colour2)
+                join -= 1
+            strip.show()
+            time.sleep(wait_ms / 1000.0)
+
+        # next_target
+        initial = True
+        num_attempts = 0
+        new_target = current_target + random.randrange(-max_movement, max_movement)
+        # while (new_target > strip.numPixels()) | (new_target < 0) | initial == True:
+        #     new_target = current_target + random.randrange(-max_movement, max_movement)
+        #     logger.debug(f"New target is {new_target}")
+        #     initial = False
+        #     num_attempts += 1
+        #     if num_attempts > 300:
+        #         raise StopIteration(
+        #             f"Have tried {num_attempts} to get a suitable current target and failed."
+        #         )
+        current_target = new_target
+
+
 def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40):
-    """Oscillates the colours up and down in a random fashion"""
+    """Oscillates the colours up and down in a random fashion, go past each end"""
     # target is based on 0
     current_target = random.randrange(0, strip.numPixels())
     join = current_target

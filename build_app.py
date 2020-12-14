@@ -37,6 +37,7 @@ from methods import (
     colour_wipe,
     twinkle_leds,
     oscillate,
+    oscillate_no_bottom,
     oscillate_comprehensive,
 )
 
@@ -76,6 +77,10 @@ app.layout = html.Div(
                         },
                         {"label": "Twinkle", "value": "twinkle_leds"},
                         {"label": "Oscillate", "value": "oscillate"},
+                        {
+                            "label": "Oscillate no bottom",
+                            "value": "oscillate_no_bottom",
+                        },
                         {
                             "label": "Oscillate comprehensive",
                             "value": "oscillate_comprehensive",
@@ -191,6 +196,9 @@ def change_mode(mode_of_operation, colour1, colour2):
     elif mode_of_operation == "oscillate":
         logger.debug("oscillate")
         oscillate(strip, colour1=colour1, colour2=colour2)
+    elif mode_of_operation == "oscillate_no_bottom":
+        logger.debug("oscillate_no_bottom")
+        oscillate_no_bottom(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "oscillate_comprehensive":
         logger.debug("oscillate_comprehensive")
         oscillate_comprehensive(strip, colour1=colour1, colour2=colour2)
