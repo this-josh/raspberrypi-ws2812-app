@@ -330,7 +330,7 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
                 strip.setPixelColor(end_point, colour2)
                 start_point -= 1
                 end_point += 1
-
+            logger.debug(f'sum = {start_point+end_point}')
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
