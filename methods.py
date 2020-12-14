@@ -314,7 +314,8 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
     strip.show()
     while which_effect == "oscillate_comprehensive":
         logger.debug(f"Setting the lights")
-        for point in range(abs(current_target - start_point)):
+        # Find how far we need to go
+        for point in range(abs(current_target - join)):
             if which_effect != "oscillate_comprehensive":
                 return
             if current_target > join:
