@@ -318,7 +318,9 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
         for point in range(abs(current_target - join)):
             if which_effect != "oscillate_comprehensive":
                 return
+            logger.debug(f"Join is {join}")
             join = join % strip.numPixels()
+            logger.debug(f"Join is {join} after division")
             if current_target > join:
                 logger.debug(f"More colour 1, {join}")
                 # if we need to head up to the target
