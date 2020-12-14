@@ -303,7 +303,7 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
     # target is based on 0
     current_target = random.randrange(0, strip.numPixels())
     new_target = 0
-    start_point = 0
+    join = current_target
     end_point = strip.numPixels()
     for pixel in range(strip.numPixels()):
         # intialise
@@ -317,20 +317,18 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
         for point in range(abs(current_target - start_point)):
             if which_effect != "oscillate_comprehensive":
                 return
-            if current_target > start_point:
-                logger.debug(f"More colour 1, {start_point}")
+            if current_target > join:
+                logger.debug(f"More colour 1, {join}")
                 # if we need to head up to the target
-                strip.setPixelColor(start_point, colour1)
+                strip.setPixelColor(join, colour1)
                 # strip.setPixelColor(end_point, colour2)
-                start_point += 1
-                end_point -= 1
-            elif current_target < start_point:
-                logger.debug(f"More colour 2, {end_point}")
+                join += 1
+            elif current_target < join:
+                logger.debug(f"More colour 2, {join}")
                 # If we need to go down
                 # strip.setPixelColor(start_point, Color(0, 0, 0))
-                strip.setPixelColor(end_point, colour2)
-                start_point -= 1
-                end_point += 1
+                strip.setPixelColor(join, colour2)
+                join -= 1
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
