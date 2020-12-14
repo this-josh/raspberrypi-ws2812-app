@@ -304,6 +304,7 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
     current_target = random.randrange(0, strip.numPixels())
     old_join = current_target
     join = current_target
+    pixel = current_target
     for pixel in range(strip.numPixels()):
         # intialise
         if pixel <= current_target:
@@ -322,20 +323,21 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
         # logger.debug(f"Join is {join} after division")
         logger.debug(f"The new target join {join}")
         logger.debug(f"The old join was {old_join}")
-        for pixel in range(abs(old_join - join)):
+        while pixel != join:
             #! missing first pixel
             logger.debug(f"Initial pixel values {pixel}")
             if add_or_subtract == "add":
-                pixel = old_join + pixel
-                pixel = pixel % strip.numPixels()
                 logger.debug(f"Setting {pixel} with more colour 1")
                 strip.setPixelColor(pixel, colour1)
+                pixel = old_join + 1
+                pixel = pixel % strip.numPixels()
 
             elif add_or_subtract == "subtract":
-                pixel = old_join - pixel
-                pixel = pixel % strip.numPixels()
                 logger.debug(f"Setting {pixel} with more colour 2")
                 strip.setPixelColor(pixel, colour2)
+                pixel = old_join - 1
+                pixel = pixel % strip.numPixels()
+
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
