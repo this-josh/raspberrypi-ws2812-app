@@ -321,13 +321,13 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
             if current_target > start_point:
                 # if we need to head up to the target
                 strip.setPixelColor(start_point, colour1)
-                strip.setPixelColor(end_point, colour2)
+                # strip.setPixelColor(end_point, colour2)
                 start_point += 1
                 end_point -= 1
             else:
                 # If we need to go down
-                strip.setPixelColor(start_point, Color(0, 0, 0))
-                strip.setPixelColor(end_point, Color(0, 0, 0))
+                # strip.setPixelColor(start_point, Color(0, 0, 0))
+                strip.setPixelColor(end_point, colour2)
                 start_point -= 1
                 end_point += 1
 
