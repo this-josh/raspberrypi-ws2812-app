@@ -185,7 +185,7 @@ def change_mode(mode_of_operation, colour1, colour2):
         twinkle_leds(strip, colour1=colour1)
     elif mode_of_operation == "oscillate":
         logger.debug("oscillate")
-        oscillate(strip, colour1=colour1)
+        oscillate(strip, colour1=colour1, colour2=colour2)
     elif mode_of_operation == "clear_strip":
         clear_strip(strip)
     # return f"Currently doing {mode_of_operation}"
