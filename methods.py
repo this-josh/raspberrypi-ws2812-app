@@ -340,15 +340,15 @@ def oscillate_no_bottom(strip, colour1, colour2, wait_ms=30, max_movement=40):
         initial = True
         num_attempts = 0
         new_target = current_target + random.randrange(-max_movement, max_movement)
-        # while (new_target > strip.numPixels()) | (new_target < 0) | initial == True:
-        #     new_target = current_target + random.randrange(-max_movement, max_movement)
-        #     logger.debug(f"New target is {new_target}")
-        #     initial = False
-        #     num_attempts += 1
-        #     if num_attempts > 300:
-        #         raise StopIteration(
-        #             f"Have tried {num_attempts} to get a suitable current target and failed."
-        #         )
+        while (new_target > strip.numPixels()) | (new_target < 0) | initial == True:
+            new_target = current_target + random.randrange(-max_movement, max_movement)
+            logger.debug(f"New target is {new_target}")
+            initial = False
+            num_attempts += 1
+            if num_attempts > 300:
+                raise StopIteration(
+                    f"Have tried {num_attempts} to get a suitable current target and failed."
+                )
         current_target = new_target
 
 
