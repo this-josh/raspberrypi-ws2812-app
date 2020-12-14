@@ -311,6 +311,8 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
         else:
             strip.setPixelColor(pixel, colour2)
     strip.show()
+    add_or_subtract = "add"
+
     #! want it to pass through zero
     while which_effect == "oscillate_comprehensive":
         logger.debug(f"Setting the lights")
@@ -323,16 +325,14 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
         for pixel in range(abs(old_join - join)):
             #! missing first pixel
             logger.debug(f"Initial pixel values {pixel}")
-            if join > old_join:
+            if add_or_subtract == "add":
                 pixel = old_join + pixel
-            if join < old_join:
-                pixel = old_join - pixel
-            logger.debug(f"About to change {pixel}")
-            if pixel > old_join:
                 pixel = pixel % strip.numPixels()
                 logger.debug(f"Setting {pixel} with more colour 1")
                 strip.setPixelColor(pixel, colour1)
-            elif pixel <= old_join:
+
+            elif add_or_subtract == "subtract":
+                pixel = old_join - pixel
                 pixel = pixel % strip.numPixels()
                 logger.debug(f"Setting {pixel} with more colour 2")
                 strip.setPixelColor(pixel, colour2)
@@ -342,6 +342,8 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
         # next_target
         old_join = join
         join = join + random.randrange(-max_movement, max_movement)
+        join = join % strip.numPixels()
+        add_or_subtract = "subtract" if add_or_subtract == "add" else "add"
 
 
 def which_method(which_true, strip):
