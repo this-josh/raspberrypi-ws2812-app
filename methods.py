@@ -252,7 +252,7 @@ def twinkle_leds(strip, colour1, wait_ms=60):
         clear_strip(strip)
 
 
-def oscillate(strip, colour1, wait_ms=5):
+def oscillate(strip, colour1, wait_ms=10, max_movement=5):
     middle_point = int(LED_COUNT / 2)
     current_target = random.randrange(0, middle_point)  #  50
     start_point = 0
@@ -281,7 +281,9 @@ def oscillate(strip, colour1, wait_ms=5):
             time.sleep(wait_ms / 1000.0)
 
         # next_target
-        current_target = random.randrange(0, middle_point)
+        current_target = current_target + random.randrange(-max_movement, max_movement)
+        if current_target > middle_point:
+            current_target = middle_point
         # 120
 
 
