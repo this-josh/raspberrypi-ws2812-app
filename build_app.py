@@ -116,6 +116,11 @@ app.layout = html.Div(
                 ),
             ]
         ),
+        #! maybe add a button for turning off the strip
+        html.Button("Press to turn the lights off", id="turn-off"),
+        dcc.Markdown(
+            "If something is going awry, the button below can be used to restart the server"
+        ),
         dcc.ConfirmDialogProvider(
             children=html.Button(
                 "Restart server?",
@@ -124,6 +129,7 @@ app.layout = html.Div(
             message="Are you sure you want to restart the server? This will take around 90 seconds",
         ),
         html.Div(id="reboot-status"),
+        html.Div(id="always-blank-1"),
     ]
 )
 
@@ -199,6 +205,15 @@ def change_brightness(num_confirmed):
         os.system("sudo reboot")
         return f"Rebooting... {num_confirmed}"
     return f""
+
+
+@app.callback(
+    Output(component_id="always-blank-1", component_property="children"),
+    Input(component_id="turn-off", component_property="n_clicks"),
+)
+def turn_off_the_lights(button_pressed):
+    which_method("clear_strip", strip)
+    return ""
 
 
 try:
