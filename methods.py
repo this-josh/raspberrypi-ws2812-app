@@ -337,7 +337,7 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
                 strip.setPixelColor(pixel, colour2)
                 pixel -= 1
                 pixel = pixel % strip.numPixels()
-
+            print(pixel)
             strip.show()
             time.sleep(wait_ms / 1000.0)
 
