@@ -329,13 +329,13 @@ def oscillate_comprehensive(strip, colour1, colour2, wait_ms=30, max_movement=40
             if add_or_subtract == "add":
                 logger.debug(f"Setting {pixel} with more colour 1")
                 strip.setPixelColor(pixel, colour1)
-                pixel = old_join + 1
+                pixel += 1
                 pixel = pixel % strip.numPixels()
 
             elif add_or_subtract == "subtract":
                 logger.debug(f"Setting {pixel} with more colour 2")
                 strip.setPixelColor(pixel, colour2)
-                pixel = old_join - 1
+                pixel -= 1
                 pixel = pixel % strip.numPixels()
 
             strip.show()
