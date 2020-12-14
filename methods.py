@@ -1,6 +1,7 @@
 from rpi_ws281x import Color, PixelStrip
 import time
 import logging
+import random
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -237,6 +238,13 @@ def theater_chase_rainbow(strip, wait_ms=50, **kwargs):
                 time.sleep(wait_ms / 1000.0)
                 for i in range(0, strip.numPixels(), 3):
                     strip.setPixelColor(i + q, 0)
+
+
+def twinkle_one_led(strip, colour1, wait_ms=5):
+    while which_effect == "twinkle_one_led":
+        strip.setPixelColor(random.randrange(0, LED_COUNT), colour1)
+        strip.show()
+        time.sleep(wait_ms / 1000.0)
 
 
 def which_method(which_true, strip):
