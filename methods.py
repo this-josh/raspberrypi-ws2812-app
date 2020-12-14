@@ -259,8 +259,7 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
     start_point = 0
     end_point = LED_COUNT
     while which_effect == "oscillate":
-        logging.debug(current_target)
-
+        logger.debug(f"Setting the lights")
         for point in range(abs(current_target - start_point)):
             if which_effect != "oscillate":
                 return
@@ -286,6 +285,7 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
             current_target = current_target + random.randrange(
                 -max_movement, max_movement
             )
+            logger.debug(f"Current target is {current_target}")
             initial = False
 
 
