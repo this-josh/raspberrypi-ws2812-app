@@ -35,7 +35,7 @@ from methods import (
     rainbow_cycle,
     rainbow,
     colour_wipe,
-    twinkle_three_led,
+    twinkle_leds,
     oscillate,
 )
 
@@ -73,7 +73,7 @@ app.layout = html.Div(
                             "label": "Chase the rainbow",
                             "value": "theater_chase_rainbow",
                         },
-                        {"label": "Twinkle one led", "value": "twinkle_three_led"},
+                        {"label": "Twinkle one led", "value": "twinkle_leds"},
                         {"label": "Oscillate", "value": "oscillate"},
                         {"label": "Turn off", "value": "clear_strip"},
                     ],
@@ -180,9 +180,9 @@ def change_mode(mode_of_operation, colour1, colour2):
     elif mode_of_operation == "theater_chase_rainbow":
         logger.debug("theater_chase_rainbow")
         theater_chase_rainbow(strip, colour1=colour1, colour2=colour2)
-    elif mode_of_operation == "twinkle_three_led":
-        logger.debug("twinkle_three_led")
-        twinkle_three_led(strip, colour1=colour1)
+    elif mode_of_operation == "twinkle_leds":
+        logger.debug("twinkle_leds")
+        twinkle_leds(strip, colour1=colour1)
     elif mode_of_operation == "oscillate":
         logger.debug("oscillate")
         oscillate(strip, colour1=colour1)
