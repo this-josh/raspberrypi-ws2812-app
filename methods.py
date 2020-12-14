@@ -249,7 +249,9 @@ def twinkle_leds(strip, colour1, wait_ms=60):
         strip.setPixelColor(random.randrange(0, LED_COUNT), colour1)
         strip.show()
         time.sleep(wait_ms / 1000.0)
-        solid_colour(strip, colour1=Color(10, 10, 10))
+        # Ensure min white possible is used
+        col_value = 256 - strip.getBrightness()
+        solid_colour(strip, colour1=Color(col_value, col_value, col_value))
 
 
 def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
