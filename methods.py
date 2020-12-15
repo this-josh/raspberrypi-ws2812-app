@@ -300,6 +300,7 @@ def oscillate(strip, colour1, colour2, wait_ms=30, max_movement=20):
 
 def oscillate_no_bottom(strip, colour1, colour2, wait_ms=30, max_movement=40):
     """Oscillates the colours up and down in a random fashion, stop at each ends"""
+    #! need to get code a few commits before the tag
     # target is based on 0
     current_target = random.randrange(0, strip.numPixels())
     new_target = 0
@@ -319,7 +320,7 @@ def oscillate_no_bottom(strip, colour1, colour2, wait_ms=30, max_movement=40):
             if which_effect != "oscillate_comprehensive":
                 return
             logger.debug(f"Join is {join}")
-            join = join % strip.numPixels()
+            # join = join % strip.numPixels()
             logger.debug(f"Join is {join} after division")
             if current_target > join:
                 logger.debug(f"More colour 1, {join}")
@@ -339,7 +340,7 @@ def oscillate_no_bottom(strip, colour1, colour2, wait_ms=30, max_movement=40):
         # next_target
         initial = True
         num_attempts = 0
-        new_target = current_target + random.randrange(-max_movement, max_movement)
+        # new_target = current_target + random.randrange(-max_movement, max_movement)
         while (new_target > strip.numPixels()) | (new_target < 0) | initial == True:
             new_target = current_target + random.randrange(-max_movement, max_movement)
             logger.debug(f"New target is {new_target}")
