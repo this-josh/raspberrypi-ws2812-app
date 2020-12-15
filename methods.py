@@ -313,11 +313,11 @@ def oscillate_no_bottom(strip, colour1, colour2, wait_ms=30, max_movement=40):
         else:
             strip.setPixelColor(pixel, colour2)
     strip.show()
-    while which_effect == "oscillate_comprehensive":
+    while which_effect == "oscillate_no_bottom":
         logger.debug(f"Setting the lights")
         # Find how far we need to go
         for point in range(abs(current_target - join)):
-            if which_effect != "oscillate_comprehensive":
+            if which_effect != "oscillate_no_bottom":
                 return
             logger.debug(f"Join is {join}")
             # join = join % strip.numPixels()
