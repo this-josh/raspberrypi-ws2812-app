@@ -81,10 +81,10 @@ app.layout = html.Div(
                             "label": "Oscillate no bottom",
                             "value": "oscillate_no_bottom",
                         },
-                        {
-                            "label": "Oscillate comprehensive",
-                            "value": "oscillate_comprehensive",
-                        },
+                        # {
+                        #     "label": "Oscillate comprehensive",
+                        #     "value": "oscillate_comprehensive",
+                        # },
                         {"label": "Turn off", "value": "clear_strip"},
                     ],
                     value="colour_wave",
